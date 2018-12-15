@@ -1,4 +1,4 @@
-package com.array.arraySearch;
+package com.array;
 
 import com.array.utilites.Helper;
 

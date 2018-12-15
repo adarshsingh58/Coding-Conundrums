@@ -1,4 +1,4 @@
-package com.array.arraySort;
+package com.array;
 
 public class ArraySort {
 

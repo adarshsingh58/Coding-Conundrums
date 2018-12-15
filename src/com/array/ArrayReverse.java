@@ -1,6 +1,5 @@
-package com.array.arrayReversal;
+package com.array;
 
-import com.array.arrayRotation.ArrayRotate;
 import com.array.utilites.Helper;
 
 public class ArrayReverse {

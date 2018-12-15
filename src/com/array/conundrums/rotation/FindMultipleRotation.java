@@ -1,8 +1,7 @@
 package com.array.conundrums.rotation;
 
-import com.array.arrayRotation.ArrayRotate;
-import com.array.arraySort.ArraySort;
-import com.array.utilites.Helper;
+import com.array.ArrayRotate;
+import com.array.ArraySort;
 
 /**
  * 

@@ -1,6 +1,6 @@
 package com.array.conundrums.rotation;
 
-import com.array.arraySearch.ArraySearch;
+import com.array.ArraySearch;
 import com.array.utilites.Helper;
 
 /**
