@@ -38,8 +38,8 @@ public class SearchRotatedArray {
 	 * @BreakingCondition when numberToFind matches value at mid
 	 * @TimeComplexity Since this is a binary search , O(log n)
 	 * @SpaceComplexity The operation is performed on same array hence, O(1)
-	 * 
 	 */
+	
 	private static int searchNumber_ModifiedBinarySearch(int[] inputArr, int numberToFind, int startIndex,
 			int endIndex) {
 
