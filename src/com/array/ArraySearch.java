@@ -66,15 +66,18 @@ public class ArraySearch {
 	 * @param numberToSearch
 	 * @return
 	 */
-	private int binarySearch(int[] inputArr, int start, int end, int numberToSearch) {
-		int x = (start + end) / 2;
-		if (numberToSearch == inputArr[x]) {
-			return x;
-		} else if (numberToSearch < x) {
-			return binarySearch(inputArr, start, x - 1, numberToSearch);
-		} else {
-			return binarySearch(inputArr, x, end, numberToSearch);
+	public int binarySearch(int[] inputArr, int start, int end, int numberToSearch) {
+		if (start <= end && end<inputArr.length) {
+			int x = (start + end) / 2;
+			if (numberToSearch == inputArr[x]) {
+				return x;
+			} else if (numberToSearch < x) {
+				return binarySearch(inputArr, start, x - 1, numberToSearch);
+			} else {
+				return binarySearch(inputArr, x+1, end, numberToSearch);
+			}
 		}
+		return -1;
 	}
 
 	
