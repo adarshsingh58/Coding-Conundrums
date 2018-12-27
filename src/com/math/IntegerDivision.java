@@ -18,6 +18,15 @@ public class IntegerDivision {
 
 	}
 
+	/**
+	 * With the naive approach, we can simple keep adding the divisor to itself 
+	 * untill it is equal to or greater than divident.
+	 * If equal then return the resultant divisor, if greater
+	 * than return (resultant divisor-1), as this will be the quotient.
+	 * 
+	 * @TimeComplexity it can be O(divident) in worst case if
+	 * expression is (1000000/1), which is a lot
+	 */
 	private static int divide_naive(int divident, int divisor) {
 		int i = 0;
 		int tempSum = 0;
@@ -33,6 +42,25 @@ public class IntegerDivision {
 		return 0;
 	}
 
+	/**
+	 * A better approach will be the recursive one.
+	 * Idea:Quotient*divisor is always going to be less than or equal to divident
+	 * 
+	 * >we start off by setting quotient as 1
+	 * >we take a temp var whose initial value is set to divisor.
+	 * >We take base cases as given below to come out of recursion.
+	 * >Now the idea is to keep multiplying quotient and temp(initialized with divisor)
+	 *  by 2, untill temp is >= divident. So temp basically holds value which is obtained
+	 *  after (divisor*quotient). And we *2(<<1) both divisor(temp) and quotient.
+	 * >If temp==divident, then we return the quotient
+	 * >If temp>divident, we go back a point where temp was just less than divident, by dividing 
+	 * temp and quotient by 2 (>>1). Now temp is < divident 
+	 * 	o Now we call recursivly this method, where divident is (divident-temp) and divisor remain same.
+	 * > output will be sum of all quotient received from recursive calls.
+	 * 
+	 * @TimeComplexity O(logn) coz we are multiplying by 2 every time, essentially halving the effort
+	 * @SpaceComplexity O(logn). Recursive call
+	 */
 	private static int divide_bitwise(int divident, int divisor) {
 		int quotient = 1;
 		int temp = divisor;
