@@ -14,6 +14,14 @@ public class PowerOfANumber {
 		System.out.println(output);
 	}
 
+	/**
+	 * In divide step we keep dividing n by 2 recursively until we reach the base
+	 * case i.e. n == 1 In combine step we get result 'r' of the sub-problem and
+	 * compute result of the current problem using below two rules if n is even,
+	 * then result is r * r (where r is the result of sub-problem) if n is odd, then
+	 * result is x * r * r (where r is the result of sub-problem)
+	 * 
+	 */
 	private static int pow(int x, int y) {
 		if (y == 1) {
 			return x;
