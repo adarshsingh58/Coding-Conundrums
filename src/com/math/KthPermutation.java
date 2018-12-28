@@ -6,9 +6,9 @@ package com.math;
  * inputArr: 1,2,3
  * Output:
  * 	1st-123
- * 	2nd-123
- * 	3rd-123
- * 	4th-123
+ * 	2nd-132
+ * 	3rd-213
+ * 	4th-231
  * 	5st-123
  * 	6th-123
  * 
