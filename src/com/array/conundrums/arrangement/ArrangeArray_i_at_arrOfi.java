@@ -33,7 +33,7 @@ public class ArrangeArray_i_at_arrOfi {
 	/**
 	 * @Pseudo
 	 * Traverse through the array.
-	 * 	If inputArr[i] is -1 Proceed
+	 * 	If inputArr[i] is not -1 Proceed
 	 *  Else 	1>swap inputArr[i] to the inputArr[inputArr[i]] 
 	 *  		2>Here if the existing value at index inputArr[i] i.e. inputArr[inputArr[i]] is not -1 
 	 *  		 we will need to put it to its right place instead of placing it at inputArr[i], because in next iteration i will become

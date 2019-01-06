@@ -39,7 +39,6 @@ public class CombinationOf3WithSum0 {
 				}
 			}
 		}
-
 	}
 
 }
