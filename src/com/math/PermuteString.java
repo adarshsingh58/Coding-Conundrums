@@ -47,7 +47,7 @@ public class PermuteString {
 			return;
 		}
 		for(int i = currentIndex; i <= endIndex; i++) {
-		      swap_char(charArray, endIndex, i);
+		      swap_char(charArray, currentIndex, i);
 		      printAllPermutation(charArray, currentIndex+1, endIndex);
 		      swap_char(charArray,currentIndex,i);
 		    }
