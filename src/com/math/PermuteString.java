@@ -1,5 +1,8 @@
 package com.math;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Implement a method to print all permutations of a given string. For instance,
  * all permutations of string "bad" are: bad,bda,abd,dba,adb,dab
@@ -33,16 +36,19 @@ public class PermuteString {
 	 * chars and again and again utill there is only one char left i.e. the last char hence no further 
 	 * permutations possible.
 	 * We will backtrack and do the same for all chars.
+	 * @return 
 	 * 
 	 *  
 	 */
-	private static void printAllPermutation(String input) {
+	public static List<String> printAllPermutation(String input) {
 		printAllPermutation(input.toCharArray(),0,input.length()-1);
+		return list;
 	}
-
+	private static List<String> list=new ArrayList<>(); 
 	private static void printAllPermutation(char[] charArray, int currentIndex, int endIndex) {
 		
 		if(currentIndex==endIndex) {
+			list.add(new String(charArray));
 			System.out.println(new String(charArray));
 			return;
 		}
