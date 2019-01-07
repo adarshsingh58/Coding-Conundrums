@@ -1,8 +1,6 @@
 package com.array.conundrums;
 
-import java.util.Arrays;
-
-import com.array.ArraySearch;
+import com.array.ArraySearchRotated;
 import com.array.ArraySort;
 
 /**
@@ -43,7 +41,7 @@ public class SumOfThreeValues {
 		for (int i = 0; i < inputArr.length; i++) {
 			for (int j = i + 1; j < inputArr.length; j++) {
 				int remainingSum = target - inputArr[i] - inputArr[j];
-				int indexFound = new ArraySearch().binarySearch(inputArr, 0, inputArr.length-1, remainingSum);
+				int indexFound = new ArraySearchRotated().binarySearch(inputArr, 0, inputArr.length-1, remainingSum);
 				if (indexFound != -1 && indexFound != i && indexFound != j) {
 					System.out.println("Numbers Found:" + inputArr[i] + " " + inputArr[j] + " " + inputArr[indexFound]);
 					return true;

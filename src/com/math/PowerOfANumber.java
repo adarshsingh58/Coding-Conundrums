@@ -15,13 +15,14 @@ public class PowerOfANumber {
 	}
 
 	/**
-	 * In divide step we keep dividing n by 2 recursively until we reach the base
-	 * case i.e. n == 1.
+	 * For x^y
+	 * In divide step we keep dividing y by 2 recursively until we reach the base
+	 * case i.e. y == 1.
 	 * In combine step we get result 'r' of the sub-problem and
 	 * compute result of the current problem using below two rules:
 	 * 
-	 * if n is even, then result is r * r (where r is the result of sub-problem) 
-	 * if n is odd, then result is x * r * r (where r is the result of sub-problem)
+	 * if y is even, then result is r * r (where r is the result of sub-problem) 
+	 * if y is odd, then result is x * r * r (where r is the result of sub-problem)
 	 * 
 	 */
 	private static int pow(int x, int y) {
