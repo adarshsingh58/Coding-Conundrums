@@ -30,7 +30,7 @@ public class LongestSequenceInArray {
 			{
 				if(input[i+1]==input[i]+1 ) {
 					if(flag) {
-					size++;
+//					size++;
 					stringBuffer.append(input[i+1]);
 					}else {
 						flag=true;
