@@ -6,4 +6,7 @@ package com.OtherPrograms.NStackProblem;
  */
 public class TwoStackInOneArray {
 
+	public static void main(String[] args) {
+		
+	}
 }
