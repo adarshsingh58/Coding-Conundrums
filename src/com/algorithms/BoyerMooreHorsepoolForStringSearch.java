@@ -16,7 +16,7 @@ public class BoyerMooreHorsepoolForStringSearch {
 
 	/**
 	 * This is a simplified version of Boyer Moore algo. This is a 2 stage algo. 
-	 * 1> Preprocess the inputString and build a table which knows how many char to
+	 * 1> Preprocess the wordToFind and build a table which knows how many char to
 	 * 	  skip if a bad match or miss occurs.
 	 * 2> The String to find is searched from last to first char and badMatch table is used to
 	 * 	skip char if a bad match occurs
