@@ -10,53 +10,53 @@ package com.questions.CrackingTheCodingInterview;
  * pale, bake -> false
  */
 public class OneEditAway {
-	public static void main(String[] args) {
-		String inp1 = "pale";
-		String inp2 = "pape";
-		System.out.println(isOneEditAway(inp1, inp2));
-	}
+    public static void main(String[] args) {
+        String inp1 = "pale";
+        String inp2 = "pape";
+        System.out.println(isOneEditAway(inp1, inp2));
+    }
 
-	private static boolean isOneEditAway(String inp1, String inp2) {
-		if (Math.abs(inp1.length() - inp2.length()) <= 1) {
-			if (inp1.length() - inp2.length() > 0) {
-				return findEditAway(inp1,inp2,1);
-			} else if (inp1.length() - inp2.length() < 0) {
-				return findEditAway(inp2,inp1,1);
-			} else {
-				return findEditAway_equal(inp1, inp2, 1);
-			}
-		} else {
-			return false;
-		}
-	}
+    private static boolean isOneEditAway(String inp1, String inp2) {
+        if (Math.abs(inp1.length() - inp2.length()) <= 1) {
+            if (inp1.length() - inp2.length() > 0) {
+                return findEditAway(inp1, inp2, 1);
+            } else if (inp1.length() - inp2.length() < 0) {
+                return findEditAway(inp2, inp1, 1);
+            } else {
+                return findEditAway_equal(inp1, inp2, 1);
+            }
+        } else {
+            return false;
+        }
+    }
 
-	private static boolean findEditAway_equal(String inp1, String inp2, int numberOfEdits) {
-		int diff=0;
-		for(int i=0;i<inp1.length();i++) {
-			if(inp1.charAt(i)!=inp2.charAt(i)) {
-				diff++;
-				if(diff>1) {
-					return false;
-				}
-			}
-		}
-		return true;
-	}
+    private static boolean findEditAway_equal(String inp1, String inp2, int numberOfEdits) {
+        int diff = 0;
+        for (int i = 0; i < inp1.length(); i++) {
+            if (inp1.charAt(i) != inp2.charAt(i)) {
+                diff++;
+                if (diff > 1) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 
-	private static boolean findEditAway(String largeString, String smallString, int numberOfEdits) {
-		int diff=0;
-		for(int i=0,j=0;i<smallString.length();) {
-			if(largeString.charAt(i)!=smallString.charAt(j)) {
-				diff++;
-				i++;
-				if(diff>1) {
-					return false;
-				}
-			}else {
-				i++;
-				j++;
-			}
-		}
-		return true;
-	}
+    private static boolean findEditAway(String largeString, String smallString, int numberOfEdits) {
+        int diff = 0;
+        for (int i = 0, j = 0; i < smallString.length(); ) {
+            if (largeString.charAt(i) != smallString.charAt(j)) {
+                diff++;
+                i++;
+                if (diff > 1) {
+                    return false;
+                }
+            } else {
+                i++;
+                j++;
+            }
+        }
+        return true;
+    }
 }

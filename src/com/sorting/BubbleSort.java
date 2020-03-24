@@ -47,7 +47,7 @@ public class BubbleSort {
 
     private static void printArray(int[] arrayToSort) {
         for (int data : arrayToSort) {
-            System.out.print(data+" ");
+            System.out.print(data + " ");
         }
     }
 }

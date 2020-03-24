@@ -27,31 +27,33 @@ public class LinkedList<E> {
             length++;
         }
     }
+
     public void addFirst(E data) {
-    	if (head == null) {
-    		head = new Node(data);
-    		tail = head;
-    		length++;
-    	} else{
-    		Node dataNode = new Node(data);
-    		dataNode.next=head;
-    		head.previous=dataNode;
-    		head=dataNode;
-    		length++;
-    	}
+        if (head == null) {
+            head = new Node(data);
+            tail = head;
+            length++;
+        } else {
+            Node dataNode = new Node(data);
+            dataNode.next = head;
+            head.previous = dataNode;
+            head = dataNode;
+            length++;
+        }
     }
+
     public void addLast(E data) {
-    	if (head == null) {
-    		head = new Node(data);
-    		tail = head;
-    		length++;
-    	} else{
-    		Node dataNode = new Node(data);
-    		tail.next=dataNode;
-    		dataNode.previous=tail;
-    		tail=dataNode;
-    		length++;
-    	}
+        if (head == null) {
+            head = new Node(data);
+            tail = head;
+            length++;
+        } else {
+            Node dataNode = new Node(data);
+            tail.next = dataNode;
+            dataNode.previous = tail;
+            tail = dataNode;
+            length++;
+        }
     }
 
     /*
@@ -66,8 +68,8 @@ public class LinkedList<E> {
         if (nodeToBeDeleted.equals(head)) {
             if (head == tail) {
                 //this will be automatically collected by GC
-            	head=null;
-            	tail=null;
+                head = null;
+                tail = null;
             } else {
                 head = nodeToBeDeleted.next;
                 nodeToBeDeleted.next.previous = null;
@@ -101,9 +103,8 @@ public class LinkedList<E> {
             }
             temp = temp.next;
         }
-        if(temp.data==data)
-        {
-        	return temp;
+        if (temp.data == data) {
+            return temp;
         }
         return null;
     }

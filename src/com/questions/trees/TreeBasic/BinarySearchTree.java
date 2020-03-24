@@ -2,7 +2,7 @@ package com.questions.trees.TreeBasic;
 
 
 public class BinarySearchTree {
-   public Node root;
+    public Node root;
 
     //1->STARTS    MAIN ACTIONS FOR A BST STARTS HERE
 
@@ -240,10 +240,10 @@ public class BinarySearchTree {
         } else {
             nodeToBeDeleted.parent.right = leftMostNodeInRightSubTree;
         }
-        Node tempNode=new Node(leftMostNodeInRightSubTree.data);
-        tempNode.parent=leftMostNodeInRightSubTree.parent;
-        leftMostNodeInRightSubTree.isLeftNode=leftMostNodeInRightSubTree.isLeftNode;
-        tempNode.right=leftMostNodeInRightSubTree.right;
+        Node tempNode = new Node(leftMostNodeInRightSubTree.data);
+        tempNode.parent = leftMostNodeInRightSubTree.parent;
+        leftMostNodeInRightSubTree.isLeftNode = leftMostNodeInRightSubTree.isLeftNode;
+        tempNode.right = leftMostNodeInRightSubTree.right;
 
 //associate left and right nodes of nodeToBeDeleted with leftMostNodeInRightSubTree
         leftMostNodeInRightSubTree.right = nodeToBeDeleted.right;
@@ -272,6 +272,5 @@ public class BinarySearchTree {
 
     //3->ENDS HELPER METHODS FOR BST ENDS
 
-   
 
 }

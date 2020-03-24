@@ -6,15 +6,14 @@ package com.questions.trees;
  * After conversion the left pointer of the node should be pointing to the
  * previous node in the doubly linked list and the right pointer should be
  * pointing to the next node in the doubly linked list.
- * 
- * 
+ * <p>
+ * <p>
  * One simple way of solving this problem is to start with an empty doubly
  * linked list. While doing the in-order traversal of the binary tree, keep
  * inserting each element output into the doubly linked list. But if we look at
  * the question carefully, the interviewer wants us to convert the binary tree
  * to a doubly linked list in-place i.e. we should not create new nodes for the
  * doubly linked list.
- * 
  */
 public class ConvertBinaryTreeToDoublyLinkedList {
 

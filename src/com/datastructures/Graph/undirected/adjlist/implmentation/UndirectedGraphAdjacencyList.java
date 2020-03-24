@@ -8,28 +8,28 @@ import java.util.List;
  */
 public class UndirectedGraphAdjacencyList {
 
-	private final int MAX_VERTICIES;
-	private List<Integer>[] adjacencyListArray;
+    private final int MAX_VERTICIES;
+    private List<Integer>[] adjacencyListArray;
 
-	public UndirectedGraphAdjacencyList(int MAX_VERTICIES) {
-		this.MAX_VERTICIES = MAX_VERTICIES;
-		this.adjacencyListArray=new List[this.MAX_VERTICIES];
-		
-		for(int i=0;i<this.MAX_VERTICIES;i++) {
-			adjacencyListArray[i]=new LinkedList<>();
-		}
-	}
+    public UndirectedGraphAdjacencyList(int MAX_VERTICIES) {
+        this.MAX_VERTICIES = MAX_VERTICIES;
+        this.adjacencyListArray = new List[this.MAX_VERTICIES];
 
-	public List<Integer>[] getAdjacencyListArray() {
-		return adjacencyListArray;
-	}
+        for (int i = 0; i < this.MAX_VERTICIES; i++) {
+            adjacencyListArray[i] = new LinkedList<>();
+        }
+    }
 
-	public void setAdjacencyListArray(List<Integer>[] adjacencyList) {
-		this.adjacencyListArray = adjacencyList;
-	}
+    public List<Integer>[] getAdjacencyListArray() {
+        return adjacencyListArray;
+    }
 
-	public int getMAX_VERTICIES(){
-		return MAX_VERTICIES;
-	}
-	
+    public void setAdjacencyListArray(List<Integer>[] adjacencyList) {
+        this.adjacencyListArray = adjacencyList;
+    }
+
+    public int getMAX_VERTICIES() {
+        return MAX_VERTICIES;
+    }
+
 }

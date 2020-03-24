@@ -3,7 +3,7 @@ package com.datastructures.Heap;
 public class Main {
 
     public static void main(String[] args) {
-        Heap heap=new Heap(10);
+        Heap heap = new Heap(10);
         heap.add(1);
         heap.add(9);
         heap.add(22);

@@ -20,7 +20,7 @@ package com.questions.trees.TreeBasic;
  *  isRoot() -> returns true if current node is a root node i.e. parent child is null
  */
 public class Node {
-	public int data;
+    public int data;
     public Node left;
     public Node right;
     public Node parent;//needed for delete case 3
