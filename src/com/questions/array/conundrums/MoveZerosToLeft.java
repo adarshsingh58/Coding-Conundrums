@@ -7,7 +7,7 @@ import com.questions.array.utilites.Helper;
  * maintaining the order of other elements in the array.
  * e.g.
  * inputArr= 10, 20, 0, 59, 63, 0, 88, 0
- * O/P = 0, 0, 0, 1, 10, 20, 59, 63, 88
+ * O/P = 0, 0, 0, 10, 20, 59, 63, 88
  *
  */
 public class MoveZerosToLeft {

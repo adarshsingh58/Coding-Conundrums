@@ -1,4 +1,4 @@
-package import com.datastructures.Arrays.utilites;;
+package com.datastructures.Arrays.utilites;
 
 public class Helper {
 

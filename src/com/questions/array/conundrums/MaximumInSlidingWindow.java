@@ -6,7 +6,7 @@ import com.heap.Heap;
  * Given a large array of integers and a window of size 'w', find the current
  * maximum in the window as the window slides through the entire array.
  * 
- * Consider the array below and let�s try to find all maximum with window size = 3.
+ * Consider the array below and let's try to find all maximum with window size = 3.
  * -4,2,-5,3,6
  * <p> 
  *  1st window of 3 elements max = 2

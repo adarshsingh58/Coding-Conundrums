@@ -12,7 +12,7 @@ import java.util.List;
  * 1 3 4 0
  * 9 8 3 4
  * 
- * There are two zeros in the input matrix i.e. at position (2,2) and (3,4).
+ * There are two zeros in the input matrix i.e. at position (1,1) and (2,3).
  * Output of this should be a matrix in which 2nd and 3rd row becomes zero and 
  * 2nd and fourth columns become zeros. Below is the expected output matrix.
  * 

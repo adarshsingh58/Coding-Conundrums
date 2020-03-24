@@ -14,8 +14,7 @@ public class SumOfThreeValues {
 	public static void main(String[] args) {
 		int[] inputArr= new int[] {3,7,1,2,8,4,5};
 		int target=20;
-		//as a naive method we can have 3 for loop and find 3 sum in O(n^3) time
-		//but lets use a better approach
+		//as a naive method we can have 3 for loop and find 3 sum in O(n^3) time but lets use a better approach
 //		boolean flag=is3valueSumPossible_binarySearch(inputArr,target);
 //		System.out.println(flag);
 		
