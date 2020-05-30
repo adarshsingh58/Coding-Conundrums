@@ -1,8 +1,12 @@
+
 package com.sorting;
 
-import com.heap.Heap;
+//import com.heap.Heap;
+
+import com.datastructures.Heap.Heap;
 
 import java.util.Scanner;
+
 
 /*
  * Heap sort utilizes the idiosyncrasy of Heap that they always have the maximum element on top of heap i.e. at 0th index
@@ -34,6 +38,7 @@ import java.util.Scanner;
  *                  hence Space complexity will be O(1)
  *
  */
+
 public class HeapSort {
 
     public static void main(String[] args) {
@@ -43,7 +48,8 @@ public class HeapSort {
 
     private static void heapSort(int[] arrayToSort) {
 
-        /*
+
+/*
          * We prepare heap here. Heap internally uses array, so we can either
          * 1> directly add input to heap, or
          * 2> like we did here, add input to array and then copy to heap one by one, or
@@ -62,6 +68,7 @@ public class HeapSort {
          * and will not include the addition of data into heap from input array.
          *
          */
+
         Heap heap = prepareHeap(arrayToSort);
 
         System.out.println("Sorted List");

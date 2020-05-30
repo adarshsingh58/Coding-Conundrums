@@ -72,4 +72,15 @@ public class Matrix_MakeColumnsRowsZeros {
         }
         return inputArr;
     }
+
+    /*
+     * Even Optimal Solution would be to make all 0 to -1 in one iteration
+     * then mark all c r 0 where i,j is -1 then convert all -1 to 0;
+     * */
+    private static int[][] makeRCZero_NoSpace(int[][] inputArr) {
+
+
+        return inputArr;
+    }
+
 }

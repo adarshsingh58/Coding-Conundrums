@@ -29,6 +29,6 @@ public class NthHighestinBST {
     }
 
     private static void getNthHighest(Node root, int n) {
-        reverseInorder(root, n);
+//        reverseInorder(root, n);
     }
 }

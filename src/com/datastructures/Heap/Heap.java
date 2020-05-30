@@ -39,7 +39,7 @@ public class Heap {
         int dataIndex = indexOf(data);
         swap(dataIndex, currentSizeOfHeap - 1);
         heapArray[currentSizeOfHeap - 1] = 0;//step 1 in (equivalent to) deletinig the last element
-        currentSizeOfHeap--;//step 2 in (equivalent to) deletinig the last element
+        currentSizeOfHeap--;//step 2 in (equivalent to) deleting the last element
         reHeapAfterDelete(dataIndex);
     }
 
@@ -177,5 +177,7 @@ public class Heap {
         return (indexOfCurrentNode - 1) / 2;
     }
 
-
+    public int getCurrentSizeOfHeap() {
+        return currentSizeOfHeap;
+    }
 }

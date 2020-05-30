@@ -1,7 +1,7 @@
 package com.datastructures.Graph.main;
 
-import com.graph.undirected.adjmatrix.implmentation.UndirectedGraphAdjacencyMatrix;
-import com.graph.undirected.adjmatrix.implmentation.UndirectedGraphAdjacencyMatrixImplementation;
+import com.datastructures.Graph.undirected.adjmatrix.implmentation.UndirectedGraphAdjacencyMatrix;
+import com.datastructures.Graph.undirected.adjmatrix.implmentation.UndirectedGraphAdjacencyMatrixImplementation;
 
 public class MainAdjMatrix {
     // Driver program to test above functions

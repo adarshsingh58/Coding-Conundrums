@@ -1,7 +1,7 @@
 package com.datastructures.Graph.main;
 
-import com.graph.undirected.adjlist.implmentation.UndirectedGraphAdjacencyList;
-import com.graph.undirected.adjlist.implmentation.UndirectedGraphAdjacencyListImplementation;
+import com.datastructures.Graph.undirected.adjlist.implmentation.UndirectedGraphAdjacencyList;
+import com.datastructures.Graph.undirected.adjlist.implmentation.UndirectedGraphAdjacencyListImplementation;
 
 public class MainAdjList {
 

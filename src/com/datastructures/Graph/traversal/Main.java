@@ -1,7 +1,7 @@
 package com.datastructures.Graph.traversal;
 
-import com.graph.directed.adjlist.implmentation.copy.DirectedGraphAdjacencyList;
-import com.graph.directed.adjlist.implmentation.copy.DirectedGraphAdjacencyListImplementation;
+import com.datastructures.Graph.directed.adjlist.implmentation.copy.DirectedGraphAdjacencyList;
+import com.datastructures.Graph.directed.adjlist.implmentation.copy.DirectedGraphAdjacencyListImplementation;
 
 public class Main {
 

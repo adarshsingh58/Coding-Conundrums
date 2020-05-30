@@ -1,7 +1,9 @@
+/*
 package com.questions.array.conundrums;
 
 import com.heap.Heap;
 
+*/
 /**
  * Given a large array of integers and a window of size 'w', find the current
  * maximum in the window as the window slides through the entire array.
@@ -13,7 +15,8 @@ import com.heap.Heap;
  * 2nd window of 3 elements max = 3
  * 3rd window of 3 elements max = 6
  * </p>
- */
+ *//*
+
 public class MaximumInSlidingWindow {
 
     public static void main(String[] args) {
@@ -26,7 +29,8 @@ public class MaximumInSlidingWindow {
 
     }
 
-    /**
+    */
+/**
      * In this Naive approach, we are traversing the array and in each traversal, we
      * are finding the maximum in the window w. If i is the current index we are on
      * in the inputArray, we are checking for the maximum element till (i+w-1)th
@@ -37,7 +41,8 @@ public class MaximumInSlidingWindow {
      * This is a quadratic complexity if w approaches n.
      * @SpaceComplexity All the operations are performed on inputArray and only one max variable is used
      * as an additional var. This is not depenedent on n, therefore spaceC is O(1).
-     */
+     *//*
+
     private static void maxInSlidingWindow_NaiveApproach(int[] inputArray, int w) {
         for (int i = 0; i <= inputArray.length - w; i++) {
             int max = 0;
@@ -50,7 +55,8 @@ public class MaximumInSlidingWindow {
         }
     }
 
-    /**
+    */
+/**
      * This is a more refined approach which uses Heap. We know that in a Heap DS,
      * we always have the maximum value at the top of the heap and doing getMax() is
      * an O(1) operation. Adding a new element is O(logn) and so is the delete
@@ -75,7 +81,8 @@ public class MaximumInSlidingWindow {
      * time complexity will be O(nlog w)
      * @SpaceComplexity We are using a heap of size w, which internally is an array of size w. Hence,
      * O(w)
-     */
+     *//*
+
     private static void maxInSlidingWindow_HeapApproach(int[] inputArray, int w) {
         Heap heap = new Heap(w);
 
@@ -94,3 +101,4 @@ public class MaximumInSlidingWindow {
     }
 
 }
+*/

@@ -5,18 +5,20 @@ import com.questions.trees.TreeBasic.Node;
 
 /**
  * Given root of a binary tree, delete any subtrees whose nodes sum up to zero.
- * <p>
- * 7
- * /   \
- * 5		6
- * / \
- * -3   -2
- * <p>
+ *
+ * 			7
+ * 		  /   \
+ * 		5		6
+ * 	   / \
+ * 	 -3   -2
+ *
  * O/P
- * <p>
- * 7
- * \
- * 6
+ *
+ * 		7
+ * 		 \
+ * 		  6
+ *
+ *
  */
 public class DeleteZeroSumSubtrees {
     public static void main(String[] args) {

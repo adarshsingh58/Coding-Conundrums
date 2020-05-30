@@ -1,6 +1,6 @@
 package com.datastructures.Graph.directed.adjlist.implmentation.copy;
 
-import com.graph.abstraction.GraphInterface_List;
+import com.datastructures.Graph.abstraction.GraphInterface_List;
 
 import java.util.List;
 

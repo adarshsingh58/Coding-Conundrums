@@ -1,5 +1,7 @@
 package com.datastructures.Arrays.arraySearch;
 
+import com.datastructures.Arrays.utilites.Helper;
+
 ;
 
 /**

@@ -65,6 +65,11 @@ public class IntersectionPointofTwoLists {
         }
         boolean intersectionFound = false;
         while (!intersectionFound) {
+            /* If intersection point is goverened by value we use this but if  its by Node, then we do
+                if (curr1 == curr2)
+               comparing if nodes are equal. i.e. there might be a case where node value are same but thats not
+               the intersection, intersection may be by Object type of Node and not value type.
+            * */
             if (curr1.data == curr2.data) {
                 intersectionFound = true;
             }

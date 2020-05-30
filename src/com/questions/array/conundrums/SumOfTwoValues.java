@@ -1,7 +1,6 @@
 package com.questions.array.conundrums;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Given an array of integers and a value, determine if there are any two
@@ -61,5 +60,41 @@ public class SumOfTwoValues {
             set.add(i);
         }
         return set;
+    }
+/**
+ * This method sends the indicies of 2 numbers which must be have same value.
+ *
+ * Given nums = [2, 7, 11, 15], target = 9,
+ * [3,3] target 6
+ *
+ *
+ * */
+    public static int[] twoSum(int[] nums, int target) {
+        Map<Integer, List<Integer>> map = new HashMap<>();
+        int[] op = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(nums[i])) {
+                map.get(nums[i]).add(i);
+            } else {
+                List<Integer> list = new ArrayList<>();
+                list.add(i);
+                map.put(nums[i], list);
+            }
+        }
+
+        for (Map.Entry<Integer, List<Integer>> currentEntrySet : map.entrySet()) {
+            if (map.containsKey(target - currentEntrySet.getKey())) {
+                if (currentEntrySet.getKey() != target - currentEntrySet.getKey()) {
+                    op[0] = currentEntrySet.getValue().get(0);
+                    op[1] = map.get(target - currentEntrySet.getKey()).get(0);
+                    break;
+                } else if ((currentEntrySet.getKey() == target - currentEntrySet.getKey() && currentEntrySet.getValue().size() > 1)) {
+                    op[0] = currentEntrySet.getValue().get(0);
+                    op[1] = map.get(target - currentEntrySet.getKey()).get(1);
+                    break;
+                }
+            }
+        }
+        return op;
     }
 }

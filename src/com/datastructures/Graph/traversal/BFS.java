@@ -1,6 +1,6 @@
 package com.datastructures.Graph.traversal;
 
-import com.graph.directed.adjlist.implmentation.copy.DirectedGraphAdjacencyList;
+import com.datastructures.Graph.directed.adjlist.implmentation.copy.DirectedGraphAdjacencyList;
 
 import java.util.LinkedList;
 import java.util.List;

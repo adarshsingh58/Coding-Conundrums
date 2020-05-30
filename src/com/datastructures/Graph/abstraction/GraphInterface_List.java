@@ -1,6 +1,6 @@
 package com.datastructures.Graph.abstraction;
 
-import com.graph.directed.adjlist.implmentation.copy.DirectedGraphAdjacencyList;
+import com.datastructures.Graph.directed.adjlist.implmentation.copy.DirectedGraphAdjacencyList;
 
 public interface GraphInterface_List {
 

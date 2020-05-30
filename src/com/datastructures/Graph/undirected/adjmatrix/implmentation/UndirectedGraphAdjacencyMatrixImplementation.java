@@ -1,6 +1,6 @@
 package com.datastructures.Graph.undirected.adjmatrix.implmentation;
 
-import com.graph.abstraction.GraphInterface;
+import com.datastructures.Graph.abstraction.GraphInterface;
 
 public class UndirectedGraphAdjacencyMatrixImplementation implements GraphInterface {
 

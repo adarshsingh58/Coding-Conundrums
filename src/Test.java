@@ -1,100 +1,94 @@
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Collections;
 import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Test {
-	private static List<Kingdom> allies = new ArrayList<>();
-	private static List<String> inputList = new ArrayList<>();
 
-	public static void main(String[] args) {
-		printOutput();
+    public static void main(String[] args) {
+        List<String> rapReturnOrderDOSs = new ArrayList<>();
+        rapReturnOrderDOSs.add("bhjnoin");
+        rapReturnOrderDOSs.add("poijhbjk");
+        rapReturnOrderDOSs.add("876567");
+        rapReturnOrderDOSs.add("bvfgyhjk");
+        String listOfRO = rapReturnOrderDOSs.stream().map(rapReturnOrderDO -> rapReturnOrderDO.toUpperCase()).collect(Collectors.joining(","));
+        System.out.println(listOfRO);
+    }
 
-		provideInput();
-		for (String s : inputList) {
-			String[] message = s.split(", ");
-			messageFromShanTo(Kingdom.valueOf(message[0]), message[1]);
-		}
-		printOutput();
-	}
 
-	private static void provideInput() {
-		System.out.println("Enter Number of inputs");
-		Scanner scanner = new Scanner(System.in);
-		int n = scanner.nextInt();
-		System.out.println("Input Messages to kingdoms from King Shan:");
-		scanner.nextLine();
-		for (int i = 0; i < n; i++) {
-			inputList.add(scanner.nextLine());
-		}
-		scanner.close();
-	}
+    static class BinaryTree {
 
-	private static void printOutput() {
-		System.out.println("Who is the ruler of Southeros?");
-		if (allies.size() >= (Kingdom.values().length/2)) {
-			System.out.println("King Shan");
-		} else {
-			System.out.println("None");
-		}
-		System.out.println("Allies of Ruler?");
-		StringBuilder builder=new StringBuilder();
-		if (allies.size() >= (Kingdom.values().length/2)) {
-			for (Kingdom k : allies) {
-				builder.append(k.name() + ", ");
-			}
-			System.out.print(builder.substring(0, builder.length()-2).toString());
-		} else {
-			System.out.println("None");
-		}
-	}
+        BinaryTree.Node root;
 
-	public static void messageFromShanTo(Kingdom kingdom, String message) {
-		if (isRightSecretMessage(kingdom.getEmblem().toLowerCase(), message.toLowerCase())) {
-			allies.add(kingdom);
-		}
-	}
+        public void add(int x) {
+            if (null == root)
+                root = new Node(x);
+            else
+                add(x, root);
+        }
 
-	private static boolean isRightSecretMessage(String emblem, String message) {
-		Map<Character, Integer> wordMap = new HashMap<>();
-		for (char c : message.toCharArray()) {
-			if (wordMap.containsKey(c)) {
-				wordMap.put(c, wordMap.get(c) + 1);
-			} else {
-				wordMap.put(c, 1);
-			}
-		}
+        public void add(int x, Node node) {
+            {
+                if (node.left == null) {
+                    node.left = new Node(x);
+                } else if (node.right == null) {
+                    node.right = new Node(x);
+                } else {
+                    if (node.data % 2 == 0) {
+                        add(x, node.left);
+                    } else {
+                        add(x, node.right);
+                    }
+                }
+            }
 
-		for (char c : emblem.toCharArray()) {
-			if (!wordMap.containsKey(c)) {
-				return false;
-			} else {
-				wordMap.put(c, wordMap.get(c) - 1);
-				if (wordMap.get(c) == 0) {
-					wordMap.remove(c);
-				}
-			}
-		}
-		return true;
-	}
+        }
 
+        public void removePath(int inp) {
+
+            findPath(root, inp, Collections.emptyList(), 0);
+        }
+
+        private void findPath(Node node, int inp, List<Node> list, int sum) {
+            if (sum > inp) {
+                markNodesAsVisited(root, list);
+                return;
+            }
+            if (node.left == null && node.right == null) {
+                deletedNodesInPath(root, list);
+                return;
+            }
+            list.add(node);
+            sum = sum + node.data;
+            findPath(node.left, inp, list, sum);
+            findPath(node.right, inp, list, sum);
+        }
+
+        private void deletedNodesInPath(Node node, List<Node> list) {
+            for (Node n : list) {
+                if (!node.visited) {
+                    //deleteNode
+                }
+            }
+        }
+
+        private void markNodesAsVisited(Node node, List<Node> list) {
+            for (Node n : list) {
+                node.visited = true;
+            }
+        }
+
+        static class Node {
+            int data;
+            Node left;
+            Node right;
+            boolean visited;
+
+            public Node(int data) {
+                this.data = data;
+            }
+
+        }
+    }
 }
 
-enum Kingdom {
-	Air("Owl"), Land("Panda"), Ice("Mammoth"), Water("Octopus"), Fire("Dragon"), Space("Gorilla");
-
-	private String emblem;
-
-	private Kingdom() {
-	}
-
-	Kingdom(String emblem) {
-		this.emblem = emblem;
-	}
-
-	public String getEmblem() {
-		return emblem;
-	}
-
-}
