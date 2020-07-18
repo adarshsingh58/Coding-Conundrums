@@ -31,6 +31,24 @@ public class ConnectAllSiblings {
         bst1.add(34);
         bst1.add(36);
         connectAllSiblings(bst1.root);
+        connectAllSiblings1(bst1.root);
+    }
+/*
+* connecting sibling where last element in level points to next element in next level
+* */
+    private static void connectAllSiblings1(Node root) {
+        Queue<Node> mainQ = new LinkedList<>();
+        mainQ.add(root);
+        while (!mainQ.isEmpty()) {
+            Node poppedNode = mainQ.poll();
+            if (poppedNode.left != null)
+                mainQ.add(poppedNode.left);
+            if (poppedNode.right != null)
+                mainQ.add(poppedNode.right);
+            if (mainQ.peek() != null)
+                poppedNode.sibling = mainQ.peek();
+        }
+        System.out.println(root.data);
     }
 
     private static void connectAllSiblings(Node root) {

@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/a0s03se.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotatedDuplicateArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/DialPadCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ExcelSheetColumnNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/FindTheCelebrity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/IntegerToEnglishWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LicenseKeyFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/skyline1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/skyline2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/UniqueEmailAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WildcardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WordSearchInBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/trees/BinaryTreeFromPreAndInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/trees/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/questions/trees/SerializeAndDeserializeBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Arrays/utilites/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/datastructures/Arrays/utilites/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/Baseimpl/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/Baseimpl/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_MakeColumnsRowsZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_MakeColumnsRowsZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/MaximumInSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/MaximumInSlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/MoveZerosToLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/MoveZerosToLeft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/SumOfThreeValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/SumOfThreeValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/questions/algorithms/KadaneAlgoForMaxSumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/algorithms/KadaneAlgoForMaxSumSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_SearchInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_SearchInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/AddTwoNumbersII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/linkedList/AddTwoNumbersII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NumberofIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NumberofIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/ConnectAllSiblings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/trees/ConnectAllSiblings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/questions/trees/LevelOrderTraversal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,21 +42,110 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/linkedListBase/LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/DialPadCombination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2894">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="192">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/algorithms/KadaneAlgoForMaxSumSubArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LongestCommonSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/math/LongestSequenceInArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/LongestIncreasingSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152">
+              <caret line="48" column="86" lean-forward="true" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/FindTheCelebrity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1416">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1951#1952#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/trees/SerializeAndDeserializeBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/UniqueEmailAddresses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/questions/string/FindAllPalindromeSubstrings.java">
+        <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LicenseKeyFormatting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="318">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -50,11 +163,37 @@
     <findStrings>
       <find>import com.array.utilites.Helper</find>
       <find>com.datastructures.Arrays.utilites</find>
+      <find>conti</find>
+      <find>largest</find>
+      <find>kadan</find>
+      <find>pde</find>
+      <find>yy</find>
+      <find>currentSizeOfHeap</find>
+      <find>contig</find>
+      <find>s1.peek()</find>
+      <find>*</find>
+      <find>setZeroes</find>
+      <find>[</find>
+      <find>&quot;</find>
+      <find>Integer to EnglishWords</find>
+      <find>noLetterMap</find>
+      <find>secondPlaceLetterMap</find>
+      <find>]</find>
     </findStrings>
     <replaceStrings>
       <replace>com.datastructures.Arrays.utilites</replace>
       <replace>import com.datastructures.Arrays.utilites;</replace>
+      <replace>!s1.empty() &amp;&amp;s1.peek()</replace>
+      <replace>{}</replace>
+      <replace>'</replace>
+      <replace>secondPlaceLetterMap</replace>
+      <replace>secondPlaceOneLetterMap</replace>
+      <replace>{</replace>
+      <replace>}</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/com/datastructures/Arrays/conundrums/rotation</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,47 +201,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/questions/dynamicProg/NthFibonacci.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/binarysearchtree/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/BST/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/BST/readme" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/BST/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/trie/Trie.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/trie/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/AVLTree/AVLTree.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Queue/Queue.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Queue/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/LinkedList/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/LinkedList/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Stack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Stack/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Heap/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Heap/Heap.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Arrays/arrayReversal/ArrayReverse.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Arrays/conundrums/arrangement/ArrangeArray_i_at_arrOfi.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Arrays/conundrums/rotation/CombinationOf2WithSumXinSortedRotatedArray.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Graph/abstraction/GraphInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/sorting/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/com/sorting/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/com/sorting/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/com/sorting/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/com/concepts/Memoization/Memoization.java" />
-        <option value="$PROJECT_DIR$/src/com/concepts/Memoization/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/com/questions/algorithms/BoyerMooreHorsepoolForStringSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ValidParenthesisString.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ConstructBSTfromPreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SubarraySumEqualsK.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/bitwise/BitwiseANDofNumbersRange.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/OtherPrograms/Anagram.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/linkedList/AddTwoIntegers.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/TraverseMatrixInSpiralOrder.java" />
         <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_MakeColumnsRowsZeros.java" />
-        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/MaximumInSlidingWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/MergeOverlappingIntervals.java" />
-        <option value="$PROJECT_DIR$/src/com/datastructures/Arrays/utilites/Helper.java" />
-        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/MoveZerosToLeft.java" />
-        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/SumOfThreeValues.java" />
-        <option value="$PROJECT_DIR$/src/com/questions/Baseimpl/Trie.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/TrappingWater.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/TrappingWater/TrappingWater.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/RotateImage.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/SumOfTwoValues.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/string/Atoi_StringToInt.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/linkedList/linkedListBase/CopyListWithRandomPointer/CopyListWithRandomPointer.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/linkedList/linkedListBase/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer/CopyListWithRandomPointer.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/linkedList/MergeKSortedLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/RemoveDuplicatesFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/linkedList/IntersectionPointofTwoLists.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/Temp.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/linkedList/AddTwoNumbersII.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/trees/LevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBST.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/trees/BinaryTreeZigzagLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/trees/ConnectAllSiblings.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NumberofIslands.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/trees/BinaryTreeFromPreAndInorder.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/MergeSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotated.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotatedDuplicateArr.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_SearchInMatrix.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/DialPadCombination.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WordSearchInBoard.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WildcardMatching.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BestTimeToBuyAndSellStock.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/algorithms/KadaneAlgoForMaxSumSubArray.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LongestCommonSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/array/conundrums/LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ExcelSheetColumnNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/FindTheCelebrity.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/trees/SerializeAndDeserializeBST.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/IntegerToEnglishWords.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/TheSkylineProblem.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/EmailSplit.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/UniqueEmailAddresses.java" />
+        <option value="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LicenseKeyFormatting.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -113,7 +269,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,33 +300,51 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="questions" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="scenarioBasedQues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coding-Conundrums" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coding-Conundrums" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="questions" type="462c0819:PsiDirectoryNode" />
+              <item name="trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/datastructures/BST" />
-      <recent name="$PROJECT_DIR$/src/com/datastructures/BST/bst" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.datastructures" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer" />
+      <recent name="$PROJECT_DIR$/src/com/questions/scenarioBasedQues" />
       <recent name="$PROJECT_DIR$/src/com/sorting" />
       <recent name="$PROJECT_DIR$/src/com/datastructures/Graph" />
       <recent name="$PROJECT_DIR$/src/com/datastructures/Arrays" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.questions.array.conundrums.rotation" />
+      <recent name="com.questions.trees" />
+      <recent name="com.questions.scenarioBasedQues" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine" />
+      <recent name="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/TrappingWater" />
       <recent name="$PROJECT_DIR$/src/com/datastructures/BST" />
+      <recent name="$PROJECT_DIR$/src/com/datastructures/BST/bst" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,13 +359,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="MergeOverlappingIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.questions.array.conundrums.MergeOverlappingIntervals" />
+  <component name="RunManager" selected="Application.LicenseKeyFormatting">
+    <configuration name="FindTheCelebrity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.questions.scenarioBasedQues.FindTheCelebrity" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.questions.array.conundrums.*" />
+          <option name="PATTERN" value="com.questions.scenarioBasedQues.SkyLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerToEnglishWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.questions.scenarioBasedQues.IntegerToEnglishWords" />
+      <module name="Coding-Conundrums" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.questions.scenarioBasedQues.SkyLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LicenseKeyFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.questions.scenarioBasedQues.LicenseKeyFormatting" />
+      <module name="Coding-Conundrums" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.questions.scenarioBasedQues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheSkylineProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.questions.scenarioBasedQues.SkyLine.TheSkylineProblem" />
+      <module name="Coding-Conundrums" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.questions.scenarioBasedQues.SkyLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueEmailAddresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.questions.scenarioBasedQues.UniqueEmailAddresses" />
+      <module name="Coding-Conundrums" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.questions.scenarioBasedQues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,7 +427,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeOverlappingIntervals" />
+        <item itemvalue="Application.LicenseKeyFormatting" />
+        <item itemvalue="Application.UniqueEmailAddresses" />
+        <item itemvalue="Application.TheSkylineProblem" />
+        <item itemvalue="Application.IntegerToEnglishWords" />
+        <item itemvalue="Application.FindTheCelebrity" />
       </list>
     </recent_temporary>
   </component>
@@ -217,421 +446,835 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12820514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20818071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32921812" />
-      <window_info anchor="bottom" id="Terminal" weight="0.18415637" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32921812" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27572018" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3611111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24691358" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32921812" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18415637" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20818071" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27572018" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3611111" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.24691358" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32921812" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18415637" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32921812" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes in Docs" />
+    <MESSAGE value="Code Format" />
+    <MESSAGE value="Adding Kadane's Algo" />
+    <MESSAGE value=" Adding New Leet Code Questions" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Adding New Leet Code Questions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/algorithms/KadaneAlgoForMaxSumSubArray.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NextClosestTime.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NextClosestTime.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ClosestPoint_2.java</url>
+          <line>233</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BuySellStock_MaxProfit.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/GroupAnagrams.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BackspaceStringCompare.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LastStoneWeight.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LastStoneWeight.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ContiguousArrayOf1And0.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ContiguousArrayOf1And0.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ProductofArrayExceptSelf.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ValidParenthesisString.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NumberofIslands.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NumberofIslands.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NumberofIslands.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SubarraySumEqualsK.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/bitwise/BitwiseANDofNumbersRange.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/bitwise/BitwiseANDofNumbersRange.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LongestCommonSubsequence.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LongestCommonSubsequence.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/Temp.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/Temp.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/Temp.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/linkedList/AddTwoIntegers.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer/CopyListWithRandomPointer.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/array/conundrums/RemoveDuplicatesFromSortedArray.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/trees/ConnectAllSiblings.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/trees/ConnectAllSiblings.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/trees/LevelOrderTraversal.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBST.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/trees/BinaryTreeZigzagLevelOrderTraversal.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/trees/BinaryTreeZigzagLevelOrderTraversal.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBinaryTree.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/trees/BinaryTreeFromPreAndInorder.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotatedDuplicateArr.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_SearchInMatrix.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WordSearchInBoard.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WordSearchInBoard.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BestTimeToBuyAndSellStock.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/FindTheCelebrity.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/FindTheCelebrity.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/UniqueEmailAddresses.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LicenseKeyFormatting.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>!(opBuild[j][0] &lt;= buildings[i][0] &amp;&amp; opBuild[j][1] &lt;= buildings[i][1] &amp;&amp; opBuild[j][2] &gt;= buildings[i][2])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>opBuild[j-1][2] &lt;= buildings[i - 1][2]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>opBuild[j-1][1] &lt;= buildings[i - 1][1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>opBuild[j-1][0] &gt;= buildings[i - 1][0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(opBuild[j-1][0] &gt;= buildings[i - 1][0] &amp;&amp; opBuild[j-1][1] &lt;= buildings[i - 1][1] &amp;&amp; opBuild[j-1][2] &lt;= buildings[i - 1][2])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(!(opBuild[j-1][0] &gt;= buildings[i - 1][0] &amp;&amp; opBuild[j-1][1] &lt;= buildings[i - 1][1] &amp;&amp; opBuild[j-1][2] &lt;= buildings[i - 1][2]))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tempsb</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tempsb.equals(&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(ch[i] - 64)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/utilites/Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/MergeKSortedLinkedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/ArraySearchRotated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/ArraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="1752">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
+            <element signature="method#mergeTwoLists#0;class#MergeKSortedLinkedLists#0" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2310#2311#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/FindLowHighIndex.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/RemoveDuplicatesFromSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/FindSmallestCommonNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_MakeColumnsRowsZeros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-775">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_SearchInMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/com/sorting/Heap.jar!/com/heap/Heap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#3910#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#3650#3651#0" expanded="true" />
-            <element signature="e#3699#3700#0" expanded="true" />
-            <element signature="e#3752#3753#0" expanded="true" />
-            <element signature="e#3801#3802#0" expanded="true" />
-            <element signature="e#3855#3856#0" expanded="true" />
-            <element signature="e#3906#3907#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/MaximumInSlidingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/datastructures/Arrays/utilites/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sorting/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="9">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/MergeOverlappingIntervals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/MoveZerosToLeft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/SearchRotatedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/SumOfTwoValues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/SumOfThreeValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/algorithms/EuclideanAlgoForHCF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/Baseimpl/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-515">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/Add_1_toGivenNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/BinaryOfANumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/CountSetBitsInAnInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/DetectIfTwoIntegersHaveOppositeSigns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/FindDivideBy2_ofaNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/FindMissingNumber_bit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/FindTwiceOfaNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/GrayNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/If2NumberEqual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/IntegerDivision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/IsPowerOf2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/NumberOccuringOddTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/NumberPowerOfTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/PositionOfRightmostSetBit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/bitwise/SwapVarWithoutTemp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/DeleteMiddleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/AddTwoIntegers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/CrackingTheCodingInterview/LoopDetectioinLinkedLIst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/DetectAndRemoveLoopLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/FindLoopNodeInLoopLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/MergeTwoSortedLinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="157">
+          <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/IntersectionPointofTwoLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-926">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="849">
+          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/RemoveDuplicatesfromLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/AddTwoNumbersII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="339">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/Reverse_K_Elements.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/AddTwoIntegers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1382">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="-594">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/ReverseEvenNodes.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/Temp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="48">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="method#rotate90#0;class#Temp#0" />
+            <element signature="method#addCurrValueInNewIndex#0;class#Temp#0" />
+            <marker date="1590815236851" expanded="true" signature="119:192" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/ReverseSinglyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/RotateImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="671">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/RotateLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/string/Atoi_StringToInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/SwapNthNodewithHead.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/TrappingWater/TrappingWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="384">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/linkedListBase/MyIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/datastructures/BST/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="176" column="12" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
+          <folding>
+            <element signature="method#add#1;class#BinarySearchTree#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/datastructures/BST/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/map/WordCount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/CheckIdenticalBTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+        <state relative-caret-position="431">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/linkedList/linkedListBase/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/DeleteZeroSumSubtrees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2894">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="277">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sorting/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/IsBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/TreeBasic/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/ConnectSameLevelSiblings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/ConnectAllSiblings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_MakeColumnsRowsZeros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1752">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/CheckIfTreeIsBalanced.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/questions/string/FindAllPalindromeSubstrings.java">
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/ConvertBinaryTreeToDoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="312">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/FindHeightOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/IterativeInOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/LevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="method#printLevelOrder#0;class#LevelOrderTraversal#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/BinaryTreeZigzagLevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NumberofIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/BinaryTreeFromPreAndInorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/MergeSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotatedDuplicateArr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_SearchInMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WildcardMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1704">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WordSearchInBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+          <folding>
+            <element signature="method#getPositionMap#0;class#WordSearchInBoard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BestTimeToBuyAndSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/OtherPrograms/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/RomanToInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buildMap#0;class#RomanToInteger#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ExcelSheetColumnNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/IntegerToEnglishWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/DialPadCombination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/algorithms/KadaneAlgoForMaxSumSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LongestCommonSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/math/LongestSequenceInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/array/conundrums/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="48" column="86" lean-forward="true" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/FindTheCelebrity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/trees/SerializeAndDeserializeBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/UniqueEmailAddresses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LicenseKeyFormatting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>

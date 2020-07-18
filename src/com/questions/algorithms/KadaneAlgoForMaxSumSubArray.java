@@ -19,7 +19,7 @@ public class KadaneAlgoForMaxSumSubArray {
      * contiguous sub array.
      *
      * In a = {-2, -3, 4, -1, -2, 1, 5, -3}; at index say 2, maximum sub array would be
-     * (maxumum sub array till index 1 + value at undex 2 OR value at index 2)
+     * (maxumum sub array till index 1 + value at index 2 OR value at index 2)
      * (-2 + 4 OR 4) Hence 4.
      *
      * So,  we take a variable max_ending_here and make it 0 as soon as its value become <0. The reason is that

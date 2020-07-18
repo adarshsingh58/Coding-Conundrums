@@ -28,7 +28,6 @@ public class AddTwoNumbersII {
 
     }
 
-
     public ListNode addTwoNumbers() {//7243 + 564 = 7807
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);

@@ -3,7 +3,9 @@ package com.questions.trees;
 import com.questions.trees.TreeBasic.BinarySearchTree;
 import com.questions.trees.TreeBasic.Node;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 /**
@@ -34,6 +36,7 @@ public class LevelOrderTraversal {
         binarySearchTree.add(350);
 
         printLevelOrder(binarySearchTree.root);
+        returnLevelOrder(binarySearchTree.root);
 
     }
 
@@ -60,5 +63,38 @@ public class LevelOrderTraversal {
             }
         }
 
+    }
+
+    private static List<List<Integer>> returnLevelOrder(Node root) {
+        if (root == null) return null;
+        List<List<Integer>> lots = new ArrayList<>();
+        List<Integer> lot = new ArrayList<>();
+        Queue<Node> nodeQueue = new LinkedList<>();
+        List<Node> levelQueue = new ArrayList<>();
+        nodeQueue.add(root);
+        lot.add(root.data);
+        lots.add(lot);
+        lot = new ArrayList<>();
+        while (true) {
+            if (!nodeQueue.isEmpty()) {
+                Node currNode = nodeQueue.poll();
+
+                if (currNode.left != null) levelQueue.add(currNode.left);
+                if (currNode.right != null) levelQueue.add(currNode.right);
+                continue;
+            }
+            for (Node node : levelQueue) {
+                lot.add(node.data);
+            }
+            nodeQueue.addAll(levelQueue);
+            if (nodeQueue.isEmpty() && levelQueue.isEmpty()) break;
+            lots.add(lot);
+            levelQueue = new ArrayList<>();
+            lot = new ArrayList<>();
+
+        }
+
+
+        return lots;
     }
 }

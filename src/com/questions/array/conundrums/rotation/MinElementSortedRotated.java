@@ -19,9 +19,9 @@ package com.questions.array.conundrums.rotation;
 public class MinElementSortedRotated {
 
     public static void main(String[] i) {
-        int[] inputArr = {10, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] inputArr = {2, 3, 1};
         MinElementSortedRotated elementSortedRotated = new MinElementSortedRotated();
-        elementSortedRotated.method1(inputArr);
+        System.out.println(elementSortedRotated.method1(inputArr));
     }
 
     /**
@@ -42,20 +42,22 @@ public class MinElementSortedRotated {
         int start = 0, end = inputArr.length - 1;
         int min = inputArr[0];
         int currIndex = (start + end) / 2;
-        while (start != end) {
-            if (inputArr[currIndex] < inputArr[currIndex - 1] && inputArr[currIndex] < inputArr[currIndex + 1]) {
-                System.out.println("number found " + inputArr[currIndex]);
-                return currIndex;
-            } else if (inputArr[currIndex] > min) {
-                start = currIndex + 1;
+
+        while (start < end) {
+            if (start == end) return inputArr[end];
+            if (start == end - 1) return Math.min(inputArr[start], inputArr[end]);
+            if (inputArr[start] < inputArr[end]) {
+                return inputArr[start];
+            }
+            if (inputArr[currIndex] > inputArr[start] && inputArr[currIndex] > inputArr[end]) {
+                start = currIndex;
                 currIndex = (start + end) / 2;
-            } else {
-                min = inputArr[currIndex];
+            } else if (inputArr[currIndex] < inputArr[start]) {
                 end = currIndex;
                 currIndex = (start + end) / 2;
             }
         }
-        return -1;
+        return min;
     }
 
     /*
