@@ -22,8 +22,8 @@ public class ThreadLocal {
     };
 
     //ThreadLocal is same as passing a local var to the runnable method
-    //In brlow example multiThreadedMethod uses ThreadLocal while multiThreadedMethod1 uses a
-    //var sent in para,eter which wold be local to that thread. Both will give sme value.
+    //In below example multiThreadedMethod uses ThreadLocal while multiThreadedMethod1 uses a
+    //var sent in parameter which wold be local to that thread. Both will give sme value.
     //So ThreadLocal is used when we have common value or object to be shared across multiple threads,
     //we dont have pass then individually just create a threadlocal.
     //However if you pass an object to both thread its value can be altered by both threads and could cause inconsistency.

@@ -33,8 +33,8 @@ public class BitwiseANDofNumbersRange {
 * Here, Idea is that, for a given range doing and, we will always get 0 even if any 1 no is 0
 * and 1 only if all no in that column are 1.
 *
-* We do left shift by 1 untill m and n are equal and count the no of steps here i.
-* Now we  do right shift by i and have our answer.
+* We do right shift by 1 untill m and n are equal and count the no of steps here i.
+* Now we  do left shift by i and have our answer.
 * */
     public static int bitwiseAndOfRangeOptimised(int m, int n) {
         int i = 0;
