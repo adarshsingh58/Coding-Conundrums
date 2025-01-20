@@ -1,5 +1,0 @@
-BinarySearchTree
-
-NOTES: Arrays are good for insertion. Same with Linked List Sorted Array help us resolve the search operation by a huge amount, but insertion and deletion still remains bad. can we do something better here with all search and insert and delete? We can use BST. Binary Search Tree has O(n) complexity for all three operations. BUT for this to be true, out binary search tree MUST ALWAYS be balanced. A BST is a tree where, each node has atmost 2 child and all the elements in the left subtree are always smaller or equal then parent and all the elements in the right subtree are always greater than parent. TO test is a tree is a binary search tree, you must check that all the child on left are smaller and not just the immediate left child. Similar for right subtree.
-
-Here first one is a balanced BST and therefore will have O(log n) complexity for all search, insert and delete operation while second one is composed of same elements and is also a BST but an unbalanced BST, essesntially making it a LIST, and there fore DO NOT follow the O(log n) complexity across. https://www.youtube.com/watch?v=wcIRPqTR3Kc
