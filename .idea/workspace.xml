@@ -4,257 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/OtherPrograms/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/ArrayLeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/RearrangeAltElementsinpositiveNegative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/SetMatrixZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/StockProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/blind/seventyfIve/PrefixSums/LargestSubArrayWithKSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="fixed structure">
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/CalculateDistanceBetweenTwoCoordinatesinJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/FindingCabsNearby.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/FloodFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/MaximumNumberofAcceptedInvitationstoParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/customers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concepts/KnapSack01/KnapSack01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concepts/Memoization/Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/AVLTree/AVLTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/AVLTree/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Arrays/arrayReversal/ArrayReverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Arrays/arrayRotation/ArrayRotate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Arrays/arraySearch/ArraySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Arrays/arraySort/ArraySort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Arrays/utilites/Helper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/BST/BST.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/BST/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/BST/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/BST/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/abstraction/GraphInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/abstraction/GraphInterface_List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/directed/adjlist/implmentation/copy/DirectedGraphAdjacencyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/directed/adjlist/implmentation/copy/DirectedGraphAdjacencyListImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/directed/adjmatrix/implmentation/copy/DirectedGraphAdjacencyMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/directed/adjmatrix/implmentation/copy/DirectedGraphAdjacencyMatrixImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/main/MainAdjList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/main/MainAdjMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/traversal/BFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/traversal/DFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/traversal/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/undirected/adjlist/implmentation/UndirectedGraphAdjacencyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/undirected/adjlist/implmentation/UndirectedGraphAdjacencyListImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/undirected/adjmatrix/implmentation/UndirectedGraphAdjacencyMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Graph/undirected/adjmatrix/implmentation/UndirectedGraphAdjacencyMatrixImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Heap/Heap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Heap/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/LinkedList/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/LinkedList/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Queue/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Queue/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Stack/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/Stack/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/trie/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructures/trie/Trie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/Baseimpl/Trie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/CrackingTheCodingInterview/CheckPermutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/CrackingTheCodingInterview/IsStringRotated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/CrackingTheCodingInterview/IsUnique.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/CrackingTheCodingInterview/LinkedListPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/CrackingTheCodingInterview/LoopDetectioinLinkedLIst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/CrackingTheCodingInterview/OneEditAway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/CrackingTheCodingInterview/PalindromePermutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/Anagram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/AutoComplete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/ConvertStringToFloat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/FindSubStrInAllPermutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/FirstNonRepeatingChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/ImplementIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/KnapsackProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/KthNonRepeatingChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/MaximalDistanceArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/NStackProblem/NStackSingleArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/NStackProblem/TwoStackInOneArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/ProducerConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/ReversingANumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/SortingMapByValues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/OtherPrograms/StringCompression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/EvaluateInfixExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/FindMaxAndSecondMaxInAStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/InfixToPostfix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/MinStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/QueueBaseImpl/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/QueueUsingStacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/ReverseStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/SortStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/QueuesStack/StackUsingQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/algorithms/BoyerMooreHorsepoolForStringSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/algorithms/EuclideanAlgoForHCF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/algorithms/FloydCycleDetectionLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/algorithms/KadaneAlgoForMaxSumSubArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/ArrayReverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/ArrayRotate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/ArraySearchRotated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/ArraySort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/FindLowHighIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/FindSmallestCommonNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/LongestIncreasingSubsequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_MakeColumnsRowsZeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/Matrix_SearchInMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/MaximumInSlidingWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/MergeOverlappingIntervals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/MergeSortedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/MoveZerosToLeft.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/RemoveDuplicatesFromSortedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/SearchRotatedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/SumOfThreeValues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/SumOfTwoValues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/TraverseMatrixInSpiralOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/arrangement/ArrangeArray_i_at_arrOfi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/AddingElementsFromLtoRinArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/CombinationOf2WithSum0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/CombinationOf2WithSumXinSortedRotatedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/CombinationOf3WithSum0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/FindMultipleRotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/FindingDuplicateElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MaxOfSumiARRi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MaximumHammingDistanceInJumbledArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/MinElementSortedRotatedDuplicateArr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/conundrums/rotation/SplitArrayAndAppendAtEnd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/array/utilites/Helper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/Add_1_toGivenNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/BinaryOfANumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/BitwiseANDofNumbersRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/CountSetBitsInAnInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/DetectIfTwoIntegersHaveOppositeSigns.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/FindDivideBy2_ofaNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/FindMissingNumber_bit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/FindTwiceOfaNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/GrayNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/If2NumberEqual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/IntegerDivision.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/IsPowerOf2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/NumberOccuringOddTimes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/NumberPowerOfTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/PositionOfRightmostSetBit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/bitwise/SwapVarWithoutTemp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/dynamicProg/NthFibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/graph/TopologicalSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/graph/TopologicalSorting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/AddTwoIntegers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/AddTwoNumbersII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer/CopyListWithRandomPointer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer/e1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer/e2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer/e3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/DeleteMiddleNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/DetectAndRemoveLoopLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/FindLoopNodeInLoopLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/IntersectionPointofTwoLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/MergeKSortedLinkedLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/MergeTwoSortedLinkedLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/RemoveDuplicatesfromLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/ReverseEvenNodes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/ReverseSinglyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/Reverse_K_Elements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/RotateLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/SwapNthNodewithHead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/linkedListBase/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/linkedList/linkedListBase/MyIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/map/WordCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/AllSumCombinations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/CalculateSquareRoot_Double.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/CalculateSquareRoot_PerfectSquares.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/Find2MissingNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/FindMissingNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/FirstNPrimeNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/IntegerDivision.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/IsNumberValid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/IsPrimeNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/KthPermutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/LineIntersect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/LongestSequenceInArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/PermuteString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/PowerOfANumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/math/PythagoreanTriplets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BackspaceStringCompare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BestTimeToBuyAndSellStock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/BuySellStock_MaxProfit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ClosestPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ClosestPoint_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ConstructBSTfromPreorderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ContiguousArrayOf1And0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/CountingElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/DialPadCombination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/DistanceBet2Points.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ExcelSheetColumnNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/FindTheCelebrity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/FindingCabsNearbyUsingGreatCircleDistanceFormula.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/GetMinNoOfCoins.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/GroupAnagrams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/IntegerToEnglishWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LastStoneWeight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LicenseKeyFormatting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/LongestCommonSubsequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/MavenDependencyProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NextClosestTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/NumberofIslands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ProductofArrayExceptSelf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/RomanToInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/RotateImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/TheSkylineProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/skyline1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine/skyline2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SubarraySumEqualsK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/Temp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/TrappingWater/TrappingWater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/TrappingWater/rainwatertrap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/UniqueEmailAddresses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/ValidParenthesisString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WildcardMatching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/WordSearchInBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/Atoi_StringToInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/FindAllPalindromeSubstrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/FindAllPermutationOfAString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/RemoveDuplicates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/RemoveWhiteSpaces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/ReverseStringUsingRecursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/ReverseWordsinSentence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/StringSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/string/StringSegmentation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/AVLTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/BinaryTreeFromPreAndInorder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/BinaryTreeZigzagLevelOrderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/CheckIdenticalBTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/CheckIfTreeIsBalanced.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/ConnectAllSiblings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/ConnectSameLevelSiblings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/ConvertBinaryTreeToDoublyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/DeleteZeroSumSubtrees.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/FindHeightOfBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/InorderSuccessorBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/IsBinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/IterativeInOrderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/LevelOrderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/LowestCommonAncestorofaBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/MirrorBinaryTreeNodes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/NthHighestinBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/PrintBinaryTreeNodesInVerticalOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/PrintSpiralViewTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/PrintTopViewOfTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/PrintTreeParameter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/SerializeAndDeserializeBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/TopViewOfBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/TraverseBinaryTreeSpirally.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/TreeBasic/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/questions/trees/TreeBasic/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sorting/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/sorting/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/AtomicVaRIABLE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multithreading/AtomicVaRIABLE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/ReentractLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multithreading/ReentractLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/ThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/multithreading/ThreadLocal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,6 +161,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "adarshsingh58"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/adarshsingh58/Coding-Conundrums.git",
+    "accountId": "5538ff58-1b0d-4b4b-acfb-51272c05a104"
+  }
+}]]></component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -462,6 +230,10 @@
       </list>
     </option>
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -538,9 +310,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AtomicVaRIABLE.executor": "Run",
+    "Application.CalculateDistanceBetweenTwoCoordinatesinJava.executor": "Run",
+    "Application.CheckPathExists2Vertices.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.CountEdgesUndirectedGraph.executor": "Run",
+    "Application.EvaluateInfixExpression.executor": "Run",
+    "Application.FindSymmetricPairsinArray.executor": "Run",
+    "Application.FindTheCelebrity.executor": "Debug",
+    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MergeOverlappingIntervals.executor": "Debug",
+    "Application.NextGreaterElementUsingStack.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
     "Application.RearrangeAltElementsinpositiveNegative.executor": "Debug",
+    "Application.ReverseKElementsInaQueue.executor": "Debug",
+    "Application.SortOddEvensSeperately.executor": "Run",
+    "Application.SortStack.executor": "Run",
+    "Application.ThreadLocal.executor": "Run",
+    "Application.WordFormationUsingHashTable.executor": "Debug",
     "Application.com.DataStructures_And_Questions.trie.Main.executor": "Run",
     "Application.com.Main.executor": "Run",
     "Application.com.datastructures.PriorityQueue.Main.executor": "Run",
@@ -553,6 +341,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -580,13 +371,13 @@
       <recent name="$PROJECT_DIR$/src/com/datastructures/BST/bst" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeOverlappingIntervals">
-    <configuration name="MergeOverlappingIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.array.conundrums.MergeOverlappingIntervals" />
+  <component name="RunManager" selected="Application.CalculateDistanceBetweenTwoCoordinatesinJava">
+    <configuration name="AtomicVaRIABLE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multithreading.AtomicVaRIABLE" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DataStructures_And_Questions.array.conundrums.*" />
+          <option name="PATTERN" value="com.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -594,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.OtherPrograms.PascalTriangle" />
+    <configuration name="CalculateDistanceBetweenTwoCoordinatesinJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.scenarioBasedQues.CalculateDistanceBetweenTwoCoordinatesinJava" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DataStructures_And_Questions.OtherPrograms.*" />
+          <option name="PATTERN" value="com.DataStructures_And_Questions.scenarioBasedQues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -607,33 +398,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeAltElementsinpositiveNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.array.conundrums.RearrangeAltElementsinpositiveNegative" />
-      <module name="Coding-Conundrums" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DataStructures_And_Questions.array.conundrums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.DataStructures_And_Questions.trie.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.trie.Main" />
-      <module name="Coding-Conundrums" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DataStructures_And_Questions.trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
@@ -646,13 +411,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortOddEvensSeperately" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.OtherPrograms.SortOddEvensSeperately" />
+      <module name="Coding-Conundrums" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DataStructures_And_Questions.OtherPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multithreading.ThreadLocal" />
+      <module name="Coding-Conundrums" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeOverlappingIntervals" />
-        <item itemvalue="Application.PascalTriangle" />
-        <item itemvalue="Application.RearrangeAltElementsinpositiveNegative" />
-        <item itemvalue="Application.com.Main" />
-        <item itemvalue="Application.com.DataStructures_And_Questions.trie.Main" />
+        <item itemvalue="Application.CalculateDistanceBetweenTwoCoordinatesinJava" />
+        <item itemvalue="Application.ThreadLocal" />
+        <item itemvalue="Application.AtomicVaRIABLE" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SortOddEvensSeperately" />
       </list>
     </recent_temporary>
   </component>
@@ -675,8 +466,26 @@
       <workItem from="1733988012181" duration="2745000" />
       <workItem from="1734936615849" duration="15937000" />
       <workItem from="1735530367094" duration="597000" />
-      <workItem from="1735534886365" duration="40519000" />
+      <workItem from="1735534886365" duration="139936000" />
+      <workItem from="1738644012060" duration="10352000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1737390101846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737390101846</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1738649082422</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738649082422</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -742,11 +551,14 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Changes in Docs" />
     <MESSAGE value="Code Format" />
     <MESSAGE value="Adding Kadane's Algo" />
     <MESSAGE value=" Adding New Leet Code Questions" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Adding New Leet Code Questions" />
+    <MESSAGE value="fixed structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -808,7 +620,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/ProductofArrayExceptSelf.java</url>
-          <line>23</line>
+          <line>25</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -948,17 +760,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/BestTimeToBuyAndSellStock.java</url>
-          <line>42</line>
+          <line>44</line>
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/FindTheCelebrity.java</url>
-          <line>60</line>
+          <line>114</line>
           <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/FindTheCelebrity.java</url>
-          <line>51</line>
+          <line>105</line>
           <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1010,6 +822,41 @@
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/MergeOverlappingIntervals.java</url>
           <line>97</line>
           <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Queue/ReverseKElementsInaQueue.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Queue/ReverseKElementsInaQueue.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Queue/ReverseKElementsInaQueue.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/SortStack.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/FindTheCelebrity.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/graph/abstraction/GraphInterface_List.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Hashtable/WordFormationUsingHashTable.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="206" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
