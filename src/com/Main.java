@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.concurrent.*;
 
 public class Main {
+    static Map<String, Product> cache = new HashMap<>();
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -36,7 +37,7 @@ public class Main {
         );*/
 
         executorService.invokeAll(listOfActions);
-        executorService.awaitTermination(1,TimeUnit.SECONDS);
+        executorService.awaitTermination(1, TimeUnit.SECONDS);
         executorService.shutdown();
     }
 
@@ -51,7 +52,6 @@ public class Main {
     }
 
 
-    static Map<String, Product> cache = new HashMap<>();
 }
 
 class Product {

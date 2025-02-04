@@ -9,10 +9,14 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Using an atomic variable is another way to achieve thread-safety in java.
  * When variables are shared by multiple threads, the atomic variable ensures that threads don’t crash into each other.
  * <p>
- * In mutithreading, the shared entity mostly leads to a problem when concurrency is incorporated. A shared entity such as, mutable object or variable, might be changed, which may result in the inconsistency of the program or database. So, it becomes crucial to deal with the shared entity while accessed concurrently.
+ * In mutithreading, the shared entity mostly leads to a problem when concurrency is incorporated.
+ * A shared entity such as, mutable object or variable, might be changed, which may result in the inconsistency of the program or database.
+ * So, it becomes crucial to deal with the shared entity while accessed concurrently.
  * An atomic variable can be one of the alternatives in such a scenario.
  * <p>
- * Java provides atomic classes such as AtomicInteger, AtomicLong, AtomicBoolean and AtomicReference. Objects of these classes represent the atomic variable of int, long, boolean, and object reference respectively. These classes contain the following methods.
+ * Java provides atomic classes such as AtomicInteger, AtomicLong, AtomicBoolean and AtomicReference.
+ * Objects of these classes represent the atomic variable of int, long, boolean, and object reference respectively.
+ * These classes contain the following methods.
  * <p>
  * set(int value): Sets to the given value
  * get(): Gets the current value
@@ -36,8 +40,8 @@ public class AtomicVaRIABLE {
         executorService.submit(() -> multiThreadedMethod());
         //when using executor service remember to do awaitTermination to wait for thread's processing to finish
         executorService.awaitTermination(2, TimeUnit.SECONDS);
-        System.out.println(atomicInteger.get());
-        System.out.println(normalnteger);
+        System.out.println("atomic "+atomicInteger.get());
+        System.out.println("normal "+normalnteger);
     }
 
     //the same can be acheived by making this synchrinized and not using atomic var at all
