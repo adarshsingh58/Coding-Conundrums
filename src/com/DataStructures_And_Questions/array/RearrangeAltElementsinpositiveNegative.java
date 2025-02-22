@@ -1,4 +1,4 @@
-package com.DataStructures_And_Questions.array.conundrums;
+package com.DataStructures_And_Questions.array;
 /**
  *
  * You are given a 0-indexed integer array nums of even length consisting of an equal number of positive and negative integers.

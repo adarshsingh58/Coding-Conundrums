@@ -1,4 +1,4 @@
-package com.DataStructures_And_Questions.array.conundrums;
+package com.DataStructures_And_Questions.array;
 
 import java.util.HashSet;
 import java.util.Set;

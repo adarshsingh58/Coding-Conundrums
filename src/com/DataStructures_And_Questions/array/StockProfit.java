@@ -1,4 +1,4 @@
-package com.DataStructures_And_Questions.array.conundrums;
+package com.DataStructures_And_Questions.array;
 
 /**
  * ou are given an array prices where prices[i] is the price of a given stock on the ith day.
