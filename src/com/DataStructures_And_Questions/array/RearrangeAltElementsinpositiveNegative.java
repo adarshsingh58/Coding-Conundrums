@@ -3,7 +3,7 @@ package com.DataStructures_And_Questions.array;
  *
  * You are given a 0-indexed integer array nums of even length consisting of an equal number of positive and negative integers.
  *
- * You should return the array of nums such that the the array follows the given conditions:
+ * You should return the array of nums such that  the array follows the given conditions:
  *
  *     Every consecutive pair of integers have opposite signs.
  *     For all integers with the same sign, the order in which they were present in nums is preserved.
@@ -30,6 +30,11 @@ package com.DataStructures_And_Questions.array;
  * 1 is the only positive integer and -1 the only negative integer in nums.
  * So nums is rearranged to [1,-1].
  *
+ * Example 3:
+ * Input: nums = [-3,-1,2,-5,2,4]
+ * Output: [2,-3,2,-1,4,-5]
+ *
+ *
  * https://leetcode.com/problems/rearrange-array-elements-by-sign/
  * */
 public class RearrangeAltElementsinpositiveNegative {
@@ -39,8 +44,14 @@ public class RearrangeAltElementsinpositiveNegative {
         rearrangeArray(nums);
     }
 
-    //This can be done using 2 pointers, one at positive number other at negative number
-    //keep increasing them to next +ve/-ve # and extracting values to output array.
+    /*
+    * "WE HAVE TO WORK ON "2 TYPES" OF VALUES IN ARRAY +ve AND -ve. SO IN THESE SITUATIONS WE CAN TRY TWO POINTER APPROACH"
+    * This can be done using 2 pointers, one at positive number other at negative number
+    * keep increasing them to next +ve/-ve # and extracting values to output array.
+    *
+    * Time Comp O(n)
+    * Space Comp O(n)
+    * */
     public static int[] rearrangeArray(int[] nums) {
         int[] op=new int[nums.length];
         int i=0;

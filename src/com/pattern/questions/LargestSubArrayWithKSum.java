@@ -1,4 +1,4 @@
-package com.blind.seventyfIve.PrefixSums;
+package com.pattern.questions;
 
 import java.util.HashMap;
 import java.util.Map;
