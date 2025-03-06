@@ -1,7 +1,7 @@
 package com.DataStructures_And_Questions.trees;
 
-import com.DataStructures_And_Questions.trees.TreeBasic.BinarySearchTree;
-import com.DataStructures_And_Questions.trees.TreeBasic.Node;
+import com.DataStructures_And_Questions.trees.BST.BinarySearchTree;
+import com.DataStructures_And_Questions.trees.BST.BinarySearchTree.Node;
 
 /**
  * Given the root node of a binary search tree (BST), find and return the minimum value present in the BST.

@@ -3,8 +3,10 @@ package com.DataStructures_And_Questions.sorting;
 import java.util.Scanner;
 
 /*
- * Quick sort is one of the most efficient sorting algo. It's worst time complexity is O(n^2) but its average time complexity come upto be O(log n).
- * And with the analysis of the algo, it can be deduced that the algo has a high probability of completing the task in average time complexity in real
+ * Quick sort is one of the most efficient sorting algo. It's worst time complexity is O(n^2) but its
+ * average time complexity come upto be O(log n).
+ * And with the analysis of the algo, it can be deduced that the algo has a high probability of completing
+ * the task in average time complexity in real
  * time scenarios. Hence, is highly efficient.
  *
  * Also, its space complexity is O(1) as it utilizes the input array by sorting various sections based on index.

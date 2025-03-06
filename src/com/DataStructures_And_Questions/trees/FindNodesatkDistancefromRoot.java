@@ -1,6 +1,6 @@
 package com.DataStructures_And_Questions.trees;
 
-import com.DataStructures_And_Questions.trees.TreeBasic.Node;
+import com.DataStructures_And_Questions.trees.BST.BinarySearchTree.Node;
 
 import java.util.ArrayList;
 import java.util.List;

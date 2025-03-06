@@ -1,12 +1,16 @@
 package com.DataStructures_And_Questions.QueuesStack;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Stack;
 
 /**
- * Implement a nextGreaterElement() function that takes an array of integers, arr, as input and returns the next greater number for every element in the array.
+ * Implement a nextGreaterElement() function that takes an array of integers, arr, as input and returns the next greater number for every
+ * element in the array.
  * <p>
- * The next greater number for a number arr[i] is the first number to its right that is greater than arr[i]. If no such number exists, return -1 for this number.
+ * The next greater number for a number arr[i] is the first number to its right that is greater than arr[i]. If no such number exists,
+ * return -1 for this number.
  * <p>
  * Constraints:
  * <p>
@@ -22,11 +26,13 @@ public class NextGreaterElementUsingStack {
     /**
      * Time complexity
      * <p>
-     * The time complexity of the algorithm is O(n)O(n), where nn is the number of elements in the input array. This is because the algorithm iterates over the array exactly once.
+     * The time complexity of the algorithm is O(n), where n is the number of elements in the input array.
+     * This is because the algorithm iterates over the array exactly once.
      * <p>
      * Space complexity
      * <p>
-     * The space complexity of the algorithm is O(n)O(n), where nn is the number of elements in the input array. In the worst case, the stack will have all the elements in it.
+     * The space complexity of the algorithm is O(n), where nn is the number of elements in the input array.
+     * In the worst case, the stack will have all the elements in it.
      */
     public static int[] nextGreaterElement(int[] arr) {
         java.util.Stack<Integer> stack = new Stack<>();
@@ -49,18 +55,36 @@ public class NextGreaterElementUsingStack {
         return res;
     }
 
+    public static int[] nextGreaterElement_noSpace(int[] arr) {
+        int[] op = new int[arr.length];
+        int rightMax = -1;
+        op[op.length - 1] = rightMax;
+        for (int i = arr.length - 2; i > -1; i--) {
+            if (arr[i] < arr[i + 1]) {
+                op[i]=arr[i+1];
+                rightMax=arr[i+1];
+            }else if(arr[i]<rightMax){
+                op[i]=rightMax;
+            }else{
+                op[i]=-1;
+                rightMax=arr[i];
+            }
+        }
+        return op;
+    }
     public static void main(String[] args) {
         int[][] inputs = {
                 {4, 6, 3, 2, 8, 1, 9, 9, 9},
                 {33, 20, 105, 88},
                 {12, 5, 44, 56, 46, 78},
                 {1, 2, 3, 4, 5},
+                {41,88, 58, 69, 93, 42, 44, 25, 12, 47, 41, 88, 58, 69, 93, 42,44 ,25, 12, 47},
                 {150, 125, 100, 75, 50, 25, 0}
         };
 
         for (int i = 0; i < inputs.length; i++) {
             System.out.println((i + 1) + "\tArray: " + Arrays.toString(inputs[i]));
-            System.out.println("\n\tResult: " + Arrays.toString(nextGreaterElement(inputs[i])));
+            System.out.println("\n\tResult: " + Arrays.toString(nextGreaterElement_noSpace(inputs[i])));
             System.out.println(new String(new char[100]).replace('\0', '-'));
         }
     }

@@ -1,21 +1,70 @@
 package com.pattern.questions.heap;
 
+import java.util.PriorityQueue;
+
 /**
- * A busy investor with an initial capital, c, needs an automated investment program. They can select k distinct projects from a list of n projects with corresponding capitals requirements and expected profits. For a given project ii, its capital requirement is capitals[i]capitals[i] , and the profit it yields is profits[i]profits[i].
- * <p>
- * The goal is to maximize their cumulative capital by selecting a maximum of k distinct projects to invest in, subject to the constraint that the investor’s current capital must be greater than or equal to the capital requirement of all selected projects.
- * <p>
- * When a selected project from the identified ones is finished, the pure profit from the project, along with the starting capital of that project is returned to the investor. This amount will be added to the total capital held by the investor. Now, the investor can invest in more projects with the new total capital. It is important to note that each project can only be invested once.
- * <p>
- * As a basic risk-mitigation measure, the investor wants to limit the number of projects they invest in. For example, if k is 22, the program should identify the two projects that maximize the investor’s profits while ensuring that the investor’s capital is sufficient to invest in the projects.
- * <p>
- * Overall, the program should help the investor to make informed investment decisions by picking a list of a maximum of k distinct projects to maximize the final profit while mitigating the risk.
+ Suppose LeetCode will start its IPO soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on some projects to increase its capital before the IPO. Since it has limited resources, it can only finish at most k distinct projects before the IPO. Help LeetCode design the best way to maximize its total capital after finishing at most k distinct projects.
+
+ You are given n projects where the ith project has a pure profit profits[i] and a minimum capital of capital[i] is needed to start it.
+
+ Initially, you have w capital. When you finish a project, you will obtain its pure profit and the profit will be added to your total capital.
+
+ Pick a list of at most k distinct projects from given projects to maximize your final capital, and return the final maximized capital.
+
+ The answer is guaranteed to fit in a 32-bit signed integer.
+
+
+
+ Example 1:
+
+ Input: k = 2, w = 0, profits = [1,2,3], capital = [0,1,1]
+ Output: 4
+ Explanation: Since your initial capital is 0, you can only start the project indexed 0.
+ After finishing it you will obtain profit 1 and your capital becomes 1.
+ With capital 1, you can either start the project indexed 1 or the project indexed 2.
+ Since you can choose at most 2 projects, you need to finish the project indexed 2 to get the maximum capital.
+ Therefore, output the final maximized capital, which is 0 + 1 + 3 = 4.
+
+ Example 2:
+
+ Input: k = 3, w = 0, profits = [1,2,3], capital = [0,1,2]
+ Output: 6
+
+ *
+ *
+ * https://leetcode.com/problems/ipo/description/
  */
 public class Ipo {
     public static void main(String[] args) {
 
     }
 
+    public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
+        PriorityQueue<Data> data=new PriorityQueue<>();
+        int op=0;
+        for(int i=0;i<profits.length;i++)
+            data.offer(new Data(capital[i],profits[i]));
 
+
+
+        return op;
+    }
+
+    class Data implements Comparable{
+        Integer profit;
+        Integer capital;
+
+        Data(Integer profit,Integer capital){
+            this.profit=profit;
+            this.capital=capital;
+        }
+        @Override
+        public int compareTo(Object o) {
+            Data d= (Data) o;
+
+            return this.capital.compareTo(d.capital) == 0 ? this.profit.compareTo(d.profit) : this.capital.compareTo(d.capital);
+
+        }
+    }
 
 }

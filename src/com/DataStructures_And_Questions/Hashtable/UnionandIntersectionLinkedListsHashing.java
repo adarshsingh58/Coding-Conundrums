@@ -1,9 +1,13 @@
 package com.DataStructures_And_Questions.Hashtable;
 
-import com.DataStructures_And_Questions.linkedList.LinkedList.LinkedList;
+import com.DataStructures_And_Questions.linkedList.LinkedList.LinkedList.Node;
+
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
- * Given two linked lists as inputs containing integer values, implement the union and intersection functions for the linked lists. The order of elements in the output lists doesn’t matter.
+ * Given two linked lists as inputs containing integer values, implement the union and intersection functions for the linked lists.
+ * The order of elements in the output lists doesn’t matter.
  * <p>
  * Here’s how to implement the functions:
  * <p>
@@ -59,5 +63,28 @@ public class UnionandIntersectionLinkedListsHashing {
             System.out.println("\n"+ new String(new char[75]).replace('\0', '-') + "\n");*/
         }
     }
+    /*public static Node findUnion(Node head, Node head2) {
+        // Add your code here.
+        Set<Integer> set=new TreeSet<>();
+        if(head==null ) return head2;
+        if(head2==null ) return head;
+        while(head!=null){
+            set.add(head.data);
+            head=head.next;
+        }
 
+        while(head2!=null){
+            set.add(head2.data);
+            head2=head2.next;
+        }
+
+        Node headop=new Node(0);
+        Node curr=headop;
+        for(Integer s:set){
+            curr.next=new Node(s);
+            curr=curr.next;
+        }
+
+        return headop.next;
+    }*/
 }

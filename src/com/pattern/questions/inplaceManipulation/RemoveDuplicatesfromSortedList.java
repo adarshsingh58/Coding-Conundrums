@@ -1,6 +1,6 @@
 package com.pattern.questions.inplaceManipulation;
 
-import com.DataStructures_And_Questions.linkedList.linkedListBase.LinkedList;
+import com.DataStructures_And_Questions.linkedList.LinkedList.LinkedList;
 
 /**
  * Given the head of a sorted linked list, remove all duplicates such that each element appears only once, and return the list in sorted order.

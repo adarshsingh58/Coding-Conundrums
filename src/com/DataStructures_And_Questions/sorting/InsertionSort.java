@@ -24,7 +24,7 @@ public class InsertionSort {
      * At end of each outer iteration we have smallest number from the right
      * unsorted array to the left side i.e. at index i.
      *
-     * @TimeComplexity is O(n2) i.e. quadratic
+     * @TimeComplexity is O(n^2) i.e. quadratic
      * @SpaceComplexity is O(1) as operation performed on same array
      */
     private static int[] insertionSort(int[] inputArr) {

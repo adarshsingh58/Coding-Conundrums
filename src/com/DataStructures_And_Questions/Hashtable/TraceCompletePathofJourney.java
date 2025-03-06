@@ -3,7 +3,9 @@ package com.DataStructures_And_Questions.Hashtable;
 import java.util.*;
 
 /**
- * Given an array paths, where pathsipathsi​ contains a pair of strings [sourcei,destinationi][sourcei​,destinationi​] representing there exists a direct path from sourceisourcei​ to destinationidestinationi​. Return the correct sequence of the whole journey from the first city to the last.
+ * Given an array paths, where paths i contains a pair of strings [source,destination]
+ * representing there exists a direct path from source to destination.
+ * Return the correct sequence of the whole journey from the first city to the last.
  * <p>
  * Note: It is guaranteed that a journey always exists.
  * <p>
@@ -12,11 +14,12 @@ import java.util.*;
  * 1≤1≤ paths.length ≤102≤102
  * paths[i].length ==2==2
  * 1≤1≤ source.length , destination.length ≤10≤10
- * sourceisourcei​ !=!= destinationidestinationi
+ * sourcei !=!= destinationi
  */
 public class TraceCompletePathofJourney {
-  /*We can first convert the input array into a dictionary structure, mapping each source city to its destination. T
-    hen, we create a reverse dictionary to map destinations back to their sources. Next, we identify the starting point
+  /*
+  We can first convert the input array into a dictionary structure, mapping each source city to its destination.
+  Then, we create a reverse dictionary to map destinations back to their sources. Next, we identify the starting point
     of the itinerary by finding the source city without a corresponding destination. Finally, we trace the complete path
     by iteratively following destinations until reaching the end, appending each source-destination pair to the result array.*/
 
@@ -24,9 +27,8 @@ public class TraceCompletePathofJourney {
         Map<String, String> dictionary = new HashMap<>();
 
         // Convert the array into a map
-        for (List<String> path : paths) {
+        for (List<String> path : paths)
             dictionary.put(path.get(0), path.get(1));
-        }
 
         Map<String, String> reverseDict = new HashMap<>();
 
@@ -82,9 +84,6 @@ public class TraceCompletePathofJourney {
                 {{"Singapore", "Sydney"}},
                 {{"HongKong", "Taipei"}, {"Osaka", "Seoul"}, {"Taipei", "Singapore"}, {"Tokyo", "Osaka"}, {"Beijing", "Shanghai"}, {"Seoul", "Beijing"}, {"Singapore", "KualaLumpur"}, {"Shanghai", "HongKong"}}
         };
-
-
-
 
         for (int i=0;i<inputMaps.length;i++) {
 
