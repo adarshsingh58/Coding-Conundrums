@@ -1,4 +1,4 @@
-package com.pattern.questions.RecursionBacktracking;
+package com.pattern.questions.backtrack;
 
 /**
  * * Kth Symbol In Grammar

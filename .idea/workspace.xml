@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="fixed structure">
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/CalculateDistanceBetweenTwoCoordinatesinJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/FindingCabsNearby.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/FloodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/MaximumNumberofAcceptedInvitationstoParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/customers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/CoinChange_I_recursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/RecursionBacktracking/CoinChange_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/RecursionBacktracking/CoinChange_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/RecursionBacktracking/CoinChange_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/RecursionBacktracking/CoinChange_II.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,18 +159,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "adarshsingh58"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adarshsingh58&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/adarshsingh58/Coding-Conundrums.git",
-    "accountId": "5538ff58-1b0d-4b4b-acfb-51272c05a104"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/adarshsingh58/Coding-Conundrums.git&quot;,
+    &quot;accountId&quot;: &quot;5538ff58-1b0d-4b4b-acfb-51272c05a104&quot;
   }
-}]]></component>
+}</component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -310,24 +308,57 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ArrangeArray_i_at_arrOfi.executor": "Debug",
+    "Application.ArrayLeader.executor": "Run",
     "Application.AtomicVaRIABLE.executor": "Run",
     "Application.CalculateDistanceBetweenTwoCoordinatesinJava.executor": "Run",
     "Application.CheckPathExists2Vertices.executor": "Run",
+    "Application.CoinChange_I.executor": "Run",
+    "Application.CoinChange_I_recursion.executor": "Run",
+    "Application.CombinationSumIIRecursion.executor": "Run",
+    "Application.CombinationSumRecursion.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.CountEdgesUndirectedGraph.executor": "Run",
     "Application.EvaluateInfixExpression.executor": "Run",
+    "Application.FindAllPermutation_Recursion.executor": "Run",
+    "Application.FindLowHighIndex.executor": "Run",
+    "Application.FindMedianfromDataStream.executor": "Debug",
+    "Application.FindRightInterval.executor": "Debug",
+    "Application.FindSmallestCommonNumber.executor": "Run",
     "Application.FindSymmetricPairsinArray.executor": "Run",
     "Application.FindTheCelebrity.executor": "Debug",
+    "Application.HouseRobberIII.executor": "Run",
+    "Application.KadaneAlgoForMaxSumSubArray.executor": "Run",
+    "Application.LargestNumberAfterDigitSwapsbyParity.executor": "Run",
+    "Application.LongestIncreasingSubsequence.executor": "Run",
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MajorityElementInArray.executor": "Debug",
+    "Application.MaximumInSlidingWindow.executor": "Run",
+    "Application.MeetingRoomsIII.executor": "Run",
     "Application.MergeOverlappingIntervals.executor": "Debug",
-    "Application.NextGreaterElementUsingStack.executor": "Run",
+    "Application.MergeSortedArray.executor": "Run",
+    "Application.MinStack.executor": "Run",
+    "Application.MoveZerosToLeft.executor": "Run",
+    "Application.NextGreaterElementUsingStack.executor": "Debug",
+    "Application.PalindromeCheckRecusrsion.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
+    "Application.Permutations.executor": "Run",
+    "Application.PrintAllSubSequenceOfArrayRecursion.executor": "Run",
     "Application.RearrangeAltElementsinpositiveNegative.executor": "Debug",
+    "Application.ReverseArray.executor": "Run",
     "Application.ReverseKElementsInaQueue.executor": "Debug",
+    "Application.SUbSetII_Recursion.executor": "Debug",
+    "Application.Solution.executor": "Debug",
     "Application.SortOddEvensSeperately.executor": "Run",
     "Application.SortStack.executor": "Run",
+    "Application.SubSeqWithKSumRecursion.executor": "Run",
+    "Application.SubSetSumI_Rcursion.executor": "Run",
+    "Application.Subsets.executor": "Run",
     "Application.ThreadLocal.executor": "Run",
+    "Application.TimeBasedKeyValueStore.executor": "Run",
+    "Application.WordCount.executor": "Run",
     "Application.WordFormationUsingHashTable.executor": "Debug",
     "Application.com.DataStructures_And_Questions.trie.Main.executor": "Run",
     "Application.com.Main.executor": "Run",
@@ -336,6 +367,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/adarsh.singh/Downloads/personal/Coding-Conundrums/src/com/pattern/questions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -344,40 +376,43 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.datastructures" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/pattern/questions" />
       <recent name="$PROJECT_DIR$/src/com/questions/graph" />
       <recent name="$PROJECT_DIR$/src/com/questions/linkedList/CopyListWithRandomPointer" />
       <recent name="$PROJECT_DIR$/src/com/questions/scenarioBasedQues" />
       <recent name="$PROJECT_DIR$/src/com/sorting" />
-      <recent name="$PROJECT_DIR$/src/com/datastructures/Graph" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array" />
+      <recent name="$PROJECT_DIR$/src/com/pattern/questions/topologicalSort" />
+      <recent name="$PROJECT_DIR$/src/com/pattern/questions/DynamicProgramming" />
+      <recent name="$PROJECT_DIR$/src/com/pattern/questions/backtrack" />
+      <recent name="$PROJECT_DIR$/src/com/pattern/questions/customDS" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.datastructures" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pattern.questions.recursionbasics" />
       <recent name="multithreading" />
       <recent name="com.questions.array.conundrums.rotation" />
       <recent name="com.questions.trees" />
       <recent name="com.questions.scenarioBasedQues" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/SkyLine" />
-      <recent name="$PROJECT_DIR$/src/com/questions/scenarioBasedQues/TrappingWater" />
-      <recent name="$PROJECT_DIR$/src/com/datastructures/BST" />
-      <recent name="$PROJECT_DIR$/src/com/datastructures/BST/bst" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.CalculateDistanceBetweenTwoCoordinatesinJava">
-    <configuration name="AtomicVaRIABLE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.multithreading.AtomicVaRIABLE" />
+  <component name="RunManager" selected="Application.CoinChange_I_recursion">
+    <configuration name="CoinChange_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.RecursionBacktracking.CoinChange_I" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.multithreading.*" />
+          <option name="PATTERN" value="com.pattern.questions.RecursionBacktracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,12 +420,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculateDistanceBetweenTwoCoordinatesinJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.scenarioBasedQues.CalculateDistanceBetweenTwoCoordinatesinJava" />
+    <configuration name="CoinChange_I_recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.recursionbasics.CoinChange_I_recursion" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DataStructures_And_Questions.scenarioBasedQues.*" />
+          <option name="PATTERN" value="com.pattern.questions.recursionbasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,12 +433,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Main" />
+    <configuration name="FindAllPermutation_Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.recursionbasics.FindAllPermutation_Recursion" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="com.pattern.questions.recursionbasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,12 +446,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortOddEvensSeperately" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.OtherPrograms.SortOddEvensSeperately" />
+    <configuration name="SUbSetII_Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.recursionbasics.SUbSetII_Recursion" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DataStructures_And_Questions.OtherPrograms.*" />
+          <option name="PATTERN" value="com.pattern.questions.recursionbasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,12 +459,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.multithreading.ThreadLocal" />
+    <configuration name="SubSetSumI_Rcursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.recursionbasics.SubSetSumI_Rcursion" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.multithreading.*" />
+          <option name="PATTERN" value="com.pattern.questions.recursionbasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -439,11 +474,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculateDistanceBetweenTwoCoordinatesinJava" />
-        <item itemvalue="Application.ThreadLocal" />
-        <item itemvalue="Application.AtomicVaRIABLE" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SortOddEvensSeperately" />
+        <item itemvalue="Application.CoinChange_I_recursion" />
+        <item itemvalue="Application.CoinChange_I" />
+        <item itemvalue="Application.FindAllPermutation_Recursion" />
+        <item itemvalue="Application.SUbSetII_Recursion" />
+        <item itemvalue="Application.SubSetSumI_Rcursion" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +502,13 @@
       <workItem from="1734936615849" duration="15937000" />
       <workItem from="1735530367094" duration="597000" />
       <workItem from="1735534886365" duration="139936000" />
-      <workItem from="1738644012060" duration="10352000" />
+      <workItem from="1738644012060" duration="42793000" />
+      <workItem from="1739333424972" duration="12437000" />
+      <workItem from="1740096199766" duration="103905000" />
+      <workItem from="1740657658003" duration="80000" />
+      <workItem from="1740657808626" duration="19578000" />
+      <workItem from="1741753832146" duration="32000" />
+      <workItem from="1741753905742" duration="25592000" />
     </task>
     <task id="LOCAL-00001" summary="fixed structure">
       <option name="closed" value="true" />
@@ -485,7 +526,71 @@
       <option name="project" value="LOCAL" />
       <updated>1738649082422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1738663062038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738663062038</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1739118370501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739118370501</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1739169406791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739169406791</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1740218340330</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740218340330</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1740220810949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740220810949</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1740299612029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740299612029</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1741227133164</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741227133164</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1742116631920</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742116631921</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -590,7 +695,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/GroupAnagrams.java</url>
-          <line>26</line>
+          <line>48</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -685,7 +790,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/linkedList/AddTwoIntegers.java</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -694,7 +799,7 @@
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/RemoveDuplicatesFromSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/RemoveDuplicatesFromSortedArray.java</url>
           <line>37</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
@@ -720,12 +825,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/BinaryTreeZigzagLevelOrderTraversal.java</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/BinaryTreeZigzagLevelOrderTraversal.java</url>
-          <line>79</line>
+          <line>80</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -739,12 +844,12 @@
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/rotation/MinElementSortedRotatedDuplicateArr.java</url>
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/rotation/MinElementSortedRotatedDuplicateArr.java</url>
           <line>52</line>
           <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/Matrix_SearchInMatrix.java</url>
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/Matrix_SearchInMatrix.java</url>
           <line>61</line>
           <option name="timeStamp" value="143" />
         </line-breakpoint>
@@ -809,17 +914,17 @@
           <option name="timeStamp" value="188" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/RearrangeAltElementsinpositiveNegative.java</url>
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/RearrangeAltElementsinpositiveNegative.java</url>
           <line>62</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/MergeOverlappingIntervals.java</url>
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/MergeOverlappingIntervals.java</url>
           <line>75</line>
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/conundrums/MergeOverlappingIntervals.java</url>
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/MergeOverlappingIntervals.java</url>
           <line>97</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
@@ -857,6 +962,105 @@
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Hashtable/WordFormationUsingHashTable.java</url>
           <line>23</line>
           <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/GroupAnagrams.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/FindLowHighIndex.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/FindLowHighIndex.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/LongestIncreasingSubsequence.java</url>
+          <line>45</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/heap/FindMedianfromDataStream.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/heap/FindMedianfromDataStream.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/heap/MeetingRoomsIII.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/heap/MeetingRoomsIII.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/heap/FindRightInterval.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/NextGreaterElementUsingStack.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/ReverseArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/ReverseArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/CombinationSumRecursion.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/CombinationSumRecursion.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/CombinationSumRecursion.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/SUbSetII_Recursion.java</url>
+          <line>27</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/SUbSetII_Recursion.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/CoinChange_I_recursion.java</url>
+          <line>36</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="255" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

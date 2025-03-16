@@ -1,4 +1,4 @@
-package com.pattern.questions.RecursionBacktracking;
+package com.pattern.questions.backtrack;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,32 +29,6 @@ public class CoinChange_II {
      * return the possible number of ways in which the coins can satisfy the target amount.
      */
 
-    // ? Inefficient solution, as it makes
-    // ? similar recursive calls multiple times.
-
-    // private static int numberOfWays(
-    //   int target,
-    //   List<Integer> coins,
-    //   int index
-    // ) {
-
-    //   // * Base Case
-    //   if (target == 0)
-    //     return 1;
-
-    //   // If target is negative, or
-    //  // target is present but coins are not
-    //   if (
-    //     target < 0 ||
-    //     (target > 0 && index < 0)
-    //   )
-    //     return 0;
-
-    //   return
-    //     numberOfWays(target, coins, index - 1) +
-    //     numberOfWays(target - coins.get(index), coins, index);
-
-    // }
     public static int numberOfWays(int target, List<Integer> coins) {
 
         // return numberOfWays(target, coins, coins.size() - 1);

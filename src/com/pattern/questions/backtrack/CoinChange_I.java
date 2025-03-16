@@ -1,4 +1,4 @@
-package com.pattern.questions.RecursionBacktracking;
+package com.pattern.questions.backtrack;
 
 import java.util.*;
 
@@ -13,16 +13,17 @@ public class CoinChange_I {
         System.out.println(CoinChange_I.minCoinsRequired(12, new ArrayList<>(Arrays.asList(1, 3, 7))));
 
         // should be 3
-        System.out.println(
-                CoinChange_I.minCoinsRequired(45, new ArrayList<>(Arrays.asList(1, 5, 10, 25))));
+        System.out.println(CoinChange_I.minCoinsRequired(45, new ArrayList<>(Arrays.asList(1, 5, 10, 25))));
 
         // should be 5
-        System.out.println(
-                CoinChange_I.minCoinsRequired(23, new ArrayList<>(Arrays.asList(1, 5, 10, 25))));
+        System.out.println(CoinChange_I.minCoinsRequired(23, new ArrayList<>(Arrays.asList(1, 5, 10, 25))));
 
         // should be 8
-        System.out.println(
-                CoinChange_I.minCoinsRequired(74, new ArrayList<>(Arrays.asList(1, 5, 10, 25))));
+        System.out.println(CoinChange_I.minCoinsRequired(74, new ArrayList<>(Arrays.asList(1, 5, 10, 25))));
+    }
+
+    private static int minCoinsRequired(int target, List<Integer> coins) {
+        return minCoinsRequired(target, coins, new HashMap<>());
     }
 
     /**
@@ -32,8 +33,7 @@ public class CoinChange_I {
 
     // ? Efficient solution, as it uses DP
     // ? to store the previously calculated results
-    private static int minCoinsRequired(
-            int target, List<Integer> coins, Map<Integer, Integer> results) {
+    private static int minCoinsRequired(int target, List<Integer> coins, Map<Integer, Integer> results) {
 
         int minimumCoins = target;
 
@@ -56,30 +56,4 @@ public class CoinChange_I {
         return minimumCoins;
     }
 
-    public static int minCoinsRequired(int target, List<Integer> coins) {
-
-        /**
-         * ? Works only for American-Style coins.
-         * ? WON'T work with odd/prime coin values.
-         *
-         * ! Inefficient, as it constantly makes a lot
-         * ! of similar recursive calls.
-         */
-        // int minimumCoins = target;
-
-        // *  Base Case
-        // if (coins.contains(target))
-        //   return 1;
-
-        // for (Integer coin : coins)
-        //   if (coin <= target) {
-
-        //     int numberOfCoins = 1 + minCoinsRequired(target - coin, coins);
-        //     minimumCoins = Math.min(numberOfCoins, minimumCoins);
-        //   }
-
-        // return minimumCoins;
-
-        return minCoinsRequired(target, coins, new HashMap<>());
-    }
 }

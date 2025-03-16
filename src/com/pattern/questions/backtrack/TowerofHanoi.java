@@ -1,4 +1,4 @@
-package com.pattern.questions.RecursionBacktracking;
+package com.pattern.questions.backtrack;
 
 /**
  * * Tower Of Hanoi problem using Recursion
