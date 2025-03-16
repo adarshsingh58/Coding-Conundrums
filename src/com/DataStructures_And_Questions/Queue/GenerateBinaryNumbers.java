@@ -3,11 +3,11 @@ package com.DataStructures_And_Questions.Queue;
 import com.DataStructures_And_Questions.Queue.Queue.Queue;
 
 /**
- * Given a number n, generate a list of binary numbers from 11 to n in the form of a string using a queue.
+ * Given a number n, generate a list of binary numbers from 1 to n in the form of a string using a queue.
  * <p>
  * Constraints:
  * <p>
- * 1≤1≤ n ≤1000≤1000
+ * 1≤ n ≤1000
  * <p>
  * Eg: n = 5
  * Output: [1, 10, 11, 101, 111]
@@ -21,7 +21,11 @@ public class GenerateBinaryNumbers {
     }
 
     /*
-     * The algorithm for generating binary numbers up to a specified count using a queue is straightforward. It begins by placing the binary number "1" in the queue and creating an empty list to hold the generated binary numbers. In each iteration of the algorithm, a number is removed from the queue, added to the result list, and then two variations of that number are placed back into the queue by appending "0" and "1". This process is repeated until the desired number of binary numbers has been generated.
+     * The algorithm for generating binary numbers up to a specified count using a queue is straightforward.
+     * It begins by placing the binary number "1" in the queue and creating an empty list to hold the generated binary numbers. I
+     * n each iteration of the algorithm, a number is removed from the queue, added to the result list, and then two variations
+     * of that number are placed back into the queue by appending "0" and "1". This process is repeated until the desired number of
+     * binary numbers has been generated.
      * <p>
      * Below are the detailed steps of the algorithm:
      * <p>

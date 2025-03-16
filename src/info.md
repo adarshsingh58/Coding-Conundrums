@@ -6,10 +6,10 @@ Which data structure is mostly used to convert recursive implementation of an al
 25 Feb: Heap and Map and LinkedList _ SQL
 26 Feb: Math _ 2 Design Use Case
 27 Feb: Queue and Stack _ SQL
-REVISE
 2 Mar: Queue/Stack _ SQL
 3 Mar: Sort _ 2 Design Use Case
 4 Mar: String _ SQL
+REVISE
 5 Mar: Scenario Based _ 2 Design Use Case
 6 Mar:  Trees_ SQL
 7 Mar: Graph _ 2 Design Use Case
@@ -28,4 +28,6 @@ TBD:
 - [IntegerDivision.java](com%2FDataStructures_And_Questions%2Fmath%2FIntegerDivision.java)
 - [PermuteString.java](com%2FDataStructures_And_Questions%2Fmath%2FPermuteString.java)
 - [KadaneAlgoForMaxSumSubArray.java](com%2FDataStructures_And_Questions%2Falgorithms%2FKadaneAlgoForMaxSumSubArray.java)
-- 
+- [MinStack.java](com%2FDataStructures_And_Questions%2FQueuesStack%2FMinStack.java)
+- [NextGreaterElementUsingStack.java](com%2FDataStructures_And_Questions%2FQueuesStack%2FNextGreaterElementUsingStack.java)
+- [QuickSort.java](com%2FDataStructures_And_Questions%2Fsorting%2FQuickSort.java)
