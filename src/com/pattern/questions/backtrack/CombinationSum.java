@@ -1,5 +1,8 @@
 package com.pattern.questions.backtrack;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations
  * of candidates where the chosen numbers sum to target. You may return the combinations in any order.
@@ -24,8 +27,37 @@ package com.pattern.questions.backtrack;
  * Example 3:
  * <p>
  * Input: candidates = [2], target = 1 Output: []
- *
+ * <p>
  * https://leetcode.com/problems/combination-sum/description/
  */
 public class CombinationSum {
+    public static void main(String[] args) {
+        int[] inp = {2, 3, 5};
+        int target = 8;
+
+        List<List<Integer>> opMain = new ArrayList<>();
+        List<Integer> op = new ArrayList<>();
+        combSum(target, inp, inp.length - 1, op, opMain);
+        opMain.forEach(h -> {
+                    h.forEach(y -> {
+                        System.out.print(y + " ");
+                    });
+            System.out.println();
+                }
+        );
+
+    }
+
+    private static void combSum(int target, int[] inp, int currIndex, List<Integer> op, List<List<Integer>> opMain) {
+        if (target == 0) {
+            opMain.add(new ArrayList<>(op));
+            return;
+        }
+        if (currIndex < 0 || target < 0)
+            return;
+        op.add(inp[currIndex]);
+        combSum(target - inp[currIndex], inp, currIndex, op, opMain);
+        op.remove(op.size() - 1);
+        combSum(target, inp, currIndex - 1, op, opMain);
+    }
 }

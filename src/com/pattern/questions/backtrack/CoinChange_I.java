@@ -1,9 +1,10 @@
 package com.pattern.questions.backtrack;
 
 import java.util.*;
+
 /**
- * * CoinChange_I: This is the first variation of the Coin Change Problem. In this variation, you're asked to return
- * the minimum number of coins needed to make the change amount.
+ * * CoinChange_I: This is the first variation of the Coin Change Problem. In this variation, you're asked to return the
+ * minimum number of coins needed to make the change amount.
  */
 public class CoinChange_I {
 
@@ -24,20 +25,31 @@ public class CoinChange_I {
         System.out.println(CoinChange_I.minCoinsRequired(75, new ArrayList<>(Arrays.asList(1, 5, 10, 25))));
     }
 
-    private static int minCoinsRequired(int target, List<Integer> coins) {
+    public static int minCoinsRequired(int target, List<Integer> coins) {
 //        return minCoinsRequired_whenOnly1CoinofEachCanBeUsed(target, coins, new HashMap<>());
 
         List<List<Integer>> opMain = new ArrayList<>();
         List<Integer> op = new ArrayList<>();
-        minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(target, coins, coins.size() - 1, op,opMain);
-        opMain.forEach(h->h.forEach( y->{
-            System.out.print(y+" ");
+        minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(target, coins, coins.size() - 1, op, opMain);
+        opMain.forEach(h -> h.forEach(y -> {
+            System.out.print(y + " ");
         }));
         System.out.println();
         return 0;
     }
 
-    private static boolean minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(int target, List<Integer> coins, int index, List<Integer> coinsConsideredSofar,List<List<Integer>> opMain) {
+    /**
+     * We are returning true/false because we want to stop once the first solution is found,
+     * If we want to find all the solutins then we dont return booleans and the process continues until
+     * entire recursion tree is exhausted.
+     * @param target
+     * @param coins
+     * @param index
+     * @param coinsConsideredSofar
+     * @param opMain
+     * @return
+     */
+    private static boolean minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(int target, List<Integer> coins, int index, List<Integer> coinsConsideredSofar, List<List<Integer>> opMain) {
         if (target < 0)
             return false;
         if (target == 0) {
@@ -50,7 +62,7 @@ public class CoinChange_I {
         } else {
             coinsConsideredSofar.remove(coinsConsideredSofar.size() - 1);
             index--;
-            return minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(target, coins, index , coinsConsideredSofar, opMain);
+            return minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(target, coins, index, coinsConsideredSofar, opMain);
         }
     }
 

@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="fixed structure">
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/recursionbasics/CoinChange_I_recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/HoubseRobber0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/RecursionBacktracking/CoinChange_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/RecursionBacktracking/CoinChange_I.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/RecursionBacktracking/CoinChange_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/RecursionBacktracking/CoinChange_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Combinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/DeleteMiddleElementofAStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/DeleteMiddleElementofAStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/FloodFill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/GenerateBalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/GenerateBalancedParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/GenerateParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/HouseRobberIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/HouseRobberIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Introduction to Backtracking.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Introduction to Backtracking.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/JosephusProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/KthSymbolInGrammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/KthSymbolInGrammar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/LetterCasePermutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,17 +321,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AdditiveNumber.executor": "Debug",
     "Application.ArrangeArray_i_at_arrOfi.executor": "Debug",
     "Application.ArrayLeader.executor": "Run",
     "Application.AtomicVaRIABLE.executor": "Run",
     "Application.CalculateDistanceBetweenTwoCoordinatesinJava.executor": "Run",
     "Application.CheckPathExists2Vertices.executor": "Run",
     "Application.CoinChange_I.executor": "Run",
+    "Application.CoinChange_II.executor": "Run",
     "Application.CoinChange_I_recursion.executor": "Run",
+    "Application.CombinationSum.executor": "Debug",
+    "Application.CombinationSumII.executor": "Debug",
     "Application.CombinationSumIIRecursion.executor": "Run",
     "Application.CombinationSumRecursion.executor": "Run",
+    "Application.Combinations.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.CountEdgesUndirectedGraph.executor": "Run",
+    "Application.DeleteMiddleElementofAStack.executor": "Debug",
     "Application.EvaluateInfixExpression.executor": "Run",
     "Application.FindAllPermutation_Recursion.executor": "Run",
     "Application.FindLowHighIndex.executor": "Run",
@@ -328,9 +346,15 @@
     "Application.FindSmallestCommonNumber.executor": "Run",
     "Application.FindSymmetricPairsinArray.executor": "Run",
     "Application.FindTheCelebrity.executor": "Debug",
+    "Application.FloodFill.executor": "Run",
+    "Application.GenerateBalancedParentheses.executor": "Run",
+    "Application.HoubseRobber0.executor": "Debug",
     "Application.HouseRobberIII.executor": "Run",
+    "Application.JosephusProblem.executor": "Debug",
     "Application.KadaneAlgoForMaxSumSubArray.executor": "Run",
+    "Application.KthSymbolInGrammar.executor": "Debug",
     "Application.LargestNumberAfterDigitSwapsbyParity.executor": "Run",
+    "Application.LetterCasePermutation.executor": "Debug",
     "Application.LongestIncreasingSubsequence.executor": "Run",
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
     "Application.Main.executor": "Run",
@@ -356,6 +380,7 @@
     "Application.SubSeqWithKSumRecursion.executor": "Run",
     "Application.SubSetSumI_Rcursion.executor": "Run",
     "Application.Subsets.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.ThreadLocal.executor": "Run",
     "Application.TimeBasedKeyValueStore.executor": "Run",
     "Application.WordCount.executor": "Run",
@@ -363,6 +388,7 @@
     "Application.com.DataStructures_And_Questions.trie.Main.executor": "Run",
     "Application.com.Main.executor": "Run",
     "Application.com.datastructures.PriorityQueue.Main.executor": "Run",
+    "Application.com.pattern.questions.backtrack.CoinChange_I.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -389,10 +415,10 @@
       <recent name="$PROJECT_DIR$/src/com/sorting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/pattern/questions/backtrack" />
       <recent name="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array" />
       <recent name="$PROJECT_DIR$/src/com/pattern/questions/topologicalSort" />
       <recent name="$PROJECT_DIR$/src/com/pattern/questions/DynamicProgramming" />
-      <recent name="$PROJECT_DIR$/src/com/pattern/questions/backtrack" />
       <recent name="$PROJECT_DIR$/src/com/pattern/questions/customDS" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -406,13 +432,13 @@
       <recent name="com.questions.scenarioBasedQues" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoinChange_I_recursion">
-    <configuration name="CoinChange_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.RecursionBacktracking.CoinChange_I" />
+  <component name="RunManager" selected="Application.LetterCasePermutation">
+    <configuration name="GenerateBalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.GenerateBalancedParentheses" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.RecursionBacktracking.*" />
+          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,12 +446,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange_I_recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.recursionbasics.CoinChange_I_recursion" />
+    <configuration name="HoubseRobber0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.HoubseRobber0" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.recursionbasics.*" />
+          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -433,12 +459,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllPermutation_Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.recursionbasics.FindAllPermutation_Recursion" />
+    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.JosephusProblem" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.recursionbasics.*" />
+          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,12 +472,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SUbSetII_Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.recursionbasics.SUbSetII_Recursion" />
+    <configuration name="KthSymbolInGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.KthSymbolInGrammar" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.recursionbasics.*" />
+          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -459,12 +485,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSetSumI_Rcursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.recursionbasics.SubSetSumI_Rcursion" />
+    <configuration name="LetterCasePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.LetterCasePermutation" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.recursionbasics.*" />
+          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,11 +500,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CoinChange_I_recursion" />
-        <item itemvalue="Application.CoinChange_I" />
-        <item itemvalue="Application.FindAllPermutation_Recursion" />
-        <item itemvalue="Application.SUbSetII_Recursion" />
-        <item itemvalue="Application.SubSetSumI_Rcursion" />
+        <item itemvalue="Application.LetterCasePermutation" />
+        <item itemvalue="Application.KthSymbolInGrammar" />
+        <item itemvalue="Application.JosephusProblem" />
+        <item itemvalue="Application.HoubseRobber0" />
+        <item itemvalue="Application.GenerateBalancedParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +534,9 @@
       <workItem from="1740657658003" duration="80000" />
       <workItem from="1740657808626" duration="19578000" />
       <workItem from="1741753832146" duration="32000" />
-      <workItem from="1741753905742" duration="25592000" />
+      <workItem from="1741753905742" duration="45040000" />
+      <workItem from="1742317317722" duration="72000" />
+      <workItem from="1742317396626" duration="37660000" />
     </task>
     <task id="LOCAL-00001" summary="fixed structure">
       <option name="closed" value="true" />
@@ -590,7 +618,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742116631921</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1742125534210</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742125534210</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1742401002116</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742401002116</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1061,6 +1105,69 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/AdditiveNumber.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_I.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_I.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_I.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/Combinations.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/Combinations.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSumII.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSumII.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSum.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/HoubseRobber0.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/KthSymbolInGrammar.java</url>
+          <line>39</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/LetterCasePermutation.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="282" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

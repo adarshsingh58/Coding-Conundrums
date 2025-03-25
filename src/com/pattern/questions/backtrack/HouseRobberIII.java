@@ -10,6 +10,53 @@ package com.pattern.questions.backtrack;
  * houses that are directly connected, the police will be notified. The thief wants to know the maximum amount of money
  * he can steal from the houses without getting caught by the police. The thief needs your help determining the maximum
  * amount of money he can rob without alerting the police.
+ * <p>
+ * <p>
+ * https://leetcode.com/problems/house-robber-iii/description/
  */
 public class HouseRobberIII {
+    public static void main(String[] args) {
+
+    }
+
+    /**
+     * The idea is simple, we just have to find the sum of all the nodes with 1 condition: - either we skip first level
+     * or we skip second level Maximum of these two sums is our answer.
+     */
+    public int rob(TreeNode root) {
+        return Math.max(robRec(root, false), robRec(root, true));
+    }
+
+    public int robRec(TreeNode root, boolean skip) {
+        if (root == null)
+            return 0;
+        int currLoot = 0;
+        if (skip) {
+            skip = false;
+        } else {
+            skip = true;
+            currLoot = root.val;
+        }
+        return currLoot + robRec(root.left, skip) + robRec(root.right, skip);
+    }
+
+    private class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 }
+
