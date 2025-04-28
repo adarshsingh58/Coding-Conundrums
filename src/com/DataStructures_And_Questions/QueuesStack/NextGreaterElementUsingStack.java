@@ -1,8 +1,6 @@
 package com.DataStructures_And_Questions.QueuesStack;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Stack;
 
 /**
@@ -31,7 +29,7 @@ public class NextGreaterElementUsingStack {
      * <p>
      * Space complexity
      * <p>
-     * The space complexity of the algorithm is O(n), where nn is the number of elements in the input array.
+     * The space complexity of the algorithm is O(n), where n is the number of elements in the input array.
      * In the worst case, the stack will have all the elements in it.
      */
     public static int[] nextGreaterElement(int[] arr) {

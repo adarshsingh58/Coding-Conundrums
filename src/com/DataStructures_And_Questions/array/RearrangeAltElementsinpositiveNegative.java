@@ -11,8 +11,6 @@ package com.DataStructures_And_Questions.array;
  *
  * Return the modified array after rearranging the elements to satisfy the aforementioned conditions.
  *
- *
- *
  * Example 1:
  *
  * Input: nums = [3,1,-2,-5,2,-4]

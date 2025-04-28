@@ -5,7 +5,6 @@ package com.pattern.questions.breadthFirstSearch;
  * level by level).
  * <p>
  * <p>
- * <p>
  * Example 1:
  * <p>
  * Input: root = [3,9,20,null,null,15,7] Output: [[3],[9,20],[15,7]]

@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Given a queue and a number k, reverse the order of the first k elements in queue. If k is less than 00, if k exceeds queue size, or if queue is empty, return NULL. Otherwise, return the modified queue.
+ * Given a queue and a number k, reverse the order of the first k elements in queue.
+ * If k is less than 00, if k exceeds queue size, or if queue is empty, return NULL. Otherwise, return the modified queue.
  * <p>
  * Constraints:
  * <p>

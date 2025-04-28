@@ -5,22 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="fixed structure">
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/HoubseRobber0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/LargestRectanglenistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/DesignParkingLot/parkingLot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/DesignStackOverflow/stackOverflow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/LoggingFramework/loggingFramework.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/TaskManagementSystem/taskmanagementsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/VendingMachine/vendingMachine.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/airlinemanagementsystem/airlinemanagementsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/atm/atm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/carrentalsystem/carrentalsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/courseregistrationsystem/courseregistrationsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/cricinfo/cricinfo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/digitalwalletservice/digitalwalletservice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/elevatorsystem/elevatorsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/fooddeliveryservice/fooddeliveryservice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/hotelmanagementsystem/hotelmanagementsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/librarymanagementsystem/librarymanagementsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/linkedin/linkedin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/lrucache/lrucache.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/musicstreamingservice/musicstreamingservice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/onlineauctionsystem/onlineauctionsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/onlinestockbrokeragesystem/onlinestockbrokeragesystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/restaurantmanagementsystem/restaurantmanagementsystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/ridesharingservice/ridesharingservice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/snakeandladdergame/snakeandladdergame.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/socialnetworkingservice/socialnetworkingservice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/splitwise/splitwise.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LLD/tictactoe/tictactoe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/AppleHarvestKokoEatingBananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/MaxCardValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/MaxSumOfDistinctSubarraysLengthk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/prefixSum/CountVowelsInSubstrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_I.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CoinChange_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/DeleteMiddleElementofAStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/DeleteMiddleElementofAStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/FloodFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/GenerateBalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/GenerateBalancedParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/GenerateParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/HouseRobberIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/HouseRobberIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Introduction to Backtracking.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Introduction to Backtracking.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/JosephusProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/KthSymbolInGrammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/KthSymbolInGrammar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/LetterCasePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Queue/ReverseKElementsInaQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Queue/ReverseKElementsInaQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/NextGreaterElementUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/NextGreaterElementUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/RearrangeAltElementsinpositiveNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/RearrangeAltElementsinpositiveNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/BinaryTreePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/LongestSubstringwithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/LongestSubstringwithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/breadthFirstSearch/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/breadthFirstSearch/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/customDS/SnapshotArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/customDS/SnapshotArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/twopointers/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/twopointers/ContainerWithMostWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,94 +344,97 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AdditiveNumber.executor": "Debug",
-    "Application.ArrangeArray_i_at_arrOfi.executor": "Debug",
-    "Application.ArrayLeader.executor": "Run",
-    "Application.AtomicVaRIABLE.executor": "Run",
-    "Application.CalculateDistanceBetweenTwoCoordinatesinJava.executor": "Run",
-    "Application.CheckPathExists2Vertices.executor": "Run",
-    "Application.CoinChange_I.executor": "Run",
-    "Application.CoinChange_II.executor": "Run",
-    "Application.CoinChange_I_recursion.executor": "Run",
-    "Application.CombinationSum.executor": "Debug",
-    "Application.CombinationSumII.executor": "Debug",
-    "Application.CombinationSumIIRecursion.executor": "Run",
-    "Application.CombinationSumRecursion.executor": "Run",
-    "Application.Combinations.executor": "Run",
-    "Application.ContainerWithMostWater.executor": "Run",
-    "Application.CountEdgesUndirectedGraph.executor": "Run",
-    "Application.DeleteMiddleElementofAStack.executor": "Debug",
-    "Application.EvaluateInfixExpression.executor": "Run",
-    "Application.FindAllPermutation_Recursion.executor": "Run",
-    "Application.FindLowHighIndex.executor": "Run",
-    "Application.FindMedianfromDataStream.executor": "Debug",
-    "Application.FindRightInterval.executor": "Debug",
-    "Application.FindSmallestCommonNumber.executor": "Run",
-    "Application.FindSymmetricPairsinArray.executor": "Run",
-    "Application.FindTheCelebrity.executor": "Debug",
-    "Application.FloodFill.executor": "Run",
-    "Application.GenerateBalancedParentheses.executor": "Run",
-    "Application.HoubseRobber0.executor": "Debug",
-    "Application.HouseRobberIII.executor": "Run",
-    "Application.JosephusProblem.executor": "Debug",
-    "Application.KadaneAlgoForMaxSumSubArray.executor": "Run",
-    "Application.KthSymbolInGrammar.executor": "Debug",
-    "Application.LargestNumberAfterDigitSwapsbyParity.executor": "Run",
-    "Application.LetterCasePermutation.executor": "Debug",
-    "Application.LongestIncreasingSubsequence.executor": "Run",
-    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MajorityElementInArray.executor": "Debug",
-    "Application.MaximumInSlidingWindow.executor": "Run",
-    "Application.MeetingRoomsIII.executor": "Run",
-    "Application.MergeOverlappingIntervals.executor": "Debug",
-    "Application.MergeSortedArray.executor": "Run",
-    "Application.MinStack.executor": "Run",
-    "Application.MoveZerosToLeft.executor": "Run",
-    "Application.NextGreaterElementUsingStack.executor": "Debug",
-    "Application.PalindromeCheckRecusrsion.executor": "Run",
-    "Application.PascalTriangle.executor": "Run",
-    "Application.Permutations.executor": "Run",
-    "Application.PrintAllSubSequenceOfArrayRecursion.executor": "Run",
-    "Application.RearrangeAltElementsinpositiveNegative.executor": "Debug",
-    "Application.ReverseArray.executor": "Run",
-    "Application.ReverseKElementsInaQueue.executor": "Debug",
-    "Application.SUbSetII_Recursion.executor": "Debug",
-    "Application.Solution.executor": "Debug",
-    "Application.SortOddEvensSeperately.executor": "Run",
-    "Application.SortStack.executor": "Run",
-    "Application.SubSeqWithKSumRecursion.executor": "Run",
-    "Application.SubSetSumI_Rcursion.executor": "Run",
-    "Application.Subsets.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.ThreadLocal.executor": "Run",
-    "Application.TimeBasedKeyValueStore.executor": "Run",
-    "Application.WordCount.executor": "Run",
-    "Application.WordFormationUsingHashTable.executor": "Debug",
-    "Application.com.DataStructures_And_Questions.trie.Main.executor": "Run",
-    "Application.com.Main.executor": "Run",
-    "Application.com.datastructures.PriorityQueue.Main.executor": "Run",
-    "Application.com.pattern.questions.backtrack.CoinChange_I.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/adarsh.singh/Downloads/personal/Coding-Conundrums/src/com/pattern/questions",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AdditiveNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ArrangeArray_i_at_arrOfi.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ArrayLeader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AtomicVaRIABLE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoyerMooreHorsepoolForStringSearch.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CalculateDistanceBetweenTwoCoordinatesinJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckPathExists2Vertices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoinChange_I.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoinChange_II.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoinChange_I_recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CombinationSumII.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CombinationSumIIRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSumRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Combinations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountEdgesUndirectedGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteMiddleElementofAStack.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EvaluateInfixExpression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindAllPermutation_Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindLowHighIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMedianfromDataStream.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindRightInterval.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindSmallestCommonNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindSymmetricPairsinArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheCelebrity.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FloodFill.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenerateBalancedParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HoubseRobber0.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HouseRobberIII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionPointofTwoLists.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JosephusProblem.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.KadaneAlgoForMaxSumSubArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthSymbolInGrammar.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LargestNumberAfterDigitSwapsbyParity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LetterCasePermutation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstringWithoutRepeatingCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElementInArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaximumInSlidingWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MeetingRoomsIII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeOverlappingIntervals.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZerosToLeft.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextGreaterElementUsingStack.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PalindromeCheckRecusrsion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintAllSubSequenceOfArrayRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeAltElementsinpositiveNegative.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseKElementsInaQueue.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SUbSetII_Recursion.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SortOddEvensSeperately.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubSeqWithKSumRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubSetSumI_Rcursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThreadLocal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimeBasedKeyValueStore.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TraceCompletePathofJourney.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordFormationUsingHashTable.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.DataStructures_And_Questions.trie.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.datastructures.PriorityQueue.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.pattern.questions.backtrack.CoinChange_I.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/adarsh.singh/Downloads/personal/Coding-Conundrums/src/com/pattern/questions&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/pattern/questions" />
@@ -415,11 +444,11 @@
       <recent name="$PROJECT_DIR$/src/com/sorting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/LLD/atm" />
       <recent name="$PROJECT_DIR$/src/com/pattern/questions/backtrack" />
       <recent name="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array" />
       <recent name="$PROJECT_DIR$/src/com/pattern/questions/topologicalSort" />
       <recent name="$PROJECT_DIR$/src/com/pattern/questions/DynamicProgramming" />
-      <recent name="$PROJECT_DIR$/src/com/pattern/questions/customDS" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.datastructures" />
@@ -432,13 +461,13 @@
       <recent name="com.questions.scenarioBasedQues" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LetterCasePermutation">
-    <configuration name="GenerateBalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.GenerateBalancedParentheses" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="IntersectionPointofTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.linkedList.IntersectionPointofTwoLists" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
+          <option name="PATTERN" value="com.DataStructures_And_Questions.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,12 +475,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoubseRobber0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.HoubseRobber0" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.trie.Main" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
+          <option name="PATTERN" value="com.DataStructures_And_Questions.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -459,12 +488,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.JosephusProblem" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -472,12 +501,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSymbolInGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.KthSymbolInGrammar" />
+    <configuration name="TraceCompletePathofJourney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.Hashtable.TraceCompletePathofJourney" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
+          <option name="PATTERN" value="com.DataStructures_And_Questions.Hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -485,12 +514,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCasePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.backtrack.LetterCasePermutation" />
+    <configuration name="com.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.backtrack.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -500,11 +529,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LetterCasePermutation" />
-        <item itemvalue="Application.KthSymbolInGrammar" />
-        <item itemvalue="Application.JosephusProblem" />
-        <item itemvalue="Application.HoubseRobber0" />
-        <item itemvalue="Application.GenerateBalancedParentheses" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.com.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.IntersectionPointofTwoLists" />
+        <item itemvalue="Application.TraceCompletePathofJourney" />
       </list>
     </recent_temporary>
   </component>
@@ -536,7 +565,14 @@
       <workItem from="1741753832146" duration="32000" />
       <workItem from="1741753905742" duration="45040000" />
       <workItem from="1742317317722" duration="72000" />
-      <workItem from="1742317396626" duration="37660000" />
+      <workItem from="1742317396626" duration="44525000" />
+      <workItem from="1744629133259" duration="5000" />
+      <workItem from="1744629146074" duration="13249000" />
+      <workItem from="1744974000601" duration="60006000" />
+      <workItem from="1745371288118" duration="63000" />
+      <workItem from="1745371369405" duration="11049000" />
+      <workItem from="1745543574513" duration="37000" />
+      <workItem from="1745543619028" duration="13352000" />
     </task>
     <task id="LOCAL-00001" summary="fixed structure">
       <option name="closed" value="true" />
@@ -634,7 +670,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742401002116</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1742904409489</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742904409489</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -714,7 +758,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/algorithms/KadaneAlgoForMaxSumSubArray.java</url>
-          <line>29</line>
+          <line>70</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -959,7 +1003,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/RearrangeAltElementsinpositiveNegative.java</url>
-          <line>62</line>
+          <line>60</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -974,17 +1018,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Queue/ReverseKElementsInaQueue.java</url>
-          <line>59</line>
+          <line>60</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Queue/ReverseKElementsInaQueue.java</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Queue/ReverseKElementsInaQueue.java</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1057,7 +1101,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/NextGreaterElementUsingStack.java</url>
-          <line>61</line>
+          <line>59</line>
           <option name="timeStamp" value="244" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1168,6 +1212,21 @@
           <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/LetterCasePermutation.java</url>
           <line>32</line>
           <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/algorithms/BoyerMooreHorsepoolForStringSearch.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/MajorityElementInArray.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Test.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="290" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
