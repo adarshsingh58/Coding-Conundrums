@@ -1,4 +1,4 @@
-package com.pattern.questions.backtrack;
+package com.pattern.questions.recursionbasics;
 
 /**
  * We build a table of n rows (1-indexed). We start by writing 0 in the 1st row. Now in every subsequent row, we look at

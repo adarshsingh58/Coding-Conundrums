@@ -1,4 +1,4 @@
-package com.pattern.questions.backtrack;
+package com.pattern.questions.recursionbasics;
 
 import java.util.Arrays;
 import java.util.Stack;
@@ -33,7 +33,7 @@ public class DeleteMiddleElementofAStack {
 
         int mid = stack.size() / 2 + 1;
 
-//        solution.remove(stack, mid);
+//      solution.remove(stack, mid);
         solution.attempt(stack, mid);
 
         solution.print(stack);

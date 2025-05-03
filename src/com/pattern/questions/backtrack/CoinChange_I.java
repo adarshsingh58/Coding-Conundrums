@@ -3,7 +3,7 @@ package com.pattern.questions.backtrack;
 import java.util.*;
 
 /**
- * * CoinChange_I: This is the first variation of the Coin Change Problem. In this variation, you're asked to return the
+ * CoinChange_I: This is the first variation of the Coin Change Problem. In this variation, you're asked to return the
  * minimum number of coins needed to make the change amount.
  */
 public class CoinChange_I {
@@ -39,9 +39,9 @@ public class CoinChange_I {
     }
 
     /**
-     * We are returning true/false because we want to stop once the first solution is found,
-     * If we want to find all the solutins then we dont return booleans and the process continues until
-     * entire recursion tree is exhausted.
+     * We are returning true/false because we want to stop once the first solution is found, If we want to find all the
+     * solutins then we dont return booleans and the process continues until entire recursion tree is exhausted.
+     *
      * @param target
      * @param coins
      * @param index

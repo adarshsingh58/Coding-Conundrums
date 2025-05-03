@@ -28,6 +28,7 @@ import java.util.List;
  * <p>
  * Input: candidates = [2], target = 1 Output: []
  * <p>
+ * <p>
  * https://leetcode.com/problems/combination-sum/description/
  */
 public class CombinationSum {
@@ -35,29 +36,35 @@ public class CombinationSum {
         int[] inp = {2, 3, 5};
         int target = 8;
 
-        List<List<Integer>> opMain = new ArrayList<>();
-        List<Integer> op = new ArrayList<>();
-        combSum(target, inp, inp.length - 1, op, opMain);
+
+        List<List<Integer>> opMain = combSum(inp, target);
         opMain.forEach(h -> {
                     h.forEach(y -> {
                         System.out.print(y + " ");
                     });
-            System.out.println();
+                    System.out.println();
                 }
         );
 
     }
 
-    private static void combSum(int target, int[] inp, int currIndex, List<Integer> op, List<List<Integer>> opMain) {
-        if (target == 0) {
-            opMain.add(new ArrayList<>(op));
+    private static List<List<Integer>> combSum(int[] inp, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+        combSum(inp, target, 0, new ArrayList<>(), result);
+        return result;
+    }
+
+    private static void combSum(int[] candidates, int target, int currIndex, List<Integer> currPath, List<List<Integer>> result) {
+        if (currPath != null && !currPath.isEmpty() && target == 0) {
+            result.add(new ArrayList<>(currPath));
             return;
         }
-        if (currIndex < 0 || target < 0)
-            return;
-        op.add(inp[currIndex]);
-        combSum(target - inp[currIndex], inp, currIndex, op, opMain);
-        op.remove(op.size() - 1);
-        combSum(target, inp, currIndex - 1, op, opMain);
+        for (int i = currIndex; i < candidates.length; i++) {
+            if (target - candidates[i] >= 0) {
+                currPath.add(candidates[i]);
+                combSum(candidates, target-candidates[i], i, currPath, result);
+                currPath.remove(currPath.size() - 1);
+            }
+        }
     }
 }

@@ -1,4 +1,4 @@
-package com.pattern.questions.backtrack;
+package com.pattern.questions.recursionbasics;
 
 import com.DataStructures_And_Questions.trees.BST.BinarySearchTree;
 

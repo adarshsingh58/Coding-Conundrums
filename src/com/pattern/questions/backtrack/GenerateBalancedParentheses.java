@@ -15,6 +15,10 @@ import java.util.List;
  * Input: n = 1 Output: ["()"]
  * <p>
  * https://leetcode.com/problems/generate-parentheses/description/
+ *
+ * Why is Backtrack?
+ * Because we need to explore/build the decision path. For a given parenthesis, we find if
+ * next candidate is valid or not, if not we remove it from curr Path i.e. backtrack and try next decision path.
  */
 public class GenerateBalancedParentheses {
     public static void main(String[] args) {

@@ -13,6 +13,8 @@ package com.pattern.questions.backtrack;
  * The hour cannot have a leading zero (e.g., “01:00” is invalid, it should be “1:00”).
  * <p>
  * The minute must be two digits and may include a leading zero (e.g., “10:2” is invalid, it should be “10:02”).
+ *
+ * https://leetcode.com/problems/binary-watch/description/
  */
 public class BinaryWatch {
 }

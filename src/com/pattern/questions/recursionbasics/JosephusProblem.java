@@ -1,7 +1,6 @@
-package com.pattern.questions.backtrack;
+package com.pattern.questions.recursionbasics;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -26,6 +25,17 @@ import java.util.List;
  * person at position 5 survives.
  * <p>
  * https://www.geeksforgeeks.org/josephus-problem/
+ *
+ * What is the Josephus Problem?
+ * Given:
+ *     n people standing in a circle.
+ *     Every k-th person is eliminated in each step.
+ *     Find the position of the last remaining person.
+ * ✅ Why is it Recursion, not Backtracking?
+ *     There's no exploration of multiple choices at each step.
+ *     There's no need to "undo" decisions or explore other branches.
+ *     The process is deterministic — one person is eliminated per step based on a fixed rule.
+ *     It's solved via mathematical recurrence.
  */
 public class JosephusProblem {
     public static void main(String[] args) {

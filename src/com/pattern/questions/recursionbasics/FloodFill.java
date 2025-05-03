@@ -1,4 +1,4 @@
-package com.pattern.questions.backtrack;
+package com.pattern.questions.recursionbasics;
 
 /**
  * Statement
@@ -16,7 +16,7 @@ package com.pattern.questions.backtrack;
  * <p>
  * How to perform flood fill:
  * <p>
- * Suppose that a (4×4) grid has a source value of 11 at coordinates [1,1]. We perform flood fill on its neighboring
+ * Suppose that a (4×4) grid has a source value of 1 at coordinates [1,1]. We perform flood fill on its neighboring
  * cells only if they have the same source value as this cell. Once all adjacent cells are updated, return the new grid
  * after performing flood fill.
  * <p>
@@ -24,8 +24,24 @@ package com.pattern.questions.backtrack;
  * return the updated grid.
  * <p>
  * https://leetcode.com/problems/flood-fill/
+ *
+ * This is a recursion problem not a backtrack because:
+ * - Here we have TO DO something not find out if WE CAN DO OR NOT
+ * - i.e. we have to fill the matrix[rxc] when a given is met. we dont have to find out if the a path
+ *   is valid or not and then remove the node from the decision space. For each Starting Node, we just need
+ *   to traverse in all 4 direction to update the value if condition is met.
+ *   We can use for loop here with recursion but since we are not removing any data there is not backtracking
+ *  FROM GPT:
+ *   It’s primarily recursive because:
+ *     You call the same function on neighboring cells (up, down, left, right).
+ *     There’s no decision tree of multiple combinatorial paths.
+ *     You don’t “undo” or “explore alternatives.”
+ *  In flood fill, once you color a cell, you don’t need to undo that and try something else.
+ *  So there's no backtracking behavior like “add → recurse → remove.”
+ *
  */
 public class FloodFill {
+
 
     public static void main(String[] args) {
         int[][] image1 = {

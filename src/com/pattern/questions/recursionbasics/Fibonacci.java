@@ -1,4 +1,4 @@
-package com.pattern.questions.backtrack;
+package com.pattern.questions.recursionbasics;
 
 import java.util.HashMap;
 import java.util.Map;

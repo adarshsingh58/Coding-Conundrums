@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * * CoinChange_II: This is the second variation of the Coin Change Problem. In this variation, you're asked to return
- * the possible number of ways in which the coins can satisfy the target amount.
+ * CoinChange_II: This is the second variation of the Coin Change Problem. In this variation, you're asked to return the
+ * possible number of ways in which the coins can satisfy the target amount.
  */
 
 public class CoinChange_II {
@@ -46,15 +46,19 @@ public class CoinChange_II {
         List<List<Integer>> opMain = new ArrayList<>();
         List<Integer> op = new ArrayList<>();
         minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(target, coins, coins.size() - 1, op, opMain);
-        System.out.println(opMain.size());
+        System.out.println("size Main " + opMain.size());
+
+        //Using FOR LOOP WAY
+        List<List<Integer>> opMainFORLOOP = new ArrayList<>();
+        minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed_FORLOOP(target, coins, coins.size() - 1, new ArrayList<>(), opMainFORLOOP);
+        System.out.println("size Loop " + opMainFORLOOP.size());
         return 0;
     }
 
     /**
      * This is the same solution from CoinChange_I. But here, we are not returning true/false because we dont want to
      * stop once the first solution is found. We want to find all the solutions, so the process continues until entire
-     * recursion tree is exhausted.
-     * Once we have all the solutions, we get the size of the solution List.
+     * recursion tree is exhausted. Once we have all the solutions, we get the size of the solution List.
      */
     private static void minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(int target, List<Integer> coins, int index, List<Integer> coinsConsideredSofar, List<List<Integer>> opMain) {
         if (target < 0 || index < 0)
@@ -63,10 +67,34 @@ public class CoinChange_II {
             opMain.add(coinsConsideredSofar);
             return;
         }
-        coinsConsideredSofar.add(coins.get(index));
+        coinsConsideredSofar.add(coins.get(index));// building the path
         minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(target - coins.get(index), coins, index, coinsConsideredSofar, opMain);
-        coinsConsideredSofar.remove(coinsConsideredSofar.size() - 1);
+        coinsConsideredSofar.remove(coinsConsideredSofar.size() - 1);// re-altering the path coz not a viable solution
         minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed(target, coins, index - 1, coinsConsideredSofar, opMain);
+    }
+
+
+    /* Backtrack Questions generally have loops in them. We solved in above way where instead of using loop
+        we manually added the 2 possible choices.
+        Here we have re-written above answer in a way more expressive for a backtracking Q.
+        Here For loop is used to iterate over choices.
+     */
+    private static void minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed_FORLOOP(int target, List<Integer> coins, int index, List<Integer> coinsConsideredSofar, List<List<Integer>> opMain) {
+
+        if (target == 0) {
+            opMain.add(new ArrayList<>(coinsConsideredSofar));
+            return;
+        }
+
+        for (int i = index; i >= 0; i--) {
+            int coin = coins.get(i);
+            if (coin <= target) {
+                coinsConsideredSofar.add(coin);
+                // Recurse: can reuse same coin, so i (not i + 1)
+                minCoinsRequired_whenAnyNumOfCoinofEachCanBeUsed_FORLOOP(target - coin, coins, i, coinsConsideredSofar, opMain);
+                coinsConsideredSofar.remove(coinsConsideredSofar.size() - 1);  // Backtrack
+            }
+        }
     }
 
 

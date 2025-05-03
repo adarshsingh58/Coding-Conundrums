@@ -38,20 +38,20 @@ public class AdditiveNumber {
         return false;
     }
 
-    private static boolean isAdditiveRec(String inpArr, int firstStart, int firstEndDIndexelta, int secondEndIndexDelta, boolean found) {
-        if (firstStart + firstEndDIndexelta + secondEndIndexDelta == inpArr.length()) {
+    private static boolean isAdditiveRec(String inpArr, int firstStart, int firstEndIndexDelta, int secondEndIndexDelta, boolean found) {
+        if (firstStart + firstEndIndexDelta + secondEndIndexDelta == inpArr.length()) {
             found = true;
             return true;
         }
-        int firstNum = formNumber(inpArr, firstStart, firstEndDIndexelta);
-        int secondNum = formNumber(inpArr, firstEndDIndexelta + 1, secondEndIndexDelta);
+        int firstNum = formNumber(inpArr, firstStart, firstEndIndexDelta);
+        int secondNum = formNumber(inpArr, firstEndIndexDelta + 1, secondEndIndexDelta);
         int thirdIndexDelta=findLength(firstNum+secondNum);
         int thirdNum = formNumber(inpArr, secondEndIndexDelta + 1, thirdIndexDelta);
         if (firstNum + secondNum != thirdNum) {
             found = false;
             return false;
         }
-        return isAdditiveRec(inpArr, firstStart + firstEndDIndexelta, firstEndDIndexelta, secondEndIndexDelta, found);
+        return isAdditiveRec(inpArr, firstStart + firstEndIndexDelta, firstEndIndexDelta, secondEndIndexDelta, found);
     }
 
     private static int findLength(int num) {

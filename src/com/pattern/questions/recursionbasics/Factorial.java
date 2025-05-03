@@ -1,4 +1,4 @@
-package com.pattern.questions.backtrack;
+package com.pattern.questions.recursionbasics;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,10 +12,10 @@ public class Factorial {
     // should be 720
     System.out.println(Factorial.factorial(6, Factorial.TYPE.RECURSIVE));
 
-    // should be 720
+    // should be 720 RECURSION
     System.out.println(Factorial.factorial(6, Factorial.TYPE.MEMOIZATION));
 
-    // should be 5040 (should take less time as 6! is already calculated)
+    // should be 5040 (should take less time as 6! is already calculated) DP
     System.out.println(Factorial.factorial(7, Factorial.TYPE.MEMOIZATION));
   }
 
