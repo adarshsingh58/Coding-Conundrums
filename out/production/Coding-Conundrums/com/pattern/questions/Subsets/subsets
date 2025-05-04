@@ -1,0 +1,43 @@
+About the pattern
+
+The subsets pattern is an important strategy to solve coding problems that involve exploring all possible combinations of
+elements from a given data structure. This pattern can be useful when dealing with sets containing unique elements or
+arrays/lists that may contain duplicate elements. It is used to generate all specific subsets based on the conditions that the problem provides us.
+
+The common method used is to build the subsets incrementally, including or excluding each element of the original data structure,
+depending on the constraints of the problem. This process is continued for the remaining elements until all desired subsets have been generated.
+
+
+    Note: We sometimes also use a programming technique known as backtracking to generate the required subsets of a given
+    data structure of elements. Backtracking applies to a broader range of problems where exhaustive search, that is,
+    evaluating all possibilities, is required. These problems may involve various constraints, rules, or conditions that
+    guide the exploration process. Not all of these problems involve finding subsets. That is why it is necessary to
+    discuss Subsets as a separate programming pattern.
+
+Examples
+
+The following examples illustrate some problems that can be solved with this approach:
+
+    Permutations: Return all possible permutations of an array of distinct integers.
+
+    Combination sum: Return all combinations of integers in an array that add up to a target number.
+
+
+Does your problem match this pattern?
+
+Yes, if the following condition is fulfilled:
+
+    Requirement for combinations or subsets: The problem asks us to generate combinations (or subsets) of the elements from the input data structure.
+    This could be the final solution itself or a step toward reaching the solution.
+
+Real-world problems
+
+Many problems in the real world use the subsets pattern. Let’s look at some examples.
+
+    Custom movie playlists: Using the subsets pattern, we can generate all possible combinations of movies to meet any viewer’s preference. Imagine we have a list of movies and want to create custom playlists based on different criteria, such as genre or length. For example, generating all combinations of comedies and dramas for a weekend binge-watching session.
+
+    Test case generation: In software testing, particularly in automated testing, generating comprehensive test cases is crucial. Using the subsets pattern, we can generate various combinations of input values to test different scenarios and edge cases thoroughly.
+
+    Feature selection in machine learning: In machine learning, feature selection plays a vital role in building effective models. By considering subsets of features from a dataset, we can evaluate the performance of different combinations of features and select the subset that optimizes model performance and complexity.
+
+
