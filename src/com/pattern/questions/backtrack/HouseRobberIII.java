@@ -1,5 +1,7 @@
 package com.pattern.questions.backtrack;
 
+import com.DS.TreeNode;
+
 /**
  * Statement
  * <p>
@@ -38,25 +40,6 @@ public class HouseRobberIII {
             currLoot = root.val;
         }
         return currLoot + robRec(root.left, skip) + robRec(root.right, skip);
-    }
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }
 

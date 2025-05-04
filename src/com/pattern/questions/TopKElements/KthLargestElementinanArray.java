@@ -1,5 +1,7 @@
 package com.pattern.questions.TopKElements;
 
+import java.util.PriorityQueue;
+
 /**
  * Given an integer array nums and an integer k, return the kth largest element in the array.
  * <p>
@@ -20,4 +22,15 @@ package com.pattern.questions.TopKElements;
  * https://leetcode.com/problems/kth-largest-element-in-an-array/description/
  */
 public class KthLargestElementinanArray {
+
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> pq=new PriorityQueue<>();
+        for(int num:nums){
+            pq.add(num);
+        }
+        for(int i=0;i<(nums.length-k);i++){
+            pq.poll();
+        }
+        return pq.poll();
+    }
 }
