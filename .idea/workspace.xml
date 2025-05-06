@@ -4,23 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="fixed structure">
-      <change afterPath="$PROJECT_DIR$/src/com/DS/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DS/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/string/FindAllANagramsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/string/MinRemoveToMakeValidParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/RIghtSideViewBTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/heap/TopKFrequentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="adding new algos">
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/bitwise/SingleNumberIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/BuildingsWithanOceanView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/MaxDepthOfBtree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/ValidateBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/OtherPrograms/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/OtherPrograms/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/OtherPrograms/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/OtherPrograms/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/MinStackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/MinStackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/TraverseMatrixInSpiralOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/TraverseMatrixInSpiralOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/string/FindAllANagramsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/string/FindAllANagramsInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/TopKElements/KthLargestElementinanArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/TopKElements/KthLargestElementinanArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/HouseRobberIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/HouseRobberIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/LetterCombinationsofaPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/LetterCombinationsofaPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/RemoveInvalidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/RemoveInvalidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/inplaceManipulation/ReorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/inplaceManipulation/ReorderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/inplaceManipulation/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/inplaceManipulation/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/twopointers/ValidWordAbbreviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/twopointers/ValidWordAbbreviation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/heap/FindMedianfromDataStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/heap/FindMedianfromDataStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/twopointers/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/twopointers/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,8 +370,9 @@
     "Application.MajorityElementInArray.executor": "Debug",
     "Application.MaximumInSlidingWindow.executor": "Run",
     "Application.MeetingRoomsIII.executor": "Run",
+    "Application.MergeIntervals.executor": "Debug",
     "Application.MergeOverlappingIntervals.executor": "Debug",
-    "Application.MergeSortedArray.executor": "Run",
+    "Application.MergeSortedArray.executor": "Debug",
     "Application.MinRemoveToMakeValidParenthesis.executor": "Debug",
     "Application.MinStack.executor": "Run",
     "Application.MinStackImpl.executor": "Debug",
@@ -398,6 +401,7 @@
     "Application.TimeBasedKeyValueStore.executor": "Run",
     "Application.TraceCompletePathofJourney.executor": "Run",
     "Application.ValidWordAbbreviation.executor": "Run",
+    "Application.ValidateBinarySearchTree.executor": "Debug",
     "Application.WordCount.executor": "Run",
     "Application.WordFormationUsingHashTable.executor": "Debug",
     "Application.com.DataStructures_And_Questions.trie.Main.executor": "Run",
@@ -447,22 +451,9 @@
       <recent name="com.questions.scenarioBasedQues" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="LowestCommonAncestorofaBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.trees.LowestCommonAncestorofaBST" />
-      <module name="Coding-Conundrums" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DataStructures_And_Questions.trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinRemoveToMakeValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.string.MinRemoveToMakeValidParenthesis" />
+  <component name="RunManager" selected="Application.FindAllANagramsInString">
+    <configuration name="FindAllANagramsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.string.FindAllANagramsInString" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
@@ -474,12 +465,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.inplaceManipulation.ReorderList" />
+    <configuration name="FindMedianfromDataStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.heap.FindMedianfromDataStream" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.inplaceManipulation.*" />
+          <option name="PATTERN" value="com.pattern.questions.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,12 +478,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.inplaceManipulation.ReverseLinkedList" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.array.MergeSortedArray" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.inplaceManipulation.*" />
+          <option name="PATTERN" value="com.DataStructures_And_Questions.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -500,12 +491,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Test" />
+    <configuration name="MinStackImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.QueuesStack.MinStackImpl" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="com.DataStructures_And_Questions.QueuesStack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.BinaryTreeTraversal.ValidateBinarySearchTree" />
+      <module name="Coding-Conundrums" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.questions.BinaryTreeTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -515,11 +519,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ReorderList" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.LowestCommonAncestorofaBST" />
-        <item itemvalue="Application.MinRemoveToMakeValidParenthesis" />
+        <item itemvalue="Application.FindAllANagramsInString" />
+        <item itemvalue="Application.MinStackImpl" />
+        <item itemvalue="Application.FindMedianfromDataStream" />
+        <item itemvalue="Application.ValidateBinarySearchTree" />
+        <item itemvalue="Application.MergeSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -558,7 +562,7 @@
       <workItem from="1745371288118" duration="63000" />
       <workItem from="1745371369405" duration="11049000" />
       <workItem from="1745543574513" duration="37000" />
-      <workItem from="1745543619028" duration="99491000" />
+      <workItem from="1745543619028" duration="146892000" />
     </task>
     <task id="LOCAL-00001" summary="fixed structure">
       <option name="closed" value="true" />
@@ -680,7 +684,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746246969492</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixed structure">
+      <option name="closed" value="true" />
+      <created>1746374503392</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746374503392</updated>
+    </task>
+    <task id="LOCAL-00017" summary="adding new algos">
+      <option name="closed" value="true" />
+      <created>1746374554634</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746374554634</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -753,7 +773,8 @@
     <MESSAGE value="Adding Kadane's Algo" />
     <MESSAGE value=" Adding New Leet Code Questions" />
     <MESSAGE value="fixed structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed structure" />
+    <MESSAGE value="adding new algos" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding new algos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1058,12 +1079,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/pattern/questions/heap/FindMedianfromDataStream.java</url>
-          <line>100</line>
+          <line>142</line>
           <option name="timeStamp" value="231" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/pattern/questions/heap/FindMedianfromDataStream.java</url>
-          <line>127</line>
+          <line>169</line>
           <option name="timeStamp" value="233" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1211,16 +1232,6 @@
           <option name="timeStamp" value="304" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/string/FindAllANagramsInString.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="317" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/string/FindAllANagramsInString.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="319" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/pattern/questions/twopointers/ValidWordAbbreviation.java</url>
           <line>39</line>
           <option name="timeStamp" value="320" />
@@ -1260,8 +1271,36 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/Test.java</url>
-          <line>32</line>
+          <line>9</line>
           <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/twopointers/ThreeSum.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/twopointers/ThreeSum.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/twopointers/ThreeSum.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/MergeSortedArray.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/ValidateBinarySearchTree.java</url>
+          <line>38</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="354" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

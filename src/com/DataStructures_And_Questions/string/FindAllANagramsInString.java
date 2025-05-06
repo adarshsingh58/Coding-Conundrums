@@ -33,6 +33,8 @@ import java.util.Set;
  * */
 public class FindAllANagramsInString {
     public static void main(String[] args) {
+        String s1="cbaebabacd",p1="abc";
+        String s2="aa",p2="bb";
          new FindAllANagramsInString().findAnagrams("aa","bb").forEach(System.out::println);
     }
     public List<Integer> findAnagrams(String s, String p) {

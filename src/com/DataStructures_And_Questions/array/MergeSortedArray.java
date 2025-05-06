@@ -28,13 +28,39 @@ public class MergeSortedArray {
     public static void main(String[] args) {
         int[] nums1 = {1,2,3,0,0,0};
         int[] nums2 = {2,5,6};
-        new MergeSortedArray().merge(nums1, nums2);
+        new MergeSortedArray().merge(nums1, 3,nums2,3);
         for (int i : nums1) {
             System.out.println(i);
         }
-        
-    }
 
+    }
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int i = m + n - 1;
+        m--;
+        n--;
+
+        for (; m>-1 && n>-1 && i >= 0; i--) {
+            if (nums2[n] > nums1[m]) {
+                nums1[i] = nums2[n];
+                n--;
+            }else{
+                nums1[i] = nums1[m ];
+                m--;
+            }
+        }
+
+        while(n>0 && m==0){
+            nums1[i]=nums2[n];
+            n--;
+            i--;
+        }
+        while(m>0 && n==0){
+            nums1[i]=nums1[n];
+            n--;
+            i--;
+        }
+
+    }
     private void attempt(int[] arr1, int[] arr2) {
 
 

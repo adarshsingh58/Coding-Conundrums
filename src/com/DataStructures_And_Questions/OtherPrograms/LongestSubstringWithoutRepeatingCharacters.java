@@ -49,14 +49,19 @@ public class LongestSubstringWithoutRepeatingCharacters {
      * It is important that we set the  i = map.get(inp.charAt(i))+1; when we find a repeat
      * which we are sliding the window by only that much where first repeated char is found.
      * */
-    private static int longSubStr(String inp) {
+    public static int lengthOfLongestSubstring(String inp) {
+        if (inp.isEmpty())
+            return 0;
+        if (inp.length() != 0 && inp.trim().isEmpty())
+            return 1;
         Map<Character, Integer> map = new HashMap<>();
-        int count = 0;
-        for (int i = 0, windowCount = 0; i < inp.length(); i++) {
+        int count = 1;
+        int windowCount = 0;
+        for (int i = 0; i < inp.length(); i++) {
             if (map.containsKey(inp.charAt(i))) {
                 count = Math.max(count, windowCount);
                 windowCount = 0;
-                i = map.get(inp.charAt(i))+1;
+                i = map.get(inp.charAt(i));
                 map = new HashMap<>();
             } else {
                 map.put(inp.charAt(i), i);
@@ -64,7 +69,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
             }
 
         }
-        return count;
+        return Math.max(count, windowCount);
     }
 
 

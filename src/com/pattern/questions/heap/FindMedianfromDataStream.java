@@ -70,6 +70,48 @@ public class FindMedianfromDataStream {
         System.out.println("Median now: " + obj.findMedian());
     }
 
+    PriorityQueue<Integer> minHeap= new PriorityQueue<>();
+    PriorityQueue<Integer> maxHeap=new PriorityQueue<>(Comparator.reverseOrder());
+    int totalSize = 0;
+
+    public void addNum(int num) {
+        if (totalSize == 0) {
+            maxHeap.add(num);
+            totalSize++;
+            return;
+        }
+        if (num <= maxHeap.peek())
+            maxHeap.add(num);
+        else
+            minHeap.add(num);
+
+        if(minHeap.size()-maxHeap.size()>0 || maxHeap.size()-minHeap.size()>1){
+            adjustHeaps(maxHeap,minHeap);
+        }
+        totalSize++;
+    }
+
+    public double findMedian() {
+        if (totalSize % 2 == 0)
+            return ((double)(maxHeap.peek() + minHeap.peek())) / 2;
+        else
+            return (double)maxHeap.peek();
+    }
+
+    // we adjust heap when max heap has >1 element or minHeap has>0 element. since we total size is odd, element to has be in MaxHeap there we cannot have more element in MinHeap
+    public void adjustHeaps(PriorityQueue<Integer> maxHeap,PriorityQueue<Integer> minHeap){
+        if(maxHeap.size()-minHeap.size()>1){
+            while(maxHeap.size()-minHeap.size()>1){
+                minHeap.add(maxHeap.poll());
+            }
+        }else{
+            while(minHeap.size()-maxHeap.size()>0){
+                maxHeap.add(minHeap.poll());
+            }
+        }
+    }
+
+
     /*
     * Straight up brute force approach would be to add all the incoming data to a TreeSet or Sorted ArrayList which will maintain the order.
     * When findMedian is called, we traverse to n/2 and return value.
@@ -93,7 +135,7 @@ public class FindMedianfromDataStream {
     * */
 
 
-    PriorityQueue<Double> maxHeap_from_leftValues = new PriorityQueue<>(Comparator.reverseOrder());
+   /* PriorityQueue<Double> maxHeap_from_leftValues = new PriorityQueue<>(Comparator.reverseOrder());
     PriorityQueue<Double> minHeap_from_rightValues = new PriorityQueue<>();
 
     public void addNum(int numInt) {
@@ -131,6 +173,6 @@ public class FindMedianfromDataStream {
             median = maxHeap_from_leftValues.peek();
         return median;
     }
-
+*/
 
 }

@@ -57,7 +57,7 @@ public class LRUCache {
 
     public int get(int key) {
         if(cache1.containsKey(key)){
-            lruQueue.remove(key);
+            lruQueue.remove(key);// since key is now most recently used we poll it from queue and push again at rear. so that way least recently is always at front of the queue
             lruQueue.add(key);
             return cache1.get(key);
         }

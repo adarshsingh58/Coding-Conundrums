@@ -36,6 +36,7 @@ public class MinStackImpl {
 
 
 }
+
 class MinStack {
     private List<Integer> data;
     private List<Integer> minStack;
