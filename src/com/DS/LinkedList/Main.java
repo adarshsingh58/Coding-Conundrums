@@ -1,4 +1,4 @@
-package com.DataStructures_And_Questions.linkedList.LinkedList;
+package com.DS.LinkedList;
 
 public class Main {
 

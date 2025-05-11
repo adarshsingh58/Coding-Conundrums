@@ -1,7 +1,7 @@
 package com.DataStructures_And_Questions.linkedList;
 
-import com.DataStructures_And_Questions.linkedList.LinkedList.LinkedList;
-import com.DataStructures_And_Questions.linkedList.LinkedList.LinkedList.Node;
+import com.DS.LinkedList.LinkedList;
+import com.DS.LinkedList.LinkedList.Node;
 
 /**
  * Given the pointer/reference to the head of a singly linked list, reverse it

@@ -1,8 +1,6 @@
 package com.DataStructures_And_Questions.linkedList;
 
 import com.DS.ListNode;
-import com.DataStructures_And_Questions.Queue.PriorityQueue.PriorityQueue;
-import com.DataStructures_And_Questions.linkedList.LinkedList.LinkedList;
 
 /**
  * Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.

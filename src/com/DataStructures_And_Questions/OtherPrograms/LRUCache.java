@@ -1,24 +1,25 @@
-package com.misc;
+package com.DataStructures_And_Questions.OtherPrograms;
 
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.Queue;
 
 /**
  * Implement LRU (Least Recently Used) Cache.
+ *
+ *
+ *
+ *
+ * ["LRUCache","put","put","get","get","put","get","get","get"]
+ * [[2],[2,1],[3,2],[3],[2],[4,3],[2],[3],[4]]
+ *
+ *
+ * https://leetcode.com/problems/lru-cache/submissions/1630580514/
  */
 public class LRUCache {
 
     public static void main(String[] args) {
-        LRUCache lrucache = new LRUCache(2);
-        System.out.println(lrucache.get(2));
-        lrucache.put(2,6);
-        System.out.println(lrucache.get(1));
-        lrucache.put(1,5);
-        lrucache.put(1,2);
-        System.out.println(lrucache.get(1));
-        System.out.println(lrucache.get(2));
+        LRUCache lrucache = new LRUCache();
 
         System.out.println("Value:" + lrucache.get(1) + " Cache Size:" + lrucache.cache.size() + " lru List size:"
                 + lrucache.accessList.size() + " accessList:" + lrucache.accessList);
@@ -46,34 +47,6 @@ public class LRUCache {
     private Map<Integer, String> cache = new HashMap<>();
     private final int CACHE_SIZE = 5;
 
-
-
-    Map<Integer,Integer> cache1=new HashMap<>();
-    int capacity=0;
-    Queue<Integer> lruQueue=new LinkedList<>();
-    public LRUCache(int capacity) {
-        this.capacity=capacity;
-    }
-
-    public int get(int key) {
-        if(cache1.containsKey(key)){
-            lruQueue.remove(key);// since key is now most recently used we poll it from queue and push again at rear. so that way least recently is always at front of the queue
-            lruQueue.add(key);
-            return cache1.get(key);
-        }
-        return -1;
-    }
-
-    public void put(int key, int value) {
-
-        if(cache1.containsKey(key) )
-            lruQueue.remove(key);
-        else if(cache1.size()>=capacity)
-            cache1.remove(lruQueue.poll());
-
-        lruQueue.add(key);
-        cache1.put(key,value);
-    }
     /**
      * Here, we are using a hashmap as a cache for storing data and a linkedlist to keep track of which key was
      * accessed most recently.

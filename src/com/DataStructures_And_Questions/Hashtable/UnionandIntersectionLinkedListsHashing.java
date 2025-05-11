@@ -1,10 +1,5 @@
 package com.DataStructures_And_Questions.Hashtable;
 
-import com.DataStructures_And_Questions.linkedList.LinkedList.LinkedList.Node;
-
-import java.util.Set;
-import java.util.TreeSet;
-
 /**
  * Given two linked lists as inputs containing integer values, implement the union and intersection functions for the linked lists.
  * The order of elements in the output lists doesn’t matter.

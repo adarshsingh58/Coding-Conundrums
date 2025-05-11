@@ -35,7 +35,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
         String inp = "wpwkew";
-        System.out.println(longSubStr(inp));
+//        System.out.println(longSubStr(inp));
     }
 
     /*

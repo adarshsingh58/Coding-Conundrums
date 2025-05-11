@@ -48,7 +48,29 @@ Output: False
 public class ValidParenthesisString {
 
     public static void main(String[] args) {
-        System.out.println(checkValidString("(())((())()()(*)(*()(())())())()()((()())((()))(*"));
+//        System.out.println(checkValidString("(())((())()()(*)(*()(())())())()()((()())((()))(*"));
+        System.out.println(new ValidParenthesisString().isValid("()"));
+    }
+
+    public boolean isValid(String s) {
+
+        Stack<Character> stack=new Stack<>();
+        for(int i=0;i<s.length() ;i++){
+            char currChar=s.charAt(i);
+            if(currChar=='{' || currChar=='[' || currChar=='(') {
+                stack.add(currChar);
+                continue;
+            }
+            else if(currChar=='}' && stack.peek()!='{'){
+                return false;
+            }else if(currChar==']'&& stack.peek()!='[' ){
+                return false;
+            }else if( currChar==')'&& stack.peek()!='('){
+                return false;
+            }
+                stack.pop();
+        }
+        return true;
     }
 
     public static boolean checkValidString(String s) {

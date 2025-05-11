@@ -4,10 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Insert and search costs O(key_length), however the memory requirements of Trie
- * is O(ALPHABET_SIZE * key_length * N) where N is number of keys in Trie.
+ * Insert and search costs O(key_length), however the memory requirements of Trie is O(ALPHABET_SIZE * key_length * N)
+ * where N is number of keys in Trie.
  * <p>
- * Reference: https://www.youtube.com/watch?v=AXjmTQ8LEoI
+ * <p>
+ * https://leetcode.com/problems/implement-trie-prefix-tree/submissions/1630842796/ Reference:
+ * https://www.youtube.com/watch?v=AXjmTQ8LEoI
  */
 public class Trie {
     TrieNode root;

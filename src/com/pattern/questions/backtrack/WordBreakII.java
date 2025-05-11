@@ -22,7 +22,15 @@ package com.pattern.questions.backtrack;
  * <p>
  * Input: s = "catsandog", wordDict = ["cats","dog","sand","and","cat"] Output: []
  *
+ * Example 4:
+ * we cannot do search char by char with wordDict in a set thing, because below case will fail.
+ * s ="goalspecial"
+ * wordDict =["go","goal","goals","special"]
+ *
  * https://leetcode.com/problems/word-break-ii/description/
  */
 public class WordBreakII {
+    public static void main(String[] args) {
+        StringBuilder sb=new StringBuilder();
+    }
 }

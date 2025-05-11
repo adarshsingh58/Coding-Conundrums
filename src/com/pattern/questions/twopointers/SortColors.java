@@ -12,6 +12,9 @@ package com.pattern.questions.twopointers;
  * Sort the array in place so that the elements of the same color are adjacent,
  * with the colors in the order of red, white, and blue.
  * To improve your problem-solving skills, do not utilize the built-in sort function.
+ *
+ * https://leetcode.com/problems/sort-colors/
+ *
  */
 public class SortColors {
 }

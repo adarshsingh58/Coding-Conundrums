@@ -1,6 +1,6 @@
 package com.DataStructures_And_Questions.OtherPrograms;
 
-import com.DataStructures_And_Questions.linkedList.LinkedList.LinkedList;
+import com.DS.LinkedList.LinkedList;
 
 /**
  * Identify if a linkedlist of characters is palindrome or not
