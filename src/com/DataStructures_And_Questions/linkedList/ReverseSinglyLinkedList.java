@@ -1,7 +1,7 @@
 package com.DataStructures_And_Questions.linkedList;
 
-import com.DS.LinkedList.LinkedList;
-import com.DS.LinkedList.LinkedList.Node;
+import com.DS.DoublyListNode;
+import com.DS.LinkedList.DoublyLinkedList;
 
 /**
  * Given the pointer/reference to the head of a singly linked list, reverse it
@@ -12,7 +12,7 @@ import com.DS.LinkedList.LinkedList.Node;
  */
 public class ReverseSinglyLinkedList {
     public static void main(String[] args) {
-        LinkedList<Integer> list = new LinkedList<>();
+        DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
         list.add(7);
         list.add(14);
         list.add(21);
@@ -35,12 +35,12 @@ public class ReverseSinglyLinkedList {
      * @TimeComplexity O(n). Reversal happened in single pass
      * @SpaceComplexity O(1). No new list used, only references of existing nodes changed
      */
-    private static void reverse(LinkedList<Integer> list) {
-        Node i = list.head;
-        Node j = list.head.next;
+    private static void reverse(DoublyLinkedList<Integer> list) {
+        DoublyListNode i = list.head;
+        DoublyListNode j = list.head.next;
         i.next = null;
         while (j != null) {
-            Node temp = j;
+            DoublyListNode temp = j;
             j = j.next;
             temp.next = i;
             i = temp;

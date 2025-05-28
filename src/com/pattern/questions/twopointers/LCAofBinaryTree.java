@@ -9,7 +9,6 @@ package com.pattern.questions.twopointers;
  * <p>
  * In a tree, a descendant of a node is any node reachable by following edges downward from that node, including the node itself.
  */
-public class LowestCommonAncestorofBinaryTree {
-
-
+public class LCAofBinaryTree {
+    //check com.DataStructures_And_Questions.trees.LowestCommonAncestorofaBST
 }

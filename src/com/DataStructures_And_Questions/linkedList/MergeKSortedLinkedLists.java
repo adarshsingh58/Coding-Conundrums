@@ -19,27 +19,27 @@ import com.DS.ListNode;
  */
 public class MergeKSortedLinkedLists {
     public static void main(String[] args) {
-        ListNode[] lists = new ListNode[3];
-        ListNode ln1 = new ListNode(1);
-        ListNode ln2 = new ListNode(4);
-        ListNode ln3 = new ListNode(2);
+        ListNode<Integer>[] lists = new ListNode[3];
+        ListNode<Integer> ln1 = new ListNode<Integer>(1);
+        ListNode<Integer> ln2 = new ListNode<Integer>(4);
+        ListNode<Integer> ln3 = new ListNode<Integer>(2);
 
-        ln1.next = new ListNode(1);
-        ln1.next.next = new ListNode(7);
-        ln1.next.next.next = new ListNode(31);
+        ln1.next = new ListNode<Integer>(1);
+        ln1.next.next = new ListNode<Integer>(7);
+        ln1.next.next.next = new ListNode<Integer>(31);
 
-        ln2.next = new ListNode(17);
-        ln2.next.next = new ListNode(21);
-        ln2.next.next.next = new ListNode(47);
+        ln2.next = new ListNode<Integer>(17);
+        ln2.next.next = new ListNode<Integer>(21);
+        ln2.next.next.next = new ListNode<Integer>(47);
 
-        ln3.next = new ListNode(14);
-        ln3.next.next = new ListNode(76);
+        ln3.next = new ListNode<Integer>(14);
+        ln3.next.next = new ListNode<Integer>(76);
 
         lists[0] = ln1;
         lists[1] = ln2;
         lists[2] = ln3;
 
-        ListNode op = mergeKListsByDivideAndConquer(lists);
+        ListNode<Integer> op = mergeKListsByDivideAndConquer(lists);
 
         while (op != null) {
             System.out.println(op.val);
@@ -54,7 +54,7 @@ public class MergeKSortedLinkedLists {
 
     This way we divided the problem into problem of 2 and conquered its way to main solution
     * */
-    public static ListNode mergeKListsByDivideAndConquer(ListNode[] lists) {
+    public static ListNode<Integer> mergeKListsByDivideAndConquer(ListNode<Integer>[] lists) {
         if (lists.length == 0) return null;
         int last = lists.length - 1;
 
@@ -73,20 +73,20 @@ public class MergeKSortedLinkedLists {
     }
 
 
-    private static ListNode mergeTwoLists(ListNode i, ListNode j) {
+    private static ListNode<Integer> mergeTwoLists(ListNode<Integer> i, ListNode<Integer> j) {
 
         if (i == null && j != null) return j;
         if (j == null && i != null) return i;
         if (i == null && j == null) return null;
-        ListNode l1 = new ListNode();
-        ListNode l2 = l1;
+        ListNode<Integer> l1 = new ListNode<Integer>();
+        ListNode<Integer> l2 = l1;
 
         while (i != null && j != null) {
-            l1.next = new ListNode();
+            l1.next = new ListNode<Integer>();
             l1 = l1.next;
             if (i.val == j.val) {
                 l1.val = i.val;
-                l1.next = new ListNode();
+                l1.next = new ListNode<Integer>();
                 l1 = l1.next;
                 i = i.next;
 

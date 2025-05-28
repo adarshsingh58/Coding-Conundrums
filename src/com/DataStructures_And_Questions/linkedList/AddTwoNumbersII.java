@@ -20,31 +20,31 @@ public class AddTwoNumbersII {
 
 
 
-    public ListNode addTwoNumbers() {//7243 + 564 = 7807
-        ListNode l1 = new ListNode(2);
-        l1.next = new ListNode(4);
-        l1.next.next = new ListNode(3);
+    public ListNode<Integer> addTwoNumbers() {//7243 + 564 = 7807
+        ListNode<Integer> l1 = new ListNode<Integer>(2);
+        l1.next = new ListNode<Integer>(4);
+        l1.next.next = new ListNode<Integer>(3);
 
-        ListNode l2 = new ListNode(5);
-        l2.next = new ListNode(6);
-        l2.next.next = new ListNode(4);
+        ListNode<Integer> l2 = new ListNode<Integer>(5);
+        l2.next = new ListNode<Integer>(6);
+        l2.next.next = new ListNode<Integer>(4);
 
-        ListNode newNode = new ListNode();
+        ListNode<Integer> newNode = new ListNode<Integer>();
 
         int l1L = findLength(l1);
         int l2L = findLength(l2);
         if (l2L > l1L) {
-            ListNode tempHead = l1;
+            ListNode<Integer> tempHead = l1;
             l1 = l2;
             l2 = tempHead;
             l1L = findLength(l1);
             l2L = findLength(l2);
         }
         if (l1L >= l2L) {
-            ListNode tempHead = l1;
+            ListNode<Integer> tempHead = l1;
             int diff = l1L - l2L;
             if (newNode.next == null)
-                newNode.next = new ListNode();
+                newNode.next = new ListNode<Integer>();
             int carry = add(tempHead, l2, newNode.next, diff);
             if (carry != 0) {
                 newNode.val = carry;
@@ -67,7 +67,7 @@ public class AddTwoNumbersII {
     }
 
 
-    private int add(ListNode n, ListNode m, ListNode newNode, int diff) {
+    private int add(ListNode<Integer> n, ListNode<Integer> m, ListNode<Integer> newNode, int diff) {
         int carry = 0;
 
         if (diff > 0) {

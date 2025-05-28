@@ -1,8 +1,7 @@
 package com.DataStructures_And_Questions.linkedList;
 
-import com.DS.LinkedList.LinkedList;
-
-import com.DS.LinkedList.LinkedList.Node;
+import com.DS.DoublyListNode;
+import com.DS.LinkedList.DoublyLinkedList;
 
 import java.util.Queue;
 import java.util.Stack;
@@ -18,7 +17,7 @@ import java.util.Stack;
  */
 public class Reverse_K_Elements {
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList = new LinkedList<>();
+        DoublyLinkedList<Integer> linkedList = new DoublyLinkedList<>();
         linkedList.add(1);
         linkedList.add(2);
         linkedList.add(3);
@@ -42,13 +41,13 @@ public class Reverse_K_Elements {
      * which asymptotically is O(k) if k reaches nit will become O(n)
      * @SpaceComplexity O(n), we used a queue of size n
      */
-    private static void reverseKElements(LinkedList<Integer> linkedList, int k) {
+    private static void reverseKElements(DoublyLinkedList<Integer> linkedList, int k) {
         if (k <= 1) {
             return;// changes needed
         } else if (k > linkedList.length) {
             k = linkedList.length;
         }
-        Node current = linkedList.head;
+        DoublyListNode current = linkedList.head;
         Queue<Integer> queue = new java.util.LinkedList<>();
         for (int i = 0; i < k; i++) {
             queue.add((int) current.data);
@@ -76,7 +75,7 @@ public class Reverse_K_Elements {
      * @TimeComplexity O(nk) where n is the length of linked list and k length of k.
      * @SpaceComplexity O(k) we used a stack of size k
      */
-    private static void reverseEveryKElements(LinkedList<Integer> linkedList, int k) {
+    private static void reverseEveryKElements(DoublyLinkedList<Integer> linkedList, int k) {
         Stack<Integer> stack = new Stack<>();
 
         int i = 0, j = 0;

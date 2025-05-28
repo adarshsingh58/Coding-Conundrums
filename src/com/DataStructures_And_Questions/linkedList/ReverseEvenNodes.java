@@ -1,8 +1,7 @@
 package com.DataStructures_And_Questions.linkedList;
 
-import com.DS.LinkedList.LinkedList;
-
-import com.DS.LinkedList.LinkedList.Node;
+import com.DS.DoublyListNode;
+import com.DS.LinkedList.DoublyLinkedList;
 
 /**
  * Given a singly linked list, reverse nodes at even indices.
@@ -12,7 +11,7 @@ import com.DS.LinkedList.LinkedList.Node;
 public class ReverseEvenNodes {
 
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList = new LinkedList<>();
+        DoublyLinkedList<Integer> linkedList = new DoublyLinkedList<>();
         linkedList.add(4);
         linkedList.add(8);
         linkedList.add(15);
@@ -22,10 +21,10 @@ public class ReverseEvenNodes {
         reverseEvenNodes(linkedList);
     }
 
-    private static void reverseEvenNodes(LinkedList<Integer> linkedList) {
-        LinkedList<Integer> linkedListEven = new LinkedList<>();
+    private static void reverseEvenNodes(DoublyLinkedList<Integer> linkedList) {
+        DoublyLinkedList<Integer> linkedListEven = new DoublyLinkedList<>();
         int length = linkedList.length;
-        Node currOdd = linkedList.head;
+        DoublyListNode currOdd = linkedList.head;
         int i = 1;//started at 1 coz we can get even index easily by %2
         while (i <= length) {
             if (i % 2 == 0) {
@@ -37,9 +36,9 @@ public class ReverseEvenNodes {
         //after this we have 2 lists, original with all the odd data and new onw with all even data
         //We can take first element out of new List which will be reversed as we were doing add first
         //and add into new one.
-        LinkedList<Integer> outputList = new LinkedList<>();
+        DoublyLinkedList<Integer> outputList = new DoublyLinkedList<>();
         currOdd = linkedList.head;
-        Node currEven = linkedListEven.head;
+        DoublyListNode currEven = linkedListEven.head;
 
         while (currOdd != null && currEven != null) {
             outputList.add((int) currOdd.data);

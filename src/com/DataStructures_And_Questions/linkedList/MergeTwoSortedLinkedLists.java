@@ -1,8 +1,7 @@
 package com.DataStructures_And_Questions.linkedList;
 
-import com.DS.LinkedList.LinkedList;
-
-import com.DS.LinkedList.LinkedList.Node;
+import com.DS.DoublyListNode;
+import com.DS.LinkedList.DoublyLinkedList;
 
 /**
  * Given two sorted linked lists, merge them such that the resulting linked list
@@ -15,14 +14,14 @@ import com.DS.LinkedList.LinkedList.Node;
 public class MergeTwoSortedLinkedLists {
 
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList1 = new LinkedList<>();
+        DoublyLinkedList<Integer> linkedList1 = new DoublyLinkedList<>();
         linkedList1.add(4);
         linkedList1.add(8);
         linkedList1.add(15);
         linkedList1.add(19);
         linkedList1.add(21);
         linkedList1.add(33);
-        LinkedList<Integer> linkedList2 = new LinkedList<>();
+        DoublyLinkedList<Integer> linkedList2 = new DoublyLinkedList<>();
         linkedList2.add(9);
         linkedList2.add(10);
         linkedList2.add(18);
@@ -34,7 +33,7 @@ public class MergeTwoSortedLinkedLists {
 
     /**
      * Simple idea is used here. We utilize the fact here that both the lists are sorted.
-     * A curr Node start from head for both lists. We check if data at curr is less in list1 or list2.
+     * A curr DoublyListNode start from head for both lists. We check if data at curr is less in list1 or list2.
      * We take the smaller value and add it to a new list and move the curr pointer of the list from which
      * the smaller data has been taken.
      * We do this untill one of the list is over.
@@ -47,10 +46,10 @@ public class MergeTwoSortedLinkedLists {
      * <p>
      * We can improve on Space Complexity by using one of the existing list for merger.
      */
-    private static void mergeList(LinkedList<Integer> linkedList1, LinkedList<Integer> linkedList2) {
-        Node curr1 = linkedList1.head;
-        Node curr2 = linkedList2.head;
-        LinkedList<Integer> opList = new LinkedList<>();
+    private static void mergeList(DoublyLinkedList<Integer> linkedList1, DoublyLinkedList<Integer> linkedList2) {
+        DoublyListNode curr1 = linkedList1.head;
+        DoublyListNode curr2 = linkedList2.head;
+        DoublyLinkedList<Integer> opList = new DoublyLinkedList<>();
         while (curr1 != null && curr2 != null) {
             if ((int) curr1.data < (int) curr2.data) {
                 opList.add((int) curr1.data);

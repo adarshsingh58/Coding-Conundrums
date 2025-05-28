@@ -1,8 +1,7 @@
 package com.DataStructures_And_Questions.linkedList;
 
-import com.DS.LinkedList.LinkedList;
-
-import com.DS.LinkedList.LinkedList.Node;
+import com.DS.DoublyListNode;
+import com.DS.LinkedList.DoublyLinkedList;
 
 /**
  * Given head nodes of two linked lists that may or may not intersect, find out
@@ -14,7 +13,7 @@ import com.DS.LinkedList.LinkedList.Node;
 public class IntersectionPointofTwoLists {
 
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList1 = new LinkedList<>();
+        DoublyLinkedList<Integer> linkedList1 = new DoublyLinkedList<>();
         linkedList1.add(29);
         linkedList1.add(23);
         linkedList1.add(89);
@@ -22,7 +21,7 @@ public class IntersectionPointofTwoLists {
         linkedList1.add(12);
         linkedList1.add(27);
 
-        LinkedList<Integer> linkedList2 = new LinkedList<>();
+        DoublyLinkedList<Integer> linkedList2 = new DoublyLinkedList<>();
         linkedList2.add(13);
         linkedList2.add(4);
         linkedList2.add(1);
@@ -49,10 +48,10 @@ public class IntersectionPointofTwoLists {
      * @TimeComplexity O(n) where n is the size of bigger list.
      * @SpaceComplexity O(1) no new data structure is used.
      */
-    private static int findIntersection(LinkedList<Integer> linkedList1, LinkedList<Integer> linkedList2) {
+    private static int findIntersection(DoublyLinkedList<Integer> linkedList1, DoublyLinkedList<Integer> linkedList2) {
         int lenDiff = linkedList1.length - linkedList2.length;
-        Node curr1 = linkedList1.head;
-        Node curr2 = linkedList2.head;
+        DoublyListNode curr1 = linkedList1.head;
+        DoublyListNode curr2 = linkedList2.head;
         if (lenDiff < 0) {
             while (lenDiff != 0) {
                 curr2 = curr2.next;
@@ -65,10 +64,10 @@ public class IntersectionPointofTwoLists {
             }
         }
         while (curr2!=null && curr1!=null) {
-            /* If intersection point is goverened by value we use this but if  its by Node, then we do
+            /* If intersection point is goverened by value we use this but if  its by DoublyListNode, then we do
                 if (curr1 == curr2)
-               comparing if nodes are equal. i.e. there might be a case where node value are same but thats not
-               the intersection, intersection may be by Object type of Node and not value type.
+               comparing if nodes are equal. i.e. there might be a case where DoublyListNode value are same but thats not
+               the intersection, intersection may be by Object type of DoublyListNode and not value type.
             * */
             if (curr1.data == curr2.data) {
                 return (int) curr1.data;

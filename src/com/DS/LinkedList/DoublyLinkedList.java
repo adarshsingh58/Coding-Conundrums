@@ -1,35 +1,32 @@
 package com.DS.LinkedList;
 
 
+import com.DS.DoublyListNode;
+
 /**
- * Always remeber that a class var are like attributes of the object, the class represents
- * We should always think of updating all the attributes when an object's behaviour is called.
- * If you see this object orieted way, u will never mistake updating a var
+ * Always remeber that a class var are like attributes of the object, the class represents We should always think of
+ * updating all the attributes when an object's behaviour is called. If you see this object orieted way, u will never
+ * mistake updating a var
  * <p>
- * For Add:  This is a modification behaviour so, we need to update the attributes also if required
- * For Delete: This is a modification behaviour so, we need to update the attributes also if required
- * For Search: This is not a modification behavior so we need not be worried about updating the attributes of the object
+ * For Add:  This is a modification behaviour so, we need to update the attributes also if required For Delete: This is
+ * a modification behaviour so, we need to update the attributes also if required For Search: This is not a modification
+ * behavior so we need not be worried about updating the attributes of the object
  * <p>
- * For LinkedList we cab identify following as its attribute:
- * >head : points to head of the linked list
- * >tail : points to tail of the linked list
- * >length : contains the active length of the LinkedList
+ * For LinkedList we cab identify following as its attribute: >head : points to head of the linked list >tail : points
+ * to tail of the linked list >length : contains the active length of the LinkedList
  * <p>
- * For behaviour, following are the behaviour:
- * > add - add an element to linked list
- * > delete - delete element from linked list
- * > traverse - return a string with traversed elements
- * > getFirst - return the first node's (head) data in the Linked List
- * > getLast - return the last node's (tail) data in the Linked List
+ * For behaviour, following are the behaviour: > add - add an element to linked list > delete - delete element from
+ * linked list > traverse - return a string with traversed elements > getFirst - return the first node's (head) data in
+ * the Linked List > getLast - return the last node's (tail) data in the Linked List
  * <p>
  * We have made LinkedList Generic by introducing <E>
  */
-public class LinkedList<E> {
-    public Node head;
-    public Node tail;
+public class DoublyLinkedList<E> {
+    public DoublyListNode<E> head;
+    public DoublyListNode<E> tail;
     public int length;
 
-    public LinkedList() {
+    public DoublyLinkedList() {
     }
 
     /*
@@ -41,12 +38,12 @@ public class LinkedList<E> {
      */
     public void add(E data) {
         if (head == null) {
-            head = new Node(data);
+            head = new DoublyListNode<E>(data);
             tail = head;
             length++;
         } else if (tail != null) {
-            tail.next = new Node(data);
-            tail.next.previous = tail;
+            tail.next = new DoublyListNode<E>(data);
+            tail.next.prev = tail;
             tail = tail.next;
             length++;
         }
@@ -59,38 +56,38 @@ public class LinkedList<E> {
         if (head == null) {
             add(data);
         } else {
-            Node newHead = new Node(data);
-            newHead.next=head;
-            head=newHead;
+            DoublyListNode<E> newHead = new DoublyListNode<>(data);
+            newHead.next = head;
+            head = newHead;
             length++;
         }
     }
 
     /*
-     * Deleting a data requires removing all the reference of the to be deleted node and altering refences of nodes next to and previous to it
+     * Deleting a data requires removing all the reference of the to be deleted node and altering refences of nodes next to and prev to it
      * For Search -> We are calling a search method here , which has Time complexity of O(n) and one temporary node, so space complexity of O(1)
      * For delete -> We are not calling any for loop or using recursion, therefore no n dependent operations are performed
      * Time complexity is O(n)
      * space complexity is O(1)
      */
     public void delete(E data) {
-        Node nodeToBeDeleted = search(data);
+        DoublyListNode<E> nodeToBeDeleted = search(data);
         if (nodeToBeDeleted.equals(head)) {
             if (head == tail) {
                 //this will be automatically collected by GC
             } else {
                 head = nodeToBeDeleted.next;
-                nodeToBeDeleted.next.previous = null;
+                nodeToBeDeleted.next.prev = null;
                 nodeToBeDeleted.next = null;
             }
         } else if (nodeToBeDeleted.equals(tail)) {
-            tail = nodeToBeDeleted.previous;
-            nodeToBeDeleted.previous.next = null;
-            nodeToBeDeleted.previous = null;
+            tail = nodeToBeDeleted.prev;
+            nodeToBeDeleted.prev.next = null;
+            nodeToBeDeleted.prev = null;
         } else {
-            nodeToBeDeleted.previous.next = nodeToBeDeleted.next;
-            nodeToBeDeleted.next.previous = nodeToBeDeleted.previous;
-            nodeToBeDeleted.previous = null;
+            nodeToBeDeleted.prev.next = nodeToBeDeleted.next;
+            nodeToBeDeleted.next.prev = nodeToBeDeleted.prev;
+            nodeToBeDeleted.prev = null;
             nodeToBeDeleted.next = null;
         }
         length--;
@@ -103,8 +100,8 @@ public class LinkedList<E> {
      * Space complexity is O(1)
      *
      */
-    public Node search(E data) {
-        Node temp = head;
+    public DoublyListNode<E> search(E data) {
+        DoublyListNode<E> temp = head;
         while (temp.next != null) {
             if (temp.data == data) {
                 return temp;
@@ -137,38 +134,24 @@ public class LinkedList<E> {
 
     @Override
     public String toString() {
-        Node temp = head;
-        StringBuffer stringBuffer = new StringBuffer();
+        DoublyListNode<E> temp = head;
+        StringBuilder stringBuilder = new StringBuilder();
         while (temp != null) {
-            stringBuffer.append(temp.data + " ");
+            stringBuilder.append(temp.data).append(" ");
             temp = temp.next;
         }
-        return stringBuffer.toString();
+        return stringBuilder.toString();
     }
 
     public void addLast(E data) {
         if (tail != null) {
-            tail.next = new Node(data);
+            tail.next = new DoublyListNode<>(data);
             tail = tail.next;
             length++;
         } else {
-            tail = new Node(data);
+            tail = new DoublyListNode<>(data);
             head = tail;
             length++;
         }
-    }
-
-    /*
-     * Node class for holding data and references of next and previous node in a Linked List
-     */
-    public class Node {
-        public E data;
-        public Node next;
-        public Node previous;
-
-        public Node(E data) {
-            this.data = data;
-        }
-
     }
 }

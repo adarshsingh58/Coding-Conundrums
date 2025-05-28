@@ -1,8 +1,8 @@
 package com.DataStructures_And_Questions.linkedList;
 
-import com.DS.LinkedList.LinkedList;
+import com.DS.DoublyListNode;
+import com.DS.LinkedList.DoublyLinkedList;
 
-import com.DS.LinkedList.LinkedList.Node;
 
 /**
  * Given head pointers of two linked lists where each linked list represents an
@@ -19,17 +19,17 @@ import com.DS.LinkedList.LinkedList.Node;
 public class AddTwoIntegers {
 
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList1 = new LinkedList<>();
+        DoublyLinkedList<Integer> linkedList1 = new DoublyLinkedList<>();
         linkedList1.add(2);
         linkedList1.add(4);
         linkedList1.add(3);
 //        linkedList1.add(9);
-        LinkedList<Integer> linkedList2 = new LinkedList<>();
+        DoublyLinkedList<Integer> linkedList2 = new DoublyLinkedList<>();
         linkedList2.add(5);
         linkedList2.add(6);
         linkedList2.add(4);
 
-        LinkedList<Integer> opList = add(linkedList1, linkedList2);
+        DoublyLinkedList<Integer> opList = add(linkedList1, linkedList2);
         System.out.println(opList);
     }
 
@@ -46,11 +46,11 @@ public class AddTwoIntegers {
      * @TimeComplexity O(m + n)
      * @SpaceComplexity O(n) New List is used. (here n>m)
      */
-    private static LinkedList<Integer> add(LinkedList<Integer> linkedList1, LinkedList<Integer> linkedList2) {
-        LinkedList<Integer> opList = new LinkedList<>();
+    private static DoublyLinkedList<Integer> add(DoublyLinkedList<Integer> linkedList1, DoublyLinkedList<Integer> linkedList2) {
+        DoublyLinkedList<Integer> opList = new DoublyLinkedList<>();
         int carry = 0;
-        Node curr1 = linkedList1.head;
-        Node curr2 = linkedList2.head;
+        DoublyListNode curr1 = linkedList1.head;
+        DoublyListNode curr2 = linkedList2.head;
 
         while (curr1 != null || curr2 != null) {
             if (curr1 != null && curr2 != null) {

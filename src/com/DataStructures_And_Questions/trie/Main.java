@@ -1,5 +1,7 @@
 package com.DataStructures_And_Questions.trie;
 
+import com.DS.Trie.Trie;
+
 public class Main {
 
     public static void main(String[] args) {

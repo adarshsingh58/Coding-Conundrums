@@ -5,58 +5,33 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/*
-* Given two strings text1 and text2, return the length of their longest common subsequence.
-
-A subsequence of a string is a new string generated from the original string with some characters(can be none) deleted without changing the relative order of the remaining characters. (eg, "ace" is a subsequence of "abcde" while "aec" is not). A common subsequence of two strings is a subsequence that is common to both strings.
-
-
-
-If there is no common subsequence, return 0.
-
-
-
-Example 1:
-
-Input: text1 = "abcde", text2 = "ace"
-Output: 3
-Explanation: The longest common subsequence is "ace" and its length is 3.
-
-Example 2:
-
-Input: text1 = "abc", text2 = "abc"
-Output: 3
-Explanation: The longest common subsequence is "abc" and its length is 3.
-
-Example 3:
-
-Input: text1 = "abc", text2 = "def"
-Output: 0
-Explanation: There is no such common subsequence, so the result is 0.
-
-"oxcpqrsvwf"
-"shmtulqrypy"
-OP: 2
-
-"ezupkr"
-"ubmrapg"
-OP: 2
-
-"ylqpejqbalahwr"
-"yrkzavgdmdgtqpg"
-OP: 3
-
-"ylqpejqbalahwr"
-"yraqp"
-*/
+/**
+ * Given two strings text1 and text2, return the length of their longest common subsequence.
+ * <p>
+ * A subsequence of a string is a new string generated from the original string with some characters(can be none)
+ * deleted without changing the relative order of the remaining characters. (eg, "ace" is a subsequence of "abcde" while
+ * "aec" is not). A common subsequence of two strings is a subsequence that is common to both strings.
+ * <p>
+ * If there is no common subsequence, return 0.
+ * Example 1:
+ * Input: text1 = "abcde", text2 = "ace" Output: 3 Explanation: The longest common subsequence is "ace" and its length
+ * is 3.
+ * Example 2:
+ * Input: text1 = "abc", text2 = "abc" Output: 3 Explanation: The longest common subsequence is "abc" and its length is 3.
+ * Example 3:
+ * Input: text1 = "abc", text2 = "def" Output: 0 Explanation: There is no such common subsequence, so the result is 0.
+ * "oxcpqrsvwf" "shmtulqrypy" OP: 2
+ * "ezupkr" "ubmrapg" OP: 2
+ * "ylqpejqbalahwr" "yrkzavgdmdgtqpg" OP: 3
+ * "ylqpejqbalahwr" "yraqp"
+ */
 public class LongestCommonSubsequence {
     public static void main(String[] args) {
         System.out.println(longestCommonSubsequence("ylqpejqbalahwr", "yrkzavgdmdgtqpg"));
     }
 
 
-
-//    NOt the right solution some test cases failing
+    //    NOt the right solution some test cases failing
     public static int longestCommonSubsequence(String text1, String text2) {
         Map<Character, List<Integer>> characterListMap = new HashMap<>();
         char[] cA = text1.toCharArray();

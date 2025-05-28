@@ -1,7 +1,6 @@
-package com.DataStructures_And_Questions.trie;
+package com.DS.Trie;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.DS.TrieNode;
 
 /**
  * Insert and search costs O(key_length), however the memory requirements of Trie is O(ALPHABET_SIZE * key_length * N)
@@ -43,13 +42,5 @@ public class Trie {
         return true;
     }
 
-    class TrieNode {
-        Map<Character, TrieNode> charMap;
-        boolean endOfWord;
 
-        public TrieNode() {
-            endOfWord = false;
-            charMap = new HashMap<>();
-        }
-    }
 }

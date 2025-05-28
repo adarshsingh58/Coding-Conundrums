@@ -1,7 +1,7 @@
 package com.DataStructures_And_Questions.linkedList;
 
 
-import com.DS.LinkedList.LinkedList.Node;
+import com.DS.ListNode;
 
 /**
  * Write a function findFirstLoopNode() that checks whether a given Linked List
@@ -30,7 +30,7 @@ public class FindLoopNodeInLoopLinkedList {
      * start of the loop (this is same as finding the nth element from the end of
      * the link list).
      */
-    public Node findFirstLoopNode_usingLoopLength() {
+    public ListNode findFirstLoopNode_usingLoopLength() {
         return null;
     }
 
@@ -42,7 +42,7 @@ public class FindLoopNodeInLoopLinkedList {
      * <p>
      * REF: https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/
      */
-    public Node findFirstLoopNode_usingBetterAlgo() {
+    public ListNode findFirstLoopNode_usingBetterAlgo() {
         return null;
     }
 

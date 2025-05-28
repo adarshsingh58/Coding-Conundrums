@@ -1,12 +1,12 @@
 package com.DS;
 
-public class DoublyListNode {
-    int val;
-    DoublyListNode prev;
-    DoublyListNode next;
+public class DoublyListNode<E> {
+    public E data;
+    public DoublyListNode<E> prev;
+    public DoublyListNode<E> next;
 
-    public DoublyListNode(int val) {
-        this.val = val;
+    public DoublyListNode(E data) {
+        this.data = data;
         this.prev = null;
         this.next = null;
     }
