@@ -14,4 +14,6 @@ package com.DataStructures_And_Questions.Stack;
  * [1,4,3,2,1,1,0,0]
  * */
 public class DailyTemperatures {
+
+    // check com.pattern.questions.monotonicStack.DailyTemperatures
 }

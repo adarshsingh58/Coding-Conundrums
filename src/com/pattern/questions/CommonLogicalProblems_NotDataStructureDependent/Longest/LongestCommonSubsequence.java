@@ -1,4 +1,4 @@
-package com.DataStructures_And_Questions.scenarioBasedQues;
+package com.pattern.questions.CommonLogicalProblems_NotDataStructureDependent.Longest;
 
 import java.util.ArrayList;
 import java.util.HashMap;

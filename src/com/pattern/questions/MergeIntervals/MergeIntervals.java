@@ -11,6 +11,8 @@ import java.util.Arrays;
  * <p>
  * Your task is to merge the overlapping intervals and return a new output array consisting of only the non-overlapping
  * intervals. eg: intervals: 1,5  3,7  4,6  6,8 op: 1,8
+ *
+ * https://leetcode.com/problems/merge-intervals/
  */
 public class MergeIntervals {
 

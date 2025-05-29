@@ -6,4 +6,6 @@ package com.pattern.questions.SlidingWindow;
  * k characters with any other lowercase English character.
  */
 public class LongestRepeatingCharacterReplacement {
+    // check com.pattern.questions.CommonLogicalProblems_NotDataStructureDependent.Longest.LongestRepeatingCharacterReplacement
+
 }

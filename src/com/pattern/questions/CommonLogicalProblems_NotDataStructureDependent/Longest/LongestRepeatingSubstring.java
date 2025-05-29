@@ -1,4 +1,4 @@
-package com.pattern.questions.CommonLogicalProblems_NotDataStructureDependent;
+package com.pattern.questions.CommonLogicalProblems_NotDataStructureDependent.Longest;
 /*
 * 📘 Problem Statement Summary
 

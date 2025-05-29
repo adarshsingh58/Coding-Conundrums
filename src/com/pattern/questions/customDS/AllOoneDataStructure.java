@@ -68,7 +68,7 @@ public class AllOoneDataStructure {
     private Node head = new Node(0); // dummy head
     private Node tail = new Node(0); // dummy tail
 
-    public AllOne() {
+    public AllOoneDataStructure() {
         head.next = tail;
         tail.prev = head;
     }
