@@ -5,13 +5,38 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Given a sorted integer array arr, two integers k and x, return the k closest integers to x in the array. The result
+ * should also be sorted in ascending order.
+ * <p>
+ * An integer a is closer to x than an integer b if:
+ * <p>
+ * |a - x| < |b - x|, or |a - x| == |b - x| and a < b
+ * <p>
+ * <p>
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: arr = [1,2,3,4,5], k = 4, x = 3
+ * <p>
+ * Output: [1,2,3,4]
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: arr = [1,1,2,3,4,5], k = 4, x = -1
+ * <p>
+ * Output: [1,1,2,3]
+ * <p>
+ * <p>
+ * https://leetcode.com/problems/find-k-closest-elements/description/
+ */
 public class FindKClosest {
 
     public static void main(String[] args) {
         List<int[]> inpList = new ArrayList<>();
 
 //      inpList.add(new int[]{0, 0, 1, 2, 3, 3, 4, 7, 7, 8});
-        inpList.add(new int[]{1,10,15,25,35,45,50,59});
+        inpList.add(new int[]{1, 10, 15, 25, 35, 45, 50, 59});
 
         inpList.forEach(inp -> System.out.println(new FindKClosest().findClosestElements(inp, 1, 30)));
 
