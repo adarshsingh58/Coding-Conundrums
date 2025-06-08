@@ -1,5 +1,7 @@
 package com.DataStructures_And_Questions.Stack;
 
+import java.util.Stack;
+
 /*
 *Given an encoded string, return its decoded string.
 
@@ -31,23 +33,33 @@ public class DecodeString {
     }
 
     public String decodeString(String s) {
-        StringBuilder sb = new StringBuilder();
-        int repeat = 0;
-        StringBuilder tempSb = new StringBuilder();
-        for (int i = 0; i < s.length(); i++) {
-            if (Character.isDigit(s.charAt(i))) {
-                repeat = Character.getNumericValue(s.charAt(i));
-            } else if (s.charAt(i) == '[') {
-                i++;
-                while (i < s.length() && s.charAt(i) != ']')
-                    tempSb.append(s.charAt(i++));
-                while (repeat > 0) {
-                    sb.append(tempSb);
-                    repeat--;
+        java.util.Stack<String> charstack=new Stack<>();
+        StringBuilder sb=new StringBuilder();
+
+        char[] cA=s.toCharArray();
+        for(int i=0;i< cA.length;i++){
+            if(cA[i]!=']'){
+                charstack.push(cA[i]+"");
+            }else{
+                StringBuilder word=new StringBuilder();
+                while(!charstack.isEmpty() && !charstack.peek().equals("[")){
+                    word.insert(0,charstack.pop());
                 }
-                tempSb = new StringBuilder();
+                StringBuilder num=new StringBuilder();
+                if(!charstack.isEmpty()) charstack.pop();
+                while(!charstack.isEmpty() &&Character.isDigit(charstack.peek().charAt(0))){
+                    num.insert(0,charstack.pop());
+                }
+                String w=word.toString();
+                Integer n=Integer.parseInt(num.toString());
+                while(n!=1){
+                    word.append(w);
+                    n--;
+                }
+                charstack.push(word.toString());
             }
         }
+        while(!charstack.isEmpty())sb.insert(0,charstack.pop());
         return sb.toString();
     }
 

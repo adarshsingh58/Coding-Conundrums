@@ -5,47 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="936cf272-110f-46d2-bfbd-ed71caa7ae3a" name="Default Changelist" comment="solved additional coding problems">
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DecodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array/twopointers/SumOfTwoValuesII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/string/EncodeandDecodeStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/AllNodesDistanceKinBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/SerializeandDeserializeBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/KSomething/FindKPairswithSmallestSums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/KSomething/KClosestPointstoOrigin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/KSomething/KdiffPairsinanArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/KSomething/KthLargestElementinanArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/KSomething/SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/KSomething/SubarrayswithKDifferentIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestPalindromicSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/CanAttendMeetings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/Intervals.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/NonOverlappingIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/PermutationinString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/fixed/MaxPointsYouCanObtainFromCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/fixed/MaximumSumofSubarraywithSizeK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/WordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/breadthFirstSearch/OpentheLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/EvaluateReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/CompromisedSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/DynamicPricingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/FirewallRuleOptimization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/LogFileAnomalyDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/ResourceAllocator_Microsoft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/ServerLoadBalancing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/SmartSurveillanceCameraPlacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/LowestCommonAncestorofaBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/topologicalSort/AlienDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/topologicalSort/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pattern/questions/topologicalSort/Topologicalsort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DailyTemperatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/LongestDuplicateSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestDuplicateSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/LongestRepeatingSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestRepeatingSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/Longest/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding-Conundrums/com/pattern/questions/Guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coding-Conundrums/com/pattern/questions/Guide.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding-Conundrums/com/pattern/questions/Subsets/subsets" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coding-Conundrums/com/pattern/questions/Subsets/subsets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding-Conundrums/com/pattern/questions/TopKElements/topkelements.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coding-Conundrums/com/pattern/questions/TopKElements/topkelements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding-Conundrums/com/pattern/questions/backtrack/backtracking.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coding-Conundrums/com/pattern/questions/backtrack/backtracking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DecodeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DecodeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/SubarraySumEqualsK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/LowestCommonAncestorofaBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/LowestCommonAncestorofaBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/AppleHarvestKokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/BinaryTreeTraversal/AppleHarvestKokoEatingBananas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/HouseRobber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/KSomething/SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/CommonLogicalProblems_NotDataStructureDependent/KSomething/SubarraySumEqualsK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/DepthFirstSearch/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/DepthFirstSearch/CourseSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/EmployeeFreeTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/EmployeeFreeTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/InsertInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/MergeIntervals/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/LongestRepeatingCharacterReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/SlidingWindow/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/SubsequenceNoncontiguous_Optimization/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/SubsequenceNoncontiguous_Optimization/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/SubsequenceNoncontiguous_Optimization/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/SubsequenceNoncontiguous_Optimization/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/SubsequenceNoncontiguous_Optimization/LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/SubsequenceNoncontiguous_Optimization/LongestPalindromicSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/customDS/AllOoneDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/customDS/AllOoneDataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/DepthFirstSearch/DiameterofaBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/DepthFirstSearch/DiameterofaBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/DynamicProgramming/BuildingBridges/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/DynamicProgramming/BuildingBridges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/Guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/Guide.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/Subsets/subsets" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/Subsets/subsets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/TopKElements/topkelements.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/TopKElements/topkelements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/Subsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/WordSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/backtracking.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/backtrack/backtracking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/breadthFirstSearch/RottingOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/breadthFirstSearch/RottingOranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/customDS/TimeBasedKeyValueStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/customDS/TimeBasedKeyValueStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/questions/monotonicStack/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/questions/monotonicStack/DailyTemperatures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,6 +346,7 @@
     "Application.AdditiveNumber.executor": "Run",
     "Application.AllOoneDataStructure.executor": "Debug",
     "Application.AllPathsFromSourcetoTarget.executor": "Debug",
+    "Application.AppleHarvestKokoEatingBananas.executor": "Debug",
     "Application.ArrangeArray_i_at_arrOfi.executor": "Debug",
     "Application.ArrayLeader.executor": "Run",
     "Application.AtomicVaRIABLE.executor": "Run",
@@ -372,6 +369,7 @@
     "Application.DesignAddandSearchWordsDataStructure.executor": "Debug",
     "Application.EmployeeFreeTime.executor": "Run",
     "Application.EvaluateInfixExpression.executor": "Run",
+    "Application.EvaluateReversePolishNotation.executor": "Debug",
     "Application.FindAllANagramsInString.executor": "Debug",
     "Application.FindAllPermutation_Recursion.executor": "Run",
     "Application.FindKClosest.executor": "Debug",
@@ -421,6 +419,7 @@
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseKElementsInaQueue.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Run",
+    "Application.RottingOranges.executor": "Debug",
     "Application.SUbSetII_Recursion.executor": "Debug",
     "Application.SlidingWindowMaximum.executor": "Debug",
     "Application.Solution.executor": "Debug",
@@ -433,12 +432,14 @@
     "Application.ThreadLocal.executor": "Run",
     "Application.ThreeSum.executor": "Debug",
     "Application.TimeBasedKeyValueStore.executor": "Run",
+    "Application.Topologicalsort.executor": "Run",
     "Application.TraceCompletePathofJourney.executor": "Run",
     "Application.ValidParenthesisString.executor": "Debug",
     "Application.ValidWordAbbreviation.executor": "Run",
     "Application.ValidateBinarySearchTree.executor": "Debug",
     "Application.WordCount.executor": "Run",
     "Application.WordFormationUsingHashTable.executor": "Debug",
+    "Application.WordSearch.executor": "Debug",
     "Application.com.DataStructures_And_Questions.trie.Main.executor": "Run",
     "Application.com.Main.executor": "Run",
     "Application.com.datastructures.PriorityQueue.Main.executor": "Run",
@@ -469,11 +470,11 @@
       <recent name="$PROJECT_DIR$/src/com/questions/scenarioBasedQues" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/pattern/questions/monotonicStack" />
       <recent name="$PROJECT_DIR$/src/com/LLD/atm" />
       <recent name="$PROJECT_DIR$/src/com/pattern/questions/backtrack" />
       <recent name="$PROJECT_DIR$/src/com/DataStructures_And_Questions/array" />
       <recent name="$PROJECT_DIR$/src/com/pattern/questions/topologicalSort" />
-      <recent name="$PROJECT_DIR$/src/com/pattern/questions/DynamicProgramming" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.datastructures" />
@@ -487,12 +488,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.DecodeString">
-    <configuration name="CanAttendMeetings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.MergeIntervals.CanAttendMeetings" />
+    <configuration name="AppleHarvestKokoEatingBananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.BinaryTreeTraversal.AppleHarvestKokoEatingBananas" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.MergeIntervals.*" />
+          <option name="PATTERN" value="com.pattern.questions.BinaryTreeTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -513,12 +514,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeFreeTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.MergeIntervals.EmployeeFreeTime" />
+    <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DataStructures_And_Questions.QueuesStack.EvaluateReversePolishNotation" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.MergeIntervals.*" />
+          <option name="PATTERN" value="com.DataStructures_And_Questions.QueuesStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -526,12 +527,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.CommonLogicalProblems_NotDataStructureDependent.KSomething.FindKClosest" />
+    <configuration name="RottingOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.breadthFirstSearch.RottingOranges" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.CommonLogicalProblems_NotDataStructureDependent.KSomething.*" />
+          <option name="PATTERN" value="com.pattern.questions.breadthFirstSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -539,12 +540,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveKDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.CommonLogicalProblems_NotDataStructureDependent.KSomething.RemoveKDigits" />
+    <configuration name="Topologicalsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.questions.topologicalSort.Topologicalsort" />
       <module name="Coding-Conundrums" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.questions.CommonLogicalProblems_NotDataStructureDependent.KSomething.*" />
+          <option name="PATTERN" value="com.pattern.questions.topologicalSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -555,10 +556,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DecodeString" />
-        <item itemvalue="Application.EmployeeFreeTime" />
-        <item itemvalue="Application.CanAttendMeetings" />
-        <item itemvalue="Application.RemoveKDigits" />
-        <item itemvalue="Application.FindKClosest" />
+        <item itemvalue="Application.Topologicalsort" />
+        <item itemvalue="Application.AppleHarvestKokoEatingBananas" />
+        <item itemvalue="Application.RottingOranges" />
+        <item itemvalue="Application.EvaluateReversePolishNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -601,7 +602,8 @@
       <workItem from="1747567906100" duration="16830000" />
       <workItem from="1747653103556" duration="80184000" />
       <workItem from="1748416280080" duration="20000" />
-      <workItem from="1748416395234" duration="21839000" />
+      <workItem from="1748416395234" duration="54365000" />
+      <workItem from="1748837927995" duration="43135000" />
     </task>
     <task id="LOCAL-00001" summary="fixed structure">
       <option name="closed" value="true" />
@@ -763,7 +765,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748411860466</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="solved additional coding problems">
+      <option name="closed" value="true" />
+      <created>1748492400683</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1748492400683</updated>
+    </task>
+    <task id="LOCAL-00022" summary="solved additional coding problems">
+      <option name="closed" value="true" />
+      <created>1748492923846</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1748492923846</updated>
+    </task>
+    <task id="LOCAL-00023" summary="solved additional coding problems">
+      <option name="closed" value="true" />
+      <created>1748746117547</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1748746117547</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -905,7 +931,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/scenarioBasedQues/SubarraySumEqualsK.java</url>
-          <line>21</line>
+          <line>14</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -974,7 +1000,7 @@
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/LowestCommonAncestorofaBST.java</url>
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/LowestCommonAncestorofaBinaryTree.java</url>
           <line>59</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
@@ -1277,7 +1303,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/CombinationSum.java</url>
-          <line>57</line>
+          <line>55</line>
           <option name="timeStamp" value="296" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1291,7 +1317,7 @@
           <option name="timeStamp" value="321" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/LowestCommonAncestorofaBST.java</url>
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/LowestCommonAncestorofaBinaryTree.java</url>
           <line>40</line>
           <option name="timeStamp" value="322" />
         </line-breakpoint>
@@ -1400,9 +1426,54 @@
           <option name="timeStamp" value="388" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/trees/BinaryTreeZigzagLevelOrderTraversal.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/WordSearch.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/backtrack/WordSearch.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/QueuesStack/EvaluateReversePolishNotation.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/breadthFirstSearch/RottingOranges.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/breadthFirstSearch/RottingOranges.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/questions/breadthFirstSearch/RottingOranges.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DecodeString.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="390" />
+          <line>44</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DecodeString.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DataStructures_And_Questions/Stack/DecodeString.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="412" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

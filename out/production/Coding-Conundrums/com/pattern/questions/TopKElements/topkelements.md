@@ -26,7 +26,7 @@ Does your problem match this pattern?
 
     Yes, if both of these conditions are fulfilled:
 
-        Unsorted list analysis: We need to extract a specific subset of elements based on their size (largest or smallest), frequency (most or least frequent), or other similar criteria from an unsorted list. This may be the requirement of the final solution, or it may be necessary as an intermediate step toward the final solution.
+        Unsorted list analysis: We need to extract a specific subset of elements based on their size (largest or smallest), frequency (most or least frequent), or other similar criteria from an unsorted list. This may be the requirement of the final buildingBridges, or it may be necessary as an intermediate step toward the final buildingBridges.
 
         Identifying a specific subset: The goal is to identify a subset rather than just a single extreme value. When phrases like top k, kth largest/smallest, k most frequent, k closest, or k highest/lowest describe our task, it suggests the top k elements pattern is ideal for efficiently identifying a specific subset.
 

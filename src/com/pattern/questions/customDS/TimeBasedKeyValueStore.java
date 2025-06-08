@@ -34,8 +34,8 @@ public class TimeBasedKeyValueStore {
      * To set a value, we’ll simply append key, value, and timestamp in their respective lists. To get a value, we’ll
      * perform a linear search and search for a specific value for the given timestamp and key throughout the list.
      * <p>
-     * The time complexity to set a value is O(1)O(1), whereas to get a value is O(n)O(n), where nn represents the total
-     * number of values in a list. However, the space complexity of the naive approach is O(n)O(n). Optimized approach
+     * The time complexity to set a value is O(1), whereas to get a value is O(n), where nn represents the total
+     * number of values in a list. However, the space complexity of the naive approach is O(n). Optimized approach
      * using binary search
      * <p>
      * The key idea is to minimize the time complexity by using the binary search instead of linear search. We can use

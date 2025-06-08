@@ -37,6 +37,42 @@ package com.pattern.questions.BinaryTreeTraversal;
  * apples = [25, 9, 23, 8, 3], h = 5
  *
  * Output: 25 (Bobby must harvest 25 apples per hour to finish in 5 hours or less)
+ *
+ * https://leetcode.com/problems/koko-eating-bananas/
+ * https://www.youtube.com/watch?v=qyfekrNni90
  * */
 public class AppleHarvestKokoEatingBananas {
+    public static void main(String[] args) {
+        int[] inp={30,11,23,4,20};
+    new AppleHarvestKokoEatingBananas().minEatingSpeed(inp,5);
+    }
+
+    public int minEatingSpeed(int[] piles, int h) {
+
+        int start = 1, end = 1;
+        for (int i = 0; i < piles.length; i++) {
+            end = Math.max(end, piles[i]);
+        }
+
+        while (start < end) {
+            int mid = (start + end) / 2;
+            int hours = findHoursWithGivenK(piles, mid);
+
+            if (hours <= h) {
+                end = mid; // Try smaller k
+            } else {
+                start = mid + 1; // Need larger k
+            }
+        }
+
+        return start;
+    }
+
+    public int findHoursWithGivenK(int[] piles, int k) {
+        int hours = 0;
+        for (int i = 0; i < piles.length; i++) {
+            hours = hours + (int)Math.ceil((double)piles[i]/k);
+        }
+        return hours;
+    }
 }

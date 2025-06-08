@@ -36,7 +36,7 @@ Primary Algorithm:
 
 Backtracking (Recursion):
 
-Why? It systematically explores all possible candidates by building a solution step-by-step. If a partial candidate can't lead to a valid complete solution, it "backtracks."
+Why? It systematically explores all possible candidates by building a buildingBridges step-by-step. If a partial candidate can't lead to a valid complete buildingBridges, it "backtracks."
 
 Use Cases: Generating all permutations of a set, finding all subsets (powerset), finding all combinations that sum to a target, solving puzzles (Sudoku, N-Queens), graph/tree pathfinding where all paths are needed.
 
@@ -138,7 +138,7 @@ Primary Algorithm:
 
 Dynamic Programming (DP):
 
-Why? Problems often have "optimal substructure" (optimal solution can be constructed from optimal solutions of subproblems) and "overlapping subproblems" (the same subproblems are solved multiple times). DP stores results of subproblems to avoid recomputation.
+Why? Problems often have "optimal substructure" (optimal buildingBridges can be constructed from optimal solutions of subproblems) and "overlapping subproblems" (the same subproblems are solved multiple times). DP stores results of subproblems to avoid recomputation.
 
 Use Cases: Maximum subarray sum (Kadane's algorithm), Longest Increasing Subsequence, Longest Common Subsequence/Substring, Edit Distance, Coin Change problems, Knapsack problems, distinct ways to reach a point/score.
 

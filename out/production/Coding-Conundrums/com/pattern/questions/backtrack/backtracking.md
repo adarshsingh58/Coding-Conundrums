@@ -1,4 +1,4 @@
-Backtracking explores all possible solutions and backtracks when a solution path fails.
+Backtracking explores all possible solutions and backtracks when a buildingBridges path fails.
 
 Use this pattern when you need to find all (or some) solutions to a problem that satisfies given constraints. For example: combinatorial problems, such as generating permutations, combinations, or subsets.
 Sample Problem:

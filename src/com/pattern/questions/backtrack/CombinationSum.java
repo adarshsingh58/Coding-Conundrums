@@ -35,8 +35,6 @@ public class CombinationSum {
     public static void main(String[] args) {
         int[] inp = {2, 3, 5};
         int target = 8;
-
-
         List<List<Integer>> opMain = combSum(inp, target);
         opMain.forEach(h -> {
                     h.forEach(y -> {

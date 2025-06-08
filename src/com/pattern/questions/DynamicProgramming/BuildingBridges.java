@@ -1,4 +1,4 @@
-package com.pattern.questions.DynamicProgramming.BuildingBridges;
+package com.pattern.questions.DynamicProgramming;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
  * * Building Bridges (Variation of LIS problem)
  * Problem Statement: https://www.geeksforgeeks.org/dynamic-programming-building-bridges/
  */
-public class Solution {
+public class BuildingBridges {
   public int buildingBridges(int[][] cityPairs) {
     // Sort the pairs according to
     // increasing order of south bridges
@@ -97,11 +97,11 @@ public class Solution {
   }
 
   public static void main(String[] args) {
-    Solution solution = new Solution();
+    BuildingBridges buildingBridges = new BuildingBridges();
 
     // should be 2
     System.out.println(
-        solution.buildingBridges(
+        buildingBridges.buildingBridges(
             new int[][] {
               {6, 2},
               {4, 3},
@@ -111,7 +111,7 @@ public class Solution {
 
     // should be 5
     System.out.println(
-        solution.buildingBridges(
+        buildingBridges.buildingBridges(
             new int[][] {
               {8, 1},
               {1, 2},

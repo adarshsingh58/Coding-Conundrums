@@ -28,7 +28,7 @@ Does your problem match this pattern?
 Yes, if the following condition is fulfilled:
 
     Requirement for combinations or subsets: The problem asks us to generate combinations (or subsets) of the elements from the input data structure.
-    This could be the final solution itself or a step toward reaching the solution.
+    This could be the final buildingBridges itself or a step toward reaching the buildingBridges.
 
 Real-world problems
 

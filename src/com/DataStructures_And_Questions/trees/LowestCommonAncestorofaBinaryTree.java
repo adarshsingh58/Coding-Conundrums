@@ -17,7 +17,7 @@ import java.util.Set;
  *
  * https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
  * */
-public class LowestCommonAncestorofaBST {
+public class LowestCommonAncestorofaBinaryTree {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(3);
@@ -33,7 +33,7 @@ public class LowestCommonAncestorofaBST {
         TreeNode q = root1.left.right.right;
 
 //        new LowestCommonAncestorofaBST().lowestCommonAncestor(root, p, q);
-        new LowestCommonAncestorofaBST().lowestCommonAncestorBetter(root, p, q);
+        new LowestCommonAncestorofaBinaryTree().lowestCommonAncestorBetter(root, p, q);
 
     }
 
