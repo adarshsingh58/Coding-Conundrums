@@ -1,5 +1,9 @@
 package com.DataStructures_And_Questions.string;
 
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Stack;
+
 /**
  * Given a string s of '(' , ')' and lowercase English characters.
  * <p>
@@ -34,6 +38,32 @@ public class MinRemoveToMakeValidParenthesis {
     }
 
     public String minRemoveToMakeValid(String s) {
+        Stack<Integer> stack=new Stack<>();
+        StringBuilder op=new StringBuilder();
+        Set<Integer> indexOfUnevenParanthesis=new HashSet<>();
+
+        for(int i=0;i<s.length();i++){
+            if(s.charAt(i)=='('){
+                stack.push(i);
+            }else if(s.charAt(i)==')'){
+                if(!stack.isEmpty()){
+                    stack.pop();
+                }else{
+                    indexOfUnevenParanthesis.add(i);
+                }
+            }
+        }
+        while(!stack.isEmpty()){
+            indexOfUnevenParanthesis.add(stack.pop());
+        }
+
+        for(int i=0;i<s.length();i++){
+            if(!indexOfUnevenParanthesis.contains(i)) op.append(s.charAt(i));
+        }
+
+        return op.toString();
+    }
+    public String minRemoveToMakeValid1(String s) {
         int openCounter = 0;
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
